@@ -1,0 +1,12 @@
+colors
+green: #519b42
+header green: #1d4e16
+yellow: #fbce33
+
+black font: #272630
+grey font: #7d8693
+grey: #b4b4b4
+
+grey background: #f3f3f3
+
+font family: Tahoma

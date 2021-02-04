@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<!--    <style>-->
+<!--        /*stars*/-->
+<!--        div.stars {-->
+<!--            display: inline-block;-->
+<!--            height: 1rem;-->
+<!--        }-->
+<!--        input.star {-->
+<!--            display: none-->
+<!--        }-->
+<!--        label.star {-->
+<!--            float: right;-->
+<!--            padding: 3px;-->
+<!--            font-size: 15px;-->
+<!--            color: gray;-->
+<!--            transition: all .2s-->
+<!--        }-->
+<!--        input.star:checked~label.star:before {-->
+<!--            content: '\f005';-->
+<!--            color: #4f9b42;-->
+<!--            transition: all .25s-->
+<!--        }-->
+<!--        label.star:hover {-->
+<!--            transform: rotate(-15deg) scale(1.2)-->
+<!--        }-->
+<!--        label.star:before {-->
+<!--            content: '\f006';-->
+<!--            font-family: FontAwesome-->
+<!--        }-->
+<!--    </style>-->
+</head>
+<body>
+<!--<form action=""> <input class="star star-5" id="star-5" type="radio" name="star" /> <label class="star star-5" for="star-5"></label> <input class="star star-4" id="star-4" type="radio" name="star" /> <label class="star star-4" for="star-4"></label> <input class="star star-3" id="star-3" type="radio" name="star" /> <label class="star star-3" for="star-3"></label> <input class="star star-2" id="star-2" type="radio" name="star" /> <label class="star star-2" for="star-2"></label> <input class="star star-1" id="star-1" type="radio" name="star" /> <label class="star star-1" for="star-1"></label> </form>-->
+
+
+
+<div>Rating Star - Function CallBack onChange</div>
+<div class="well well-sm">
+    <span id="rating_1" class="rating" ></span>
+    <span id="result_1"></span>
+</div>
+<div>Rating Star - No Editable</div>
+<div class="well well-sm">
+    <span id="rating_2" class="rating" data-val="2.49" data-stars='6' data-change="false"></span>
+    <span>Calificaste con <b>2.49</b> de <b>6</b> Estrellas</span>
+</div>
+<div>Rating Star - Tamaño - Data Html options -- Hidden input</div>
+<div class="well well-sm">
+   <span id="rating_3" class="rating" data-val="2.49" data-stars='10' data-input=".rating-value" data-change="true" style="font-size:35px;" >
+<input type="hidden" name="whatever3" class="rating-value" size="5"  />
+   </span>
+</div>
+<div>Rating Star - javascript Options - input text</div>
+<div class="well well-sm">
+   <span id="rating_4" class="rating">
+       <input type="text" name="whatever4" id="rating_val" size="1" readOnly="readOnly" />
+   </span>
+    <span id="result_4"> &nbsp;&nbsp;de <b>10</b> estrellas </span>
+</div>
+<script>
+    // const root = document.documentElement;
+    // const marqueeElementsDisplayed = getComputedStyle(root).getPropertyValue("--marquee-elements-displayed");
+    // const marqueeContent = document.querySelector("ul.marquee-content");
+    //
+    // root.style.setProperty("--marquee-elements", marqueeContent.children.length);
+    //
+    // for(let i=0; i<marqueeElementsDisplayed; i++) {
+    //     marqueeContent.appendChild(marqueeContent.children[i].cloneNode(true));
+    // }
+    //
+    // // Rating Initialization
+    // $(document).ready(function() {
+    //     // $('#rateMe1').mdbRate();
+    // });
+
+</script>
+</body>
+</html>
