@@ -416,12 +416,19 @@
 /*cart-6*/
 .imgBG-main-wraper{
     height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-image: url("images/Rectangle8.png");
 }
 .imgBG-main{
     width: 100%;
     height: 100%;
 }
 /*advertisement*/
+.advertisementImg{
+    width: 100%;
+}
 /*carusel1*/
 .carusel1-2 {
     width: 100%;
@@ -541,7 +548,16 @@
 .green-BG .slick-dots li{
     margin: 0;
 }
+
 /*gray-BG*/
+.gray-BG .row{
+    padding: 2.5rem 0;
+    margin: 0 4rem;
+}
+.gray-BG .form{
+    text-align: right;
+    position: relative;
+}
 .gray-BG .form input{
     width: 70%;
     padding: .5rem .8rem;
@@ -558,11 +574,12 @@
     border: none;
     outline: none;
     position: absolute;
-    right: 15px;
+    right: 0;
     border-radius: 5px;
     background: #4f9b42;
     margin: 1.2px;
 }
+
 /*adresses*/
 .adresses a{
     color:#272630;
@@ -578,6 +595,9 @@
 .footer-top a{
     color: white;
     text-decoration: none;
+}
+.footer-top-p{
+    margin: 4rem 0 7rem;
 }
 .footer-top-icons{
     color: white;
@@ -676,12 +696,23 @@
     .navBar2{
         width: 30%;
     }
-    /*.iconCart .circle {*/
-    /*    width: 4rem;*/
-    /*    height: 4rem;*/
-    /*}*/
     .col-sm-10{
         margin: .5rem auto;
+    }
+    .gray-BG .form {
+        text-align: left;
+    }
+    .gray-BG .row{
+        margin: 0;
+    }
+    .footer-top .text-white{
+        margin-bottom: 2rem;
+    }
+    .footer-top-p{
+        margin: 2rem 0 2rem;
+    }
+    .footer-bootom div{
+        text-align: center;
     }
 }
 
@@ -692,28 +723,16 @@
     .gray-BG button{
         margin: 2px;
     }
-    /*.iconCart .circle {*/
-    /*    width: 3.5rem;*/
-    /*    height: 3.5rem;*/
-    /*}*/
     .cart{
         height: 100%;
     }
 }
 @media (max-width: 480px) {
-    /*.iconCart .circle {*/
-    /*    width: 3rem;*/
-    /*    height: 3rem;*/
-    /*}*/
     .iconCart span {
         font-size: .7rem;
     }
 }
 @media (max-width: 375px) {
-    /*.iconCart .circle {*/
-    /*    width: 2.5rem;*/
-    /*    height: 2.5rem;*/
-    /*}*/
     .iconCart span {
         font-size: .5rem;
     }
