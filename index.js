@@ -10,6 +10,42 @@ $(document).ready(function (){
         autoplaySpeed: 3000
     });
 
+    $(".carusel1-1").slick({
+        dots: false,
+        infinite: true,
+        autoplay: false,
+        arrows: false,
+        // prevArrow : '<a href="" class="arrow left2"><i class="fas fa-chevron-left"></i></a>',
+        // nextArrow : '<a href="" class="arrow right2"><i class="fas fa-chevron-right"></i></a>',
+        speed: 300,
+        slidesToShow: 7,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1025,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false,
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            }
+            ]
+    });
     $(".carusel2").slick({
         dots: false,
         infinite: true,
