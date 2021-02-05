@@ -362,6 +362,15 @@
     margin-left: 1rem;
     list-style: none;
 }
+.bgGray ul li {
+    margin: 0;
+    padding: 36px 0 36px 84px;
+    list-style: none;
+    background-image: url("images/round.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 40px;
+}
 .bgGray button{
     background: #4f9b42;
     width: 100%;
