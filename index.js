@@ -46,6 +46,16 @@ $(document).ready(function (){
             }
             ]
     });
+    $(".carusel1-2").slick({
+        dots: false,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,  //< > slaqner
+        autoplay: true,
+        autoplaySpeed: 3000
+    });
+
     $(".carusel2").slick({
         dots: false,
         infinite: true,
