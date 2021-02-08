@@ -12,6 +12,10 @@
 .navBar{
     background: #1d4e16;
     height: 40px;
+
+}
+.navbar{
+    font-size: 13px;
 }
 .navbar_link{
     width: 80%;
@@ -35,13 +39,15 @@
 }
 .navBar1 .navbar-nav .nav-item:nth-of-type(2){
     width: 15%;
+    text-align: center;
 }
 .navBar1 .navbar-nav .nav-item:nth-of-type(3){
     width: 25%;
-}
-.text-right1{
     text-align: right;
 }
+/*.text-right1{*/
+/*    text-align: right;*/
+/*}*/
 /*headerWraper*/
 .headerWraper{
     box-shadow: 0 0 10px grey;
@@ -69,6 +75,8 @@
     border: none;
     line-height: 40px;
     width: 90%;
+    font-size: 13px;
+    outline: none;
 }
 .row2 .col2 button{
     background: #519b42;
@@ -80,6 +88,7 @@
 .row2 .col3 a{
     color: #272630;
     text-decoration: none;
+    font-size: 13px;
 }
 /*navBar2 */
 .navBar2Wraper{
@@ -119,6 +128,7 @@
 }
 .carusel1 img{
     width: 100%;
+    border-radius: 1rem;
 }
 .slick-prev:before,
 .slick-next:before {
@@ -126,6 +136,16 @@
 }
 .slick-slide{
     outline: none;
+}
+.carusel1 .slick-dots{
+    bottom: 0;
+}
+.carusel1 .slick-dots li button:before{
+    font-size: 10px;
+}
+.carusel1 .slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #519a42;
 }
 /*carusel1-1*/
 .carusel1-1{
@@ -660,35 +680,41 @@
     border-radius: 4px;
 }
 
-@media (min-width: 768px) {
-    .navBar1 .navbar-nav .nav-item:nth-of-type(2) {
-        width: 20%;
-    }
-    .navBar1 .navbar-nav .nav-item:nth-of-type(3) {
-        width: 50%;
-        text-align: left;
-    }
-    .headerWraper {
-        padding-bottom: .1rem;
-    }
-    .navBar2 .nav-item:last-child .nav-link{
-        border-right: none;
-    }
-    .cart .cartBonus{
-        font-size: 1rem;
-    }
-}
+/*@media (min-width: 768px) {*/
+/*    .navBar1 .navbar-nav .nav-item:nth-of-type(2) {*/
+/*        width: 20%;*/
+/*    }*/
+/*    !*.navBar1 .navbar-nav .nav-item:nth-of-type(3) {*!*/
+/*    !*    width: 50%;*!*/
+/*    !*    text-align: left;*!*/
+/*    !*}*!*/
+/*    .headerWraper {*/
+/*        padding-bottom: .1rem;*/
+/*    }*/
+/*    .navBar2 .nav-item:last-child .nav-link{*/
+/*        border-right: none;*/
+/*    }*/
+/*    .cart .cartBonus{*/
+/*        font-size: 1rem;*/
+/*    }*/
+/*}*/
 
-@media (max-width: 767.98px) {
+@media (max-width: 992px) {
     .navBar1 .navbar-nav .nav-item:nth-of-type(1) {
         width: 100%;
     }
     .navBar1 .navbar-nav .nav-item:nth-of-type(2) {
         width: 100%;
+        text-align: left;
     }
     .navBar1 .navbar-nav .nav-item:nth-of-type(3){
         width: 100%;
+        text-align: left;
     }
+}
+
+@media (max-width: 768px) {
+
     .navBar1 .navbar-nav .nav-item:nth-of-type(3) .text-right1{
         text-align: left;
     }
@@ -729,6 +755,9 @@
 @media (max-width: 480px) {
     .iconCart span {
         font-size: .7rem;
+    }
+    .navBar2{
+        width: 50%;
     }
 }
 @media (max-width: 375px) {
