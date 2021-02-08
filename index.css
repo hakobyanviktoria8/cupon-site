@@ -137,15 +137,26 @@
 .slick-slide{
     outline: none;
 }
-.carusel1 .slick-dots{
+.carusel1 .slick-dots li,
+.carusel1-2 .slick-dots li{
+    margin: 0;
+}
+.carusel1 .slick-dots,
+.carusel1-2 .slick-dots{
     bottom: 0;
 }
-.carusel1 .slick-dots li button:before{
+.carusel1 .slick-dots li button:before,
+.carusel1-2 .slick-dots li button:before {
     font-size: 10px;
 }
-.carusel1 .slick-dots li.slick-active button:before {
-    opacity: .75;
+.carusel1 .slick-dots li.slick-active button:before,
+.carusel1-2 .slick-dots li.slick-active button:before {
     color: #519a42;
+}
+.carusel1 .slick-dots li button:before,
+.carusel1-2 .slick-dots li button:before{
+    color: gray;
+    opacity: .75;
 }
 /*carusel1-1*/
 .carusel1-1{
@@ -579,6 +590,9 @@
 .green-BG .slick-dots li{
     margin: 0;
 }
+.green-BG .slick-list{
+    margin-bottom: 1.5rem;
+}
 
 /*adresses*/
 .adresses h3{
@@ -648,7 +662,7 @@
     font-size: 14px;
 }
 .footer-top-p{
-    margin: 4rem 0 7rem;
+    margin: 4rem 0 6rem;
 }
 .footer-top-icons{
     color: white;
@@ -657,8 +671,16 @@
 .footer-top-bank{
     margin-top: 4rem;
 }
+.footer-top-phone{
+    padding-left: 2rem;
+    margin-top: .7rem;
+}
+
+/*footer-bootom*/
 .footer-bootom{
     background: #323232;
+}
+.footer-bootom div{
     font-size: 13px;
 }
 .footer-bootom-icons {
@@ -674,8 +696,6 @@
     margin: .3rem;
     border-radius: 50%;
 }
-
-
 /*stars*/
 :root {
     --star-size: 20px;
@@ -706,13 +726,13 @@
     bottom: 20px;
     right: 30px;
     z-index: 99;
-    font-size: 30px;
+    font-size: 35px;
     border: none;
     outline: none;
     background: #4f9a42;
     color: white;
     cursor: pointer;
-    padding: 10px 15px;
+    padding: 10px 20px;
     border-radius: 4px;
 }
 
