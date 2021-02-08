@@ -1,5 +1,6 @@
 //carusel slick
 $(document).ready(function (){
+
     $(".carusel1").slick({
         dots: true,
         infinite: true,
@@ -47,7 +48,7 @@ $(document).ready(function (){
             ]
     });
     $(".carusel1-2").slick({
-        dots: false,
+        dots: true,
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -181,3 +182,38 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
+//heart icon onclick
+let favorit = false;
+function favoritIcon(element){
+    if (favorit) {
+        favorit = false;
+        element.querySelector(".fa-heart-o").style.color = "#fff";
+    }
+    else {
+        favorit = true;
+        element.querySelector(".fa-heart-o").style.color = "#519a42";
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

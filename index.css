@@ -295,6 +295,7 @@
 }
 .subTitle, .subTitleSwim{
     font-size: 18px;
+    font-weight: 800;
     color: rgb(39, 38, 48);
     border-top: 3px solid rgb(198,97,150);
 }
@@ -323,6 +324,11 @@
     position: absolute;
     top: 20px;
     left: 20px;
+}
+.heart1{
+    width: 100px !important;
+    height: 100px !important;
+    border: 1px solid red !important;
 }
 .heart{
     position: absolute;
@@ -366,7 +372,7 @@
 .cart .cartBonus{
     color: white;
     background: #519b42;
-    font-size: 1.5rem;
+    font-size: 25px;
 }
 .cart .cartBtn{
     background: #fbcf33;
@@ -415,7 +421,7 @@
 /*sale-2*/
 .cart .sale-2{
     background: #512da7;
-    font-size: 1.3rem;
+    font-size: 13px;
     position: absolute;
     bottom: 1rem;
     left: 0;
