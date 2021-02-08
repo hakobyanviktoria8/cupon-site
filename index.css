@@ -562,6 +562,12 @@
 .green-BG .carusel4-wrap img{
     margin: 1rem auto;
 }
+.green-BG .carusel4-wrap h2{
+   font-size: 28px;
+}
+.green-BG .carusel4-wrap p{
+   font-size: 16px;
+}
 .green-BG .slick-dots li.slick-active button:before {
     color: white;
     font-size: .8rem;
@@ -574,10 +580,19 @@
     margin: 0;
 }
 
+/*adresses*/
+.adresses h3{
+    font-size: 23px;
+    font-weight: bold;
+}
+.adresses a {
+    font-size: 13px;
+}
+
 /*gray-BG*/
 .gray-BG .row{
     padding: 2.5rem 0;
-    margin: 0 4rem;
+    margin: 0 5%;
 }
 .gray-BG .form{
     text-align: right;
@@ -585,24 +600,26 @@
 }
 .gray-BG .form input{
     width: 70%;
-    padding: .5rem .8rem;
+    padding: 10px;
     border: 1px solid gray;
     border-radius: 5px;
     outline: none;
+    font-size: 13px;
 }
 .gray-BG .form button i{
     color: white;
-    font-size: 1.4rem;
+    font-size: 20px;
+    margin: 10px;
 }
 .gray-BG button {
-    padding: .4rem .8rem;
+    /*padding: .4rem .8rem;*/
     border: none;
     outline: none;
     position: absolute;
     right: 0;
     border-radius: 5px;
     background: #4f9b42;
-    margin: 1.2px;
+    /*margin: 1.2px;*/
 }
 
 /*adresses*/
@@ -620,6 +637,15 @@
 .footer-top a{
     color: white;
     text-decoration: none;
+    font-size: 14px;
+}
+.footer-top  h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.footer-top span, .footer-top p{
+    font-size: 14px;
 }
 .footer-top-p{
     margin: 4rem 0 7rem;
@@ -633,6 +659,7 @@
 }
 .footer-bootom{
     background: #323232;
+    font-size: 13px;
 }
 .footer-bootom-icons {
     display: flex;
@@ -733,6 +760,9 @@
     .gray-BG .form {
         text-align: left;
     }
+    .gray-BG .form input {
+        width: 100%;
+    }
     .gray-BG .row{
         margin: 0;
     }
@@ -750,9 +780,6 @@
 @media (max-width: 575.98px) {
     .subTitleWraper{
         padding: 0 1rem;
-    }
-    .gray-BG button{
-        margin: 2px;
     }
     .cart{
         height: 100%;
