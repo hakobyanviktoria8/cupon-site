@@ -16,7 +16,7 @@
     font-size: 13px;
     line-height: 40px; text-align: right;
 }
-.flagsIcons row a{
+.flagsIcons .row a{
     margin: 0 5px;
 }
 .row1{
