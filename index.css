@@ -23,7 +23,13 @@
     font-size: 13px;
 }
 .dropdown-menu{
-    margin: 0.125rem -35px 0;
+    margin: 0.125rem -45px 0;
+}
+.dropdown-menu p{
+    color: #2b2b2b;
+}
+.dropdown-menu p:hover{
+    color: black;
 }
 .dropdown-menu small{
     color: gray;
