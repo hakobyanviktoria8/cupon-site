@@ -19,13 +19,13 @@
 .flagsIcons .row a{
     margin: 0 5px;
 }
-.row1{
+.header-top{
     font-size: 13px;
 }
-.row1 div:nth-of-type(2){
+.header-top div:nth-of-type(2){
     text-align: center;
 }
-.row1 div:nth-of-type(3){
+.header-top div:nth-of-type(3){
     text-align: right;
 }
 /*header*/
@@ -44,28 +44,33 @@
 .lemon{
     display: none;
 }
-.row2{
+.header-bottom{
     height: 40px;
 }
-.row2 .col2{
+.header-bottom .col2{
     height: 40px;
 }
-.row2 .col2 input{
+.header-bottom .col2 input{
     border: none;
     line-height: 40px;
     width: 90%;
     font-size: 13px;
     outline: none;
 }
-.row2 .col2 button{
+.header-bottom .col2 button{
     background: #519b42;
     border: none;
     width: 10%;
     height: 40px;
     float: right;
 }
-.row2 .col3 a{
-    color: #272630;
+.header-bottom .col2 button i{
+    font-size: 18px;
+    padding-top: 5px;
+    color: white;
+}
+.header-bottom .col3 a{
+    color: #4f4f4f;
     text-decoration: none;
     font-size: 13px;
 }
@@ -746,10 +751,10 @@
     .navbar_linkIcons{
         float: left;
     }
-    .row1 .col-md-0{
+    .header-top .col-md-0{
         display: none;
     }
-    .row1 div:nth-of-type(2){
+    .header-top div:nth-of-type(2){
         text-align: left;
     }
     .bigLemon{
@@ -757,18 +762,18 @@
     }
     .lemon{
         display: block;
-        width: 45px;
+        width: 40px;
     }
-    .row2 .col2 button{
-        display: none;
-    }
-    .row2 .col2 input{
-        width: 100%;
+    /*.header-bottom .col2 button{*/
+    /*    display: none;*/
+    /*}*/
+    .header-bottom .col2 input{
+        width: 90%;
     }
     .registration{
         display: none;
     }
-    .row2 .col3 .userIcon{
+    .header-bottom .col3 .userIcon{
         display: block;
         font-size: 30px;
     }
@@ -777,6 +782,15 @@
 @media (max-width: 768px) {
     .navBar2{
         width: 30%;
+    }
+    .header-bottom div:nth-of-type(1){
+        max-width: 15%;
+    }
+    .header-bottom div:nth-of-type(2){
+        max-width: 70%;
+    }
+    .header-bottom div:nth-of-type(3){
+        max-width: 15%;
     }
     .col-sm-10{
         margin: .5rem auto;
@@ -811,15 +825,15 @@
     .lemon{
         margin-left: 10px;
     }
-    .row1 div:nth-of-type(2){
+    .header-top div:nth-of-type(2){
         padding-left: 10px !important;
         width: 40%;
     }
-    .row1 div:nth-of-type(3){
+    .header-top div:nth-of-type(3){
         padding-right: 10px !important;
         width: 60%;
     }
-    .row2 .col3 .userIcon{
+    .header-bottom .col3 .userIcon{
         margin-right: 10px;
     }
     .subTitleWraper{
@@ -852,6 +866,12 @@
     .navBar2{
         width: 50%;
     }
+    .header-bottom .col2 input {
+        width: 85%;
+    }
+    .header-bottom .col2 button{
+        width: 15%;
+    }
     #myBtn{
         font-size: 30px;
         padding: 0 10px;
@@ -864,14 +884,33 @@
     .navbar_linkFlags{
         padding-right: 10px;
     }
+    .lemon {
+        width: 40px;
+        padding: 2px;
+    }
     .cart h3 {
         font-size: 15px;
     }
-    .row1 div:nth-of-type(2){
+    .header-top div:nth-of-type(2){
         width: 37%;
     }
-    .row1 div:nth-of-type(3){
+    .header-top div:nth-of-type(3){
         width: 63%;
+    }
+    .header-bottom div:nth-of-type(1){
+        max-width: 20%;
+    }
+    .header-bottom div:nth-of-type(2){
+        max-width: 60%;
+    }
+    .header-bottom div:nth-of-type(3){
+        max-width: 20%;
+    }
+    .header-bottom .col2 button{
+        background: white;
+    }
+    .header-bottom .col2 button i{
+        color: #b8b8b8;
     }
     .subTitleWraper {
         padding: 0
