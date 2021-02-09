@@ -124,7 +124,7 @@
 }
 .carusel1 img{
     width: 100%;
-    border-radius: 1rem;
+    border-radius: 10px;
 }
 .slick-prev:before,
 .slick-next:before {
@@ -477,6 +477,9 @@
 .swimmingPool, .gray-BG{
     background: #f2f2f2;
 }
+.swimmingPool .cartMainContent{
+    background: white;
+}
 .subTitleSwim{
     border-top: 3px solid #4892fe;
 }
@@ -796,11 +799,11 @@
 }
 
 @media (max-width: 576px) {
-    .row0 .navbar_linkIcons{
-        padding-left: 10px;
+    .flagsIcons .navbar_linkIcons{
+        padding-left: 10px !important;
     }
-    .row0 .navbar_linkFlags{
-        padding-right: 10px;
+    .flagsIcons .navbar_linkFlags{
+        padding-right: 10px !important;
     }
     .lemon{
         margin-left: 10px;
@@ -824,17 +827,30 @@
     }
 }
 @media (max-width: 480px) {
-
+    .carusel1 div img{
+        border-radius: 5px;
+    }
+    .iconCart .circle {
+        width: 4.5rem;
+        height: 4.5rem;
+    }
     .iconCart span {
-        font-size: .7rem;
+        font-size: 13px;
     }
     .navBar2{
         width: 50%;
     }
+    #myBtn{
+        font-size: 30px;
+        padding: 0 10px;
+    }
 }
 @media (max-width: 375px) {
-    .iconCart span {
-        font-size: .5rem;
+    .navbar_linkIcons{
+        padding-left: 10px;
+    }
+    .navbar_linkFlags{
+        padding-right: 10px;
     }
     .cart h3 {
         font-size: 15px;
