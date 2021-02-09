@@ -22,6 +22,9 @@
 .header-top{
     font-size: 13px;
 }
+.header-top select{
+    width: 90px;
+}
 .header-top div:nth-of-type(2){
     text-align: center;
 }
