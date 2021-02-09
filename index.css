@@ -6,29 +6,17 @@
 }
 /*headerWraper*/
 .headerWraper {
-    padding-bottom: 0;
+    padding-bottom: 20px;
+    box-shadow: 0 8px 6px -6px gray;
 }
-/*navBar*/
+/*flags Icons*/
 .flagsIcons{
     background: #1d4e16;
     height: 40px;
     font-size: 13px;
     line-height: 40px; text-align: right;
 }
-/*.navbar{*/
-
-/*}*/
-/*.navbar_link{*/
-/*    width: 80%;*/
-/*    margin:  0 auto;*/
-/*}*/
-/*.navbar_link a{*/
-/*    float: right;*/
-/*    margin: 5px;*/
-/*}*/
-/*row1*/
-
-.row0 a{
+.flagsIcons row a{
     margin: 0 5px;
 }
 .row1{
@@ -39,34 +27,6 @@
 }
 .row1 div:nth-of-type(3){
     text-align: right;
-}
-/*navBar1*/
-/*.navBar1{*/
-/*    width: 100%;*/
-/*    background: none;*/
-/*    padding: 0;*/
-/*}*/
-/*.navBar1 .navbar-nav{*/
-/*    width: 100% !important;*/
-/*}*/
-/*.navBar1 .navbar-nav .nav-item:nth-of-type(1){*/
-/*    width: 60%;*/
-/*}*/
-/*.navBar1 .navbar-nav .nav-item:nth-of-type(2){*/
-/*    width: 15%;*/
-/*    text-align: center;*/
-/*}*/
-/*.navBar1 .navbar-nav .nav-item:nth-of-type(3){*/
-/*    width: 25%;*/
-/*    text-align: right;*/
-/*}*/
-/*.text-right1{*/
-/*    text-align: right;*/
-/*}*/
-
-/*headerWraper*/
-.headerWraper{
-    box-shadow: 0 0 10px grey;
 }
 /*header*/
 .header{
@@ -776,25 +736,6 @@
     border-radius: 4px;
 }
 
-/*@media (min-width: 768px) {*/
-/*    .navBar1 .navbar-nav .nav-item:nth-of-type(2) {*/
-/*        width: 20%;*/
-/*    }*/
-/*    !*.navBar1 .navbar-nav .nav-item:nth-of-type(3) {*!*/
-/*    !*    width: 50%;*!*/
-/*    !*    text-align: left;*!*/
-/*    !*}*!*/
-/*    .headerWraper {*/
-/*        padding-bottom: .1rem;*/
-/*    }*/
-/*    .navBar2 .nav-item:last-child .nav-link{*/
-/*        border-right: none;*/
-/*    }*/
-/*    .cart .cartBonus{*/
-/*        font-size: 1rem;*/
-/*    }*/
-/*}*/
-
 @media (max-width: 992px) {
     .navbar_linkIcons{
         float: left;
@@ -864,14 +805,13 @@
     .lemon{
         margin-left: 10px;
     }
-    .row1 div{
-        width: 50%;
-    }
     .row1 div:nth-of-type(2){
         padding-left: 10px !important;
+        width: 40%;
     }
     .row1 div:nth-of-type(3){
         padding-right: 10px !important;
+        width: 60%;
     }
     .row2 .col3 .userIcon{
         margin-right: 10px;
@@ -898,6 +838,12 @@
     }
     .cart h3 {
         font-size: 15px;
+    }
+    .row1 div:nth-of-type(2){
+        width: 37%;
+    }
+    .row1 div:nth-of-type(3){
+        width: 63%;
     }
 }
 
