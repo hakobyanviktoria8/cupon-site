@@ -27,12 +27,28 @@
 <div class="navBar">
     <div class="navbar_link">
         <div class="container-fluid">
-            <a href="#"><img src="images/ru.jpg" alt=""></a>
-            <a href="#"><img src="images/arm.jpg" alt=""></a>
-            <a href="#"><img src="images/odnoklassniki.png" alt=""></a>
-            <a href="#"><img src="images/twitter.png" alt=""></a>
-            <a href="#"><img src="images/instagram.png" alt=""></a>
-            <a href="#"><img src="images/facebook.png" alt=""></a>
+            <div class="row">
+                <div class="col navbar_linkFlags">
+                    <a href="#"><img src="images/ru.jpg" alt=""></a>
+                    <a href="#"><img src="images/arm.jpg" alt=""></a>
+                </div>
+                <div class="col navbar_linkIcons">
+                    <a href="#"><img src="images/odnoklassniki.png" alt=""></a>
+                    <a href="#"><img src="images/twitter.png" alt=""></a>
+                    <a href="#"><img src="images/instagram.png" alt=""></a>
+                    <a href="#"><img src="images/facebook.png" alt=""></a>
+                </div>
+            </div>
+<!--            <span class="navbar_linkFlags">-->
+<!--                <a href="#"><img src="images/ru.jpg" alt=""></a>-->
+<!--                <a href="#"><img src="images/arm.jpg" alt=""></a>-->
+<!--            </span>-->
+<!--            <span class="navbar_linkIcons">-->
+<!--                <a href="#"><img src="images/odnoklassniki.png" alt=""></a>-->
+<!--                <a href="#"><img src="images/twitter.png" alt=""></a>-->
+<!--                <a href="#"><img src="images/instagram.png" alt=""></a>-->
+<!--                <a href="#"><img src="images/facebook.png" alt=""></a>-->
+<!--            </span>-->
         </div>
     </div>
 </div>
@@ -41,53 +57,75 @@
     <div class="header py-3">
         <div class="container">
             <!--header row 1-->
-            <div class="row mb-2">
-                <nav class="navbar navbar-expand-lg navbar-light navBar1 p-0">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav1">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link p-0" href="#">
-                                <div class=" p-0">
-                                    <a href="tel: +374-96-500-183" class="m-0 text-dark">(096/093) 500 183, </a>
-                                    <a href="tel: +374-10-505-506" class="m-0 text-dark">(010) 505 506, </a>
-                                    <a href="tel: +374-93-500-173" class="m-0 text-dark">(093/060) 500 173, </a><br>
-                                    <a href="tel: +374-10-505-507" class="m-0 text-dark">(010) 505 507, </a>
-                                    <a href="tel: +374-55-336-070" class="m-0 text-dark">(055) 336 070 </a>
-                                </div>
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link p-0" href="#">
-                                <div class="p-0">
-                                    <img src="images/header-icon1.png" alt="">
-                                    <select name="" id="1" class="my-2 text-uppercase">
-                                        <option value="Помощь">Помощь</option>
-                                        <option value="Помощь">Помощь</option>
-                                        <option value="Помощь">Помощь</option>
-                                    </select>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link p-0" href="#">
-                                <div class="my-2  p-0">
-                                    <img src="images/header-icon2.png" alt="" class="pr-2">
-                                    <span class="text-dark">ДЛЯ ВАШЕГО БИЗНЕСА</span>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
+            <div class="row mb-2 row1">
+                <div class="col-lg-7 col-md-0 p-0">
+                    <a href="tel: +374-96-500-183" class="m-0 text-dark">(096/093) 500 183, </a>
+                    <a href="tel: +374-10-505-506" class="m-0 text-dark">(010) 505 506, </a>
+                    <a href="tel: +374-93-500-173" class="m-0 text-dark">(093/060) 500 173, </a><br>
+                    <a href="tel: +374-10-505-507" class="m-0 text-dark">(010) 505 507, </a>
+                    <a href="tel: +374-55-336-070" class="m-0 text-dark">(055) 336 070 </a>
                 </div>
-            </nav>
+                <div class="col-lg-2 col-md-6 p-0">
+                    <img src="images/header-icon1.png" alt="">
+                    <select name="" class="my-2 text-uppercase">
+                        <option value="Помощь">Помощь</option>
+                        <option value="Помощь">Lorem</option>
+                        <option value="Помощь">Помощь</option>
+                    </select>
+                </div>
+                <div class="col-lg-3 col-md-6 my-2 p-0">
+                    <img src="images/header-icon2.png" alt="" class="pr-2">
+                    <span class="text-dark">ДЛЯ ВАШЕГО БИЗНЕСА</span>
+                </div>
             </div>
+<!--                <nav class="navbar navbar-expand-lg navbar-light navBar1 p-0">-->
+<!--                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--                    <span class="navbar-toggler-icon"></span>-->
+<!--                </button>-->
+<!--                <div class="collapse navbar-collapse" id="navbarNav1">-->
+<!--                    <ul class="navbar-nav">-->
+<!--                        <li class="nav-item active">-->
+<!--                            <a class="nav-link p-0" href="#">-->
+<!--                                <div class=" p-0">-->
+<!--                                    <a href="tel: +374-96-500-183" class="m-0 text-dark">(096/093) 500 183, </a>-->
+<!--                                    <a href="tel: +374-10-505-506" class="m-0 text-dark">(010) 505 506, </a>-->
+<!--                                    <a href="tel: +374-93-500-173" class="m-0 text-dark">(093/060) 500 173, </a><br>-->
+<!--                                    <a href="tel: +374-10-505-507" class="m-0 text-dark">(010) 505 507, </a>-->
+<!--                                    <a href="tel: +374-55-336-070" class="m-0 text-dark">(055) 336 070 </a>-->
+<!--                                </div>-->
+<!--                                <span class="sr-only">(current)</span>-->
+<!--                            </a>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item">-->
+<!--                            <a class="nav-link p-0" href="#">-->
+<!--                                <div class="p-0">-->
+<!--                                    <img src="images/header-icon1.png" alt="">-->
+<!--                                    <select name="" id="1" class="my-2 text-uppercase">-->
+<!--                                        <option value="Помощь">Помощь</option>-->
+<!--                                        <option value="Помощь">Lorem</option>-->
+<!--                                        <option value="Помощь">Помощь</option>-->
+<!--                                    </select>-->
+<!--                                </div>-->
+<!--                            </a>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item">-->
+<!--                            <a class="nav-link p-0" href="#">-->
+<!--                                <div class="my-2  p-0">-->
+<!--                                    <img src="images/header-icon2.png" alt="" class="pr-2">-->
+<!--                                    <span class="text-dark">ДЛЯ ВАШЕГО БИЗНЕСА</span>-->
+<!--                                </div>-->
+<!--                            </a>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+<!--            </nav>-->
+<!--            </div>-->
+
             <!--header row 2-->
             <div class="row  my-3 row2">
                 <div class="col-3 p-0">
-                    <img src="images/footer-logo.png" alt="" class="logo">
+                    <img class = "bigLemon logo" src="images/footer-logo.png" alt="">
+                    <img class = "lemon logo" src="images/home-icon8.png" alt="">
                 </div>
                 <div class="col-6 border col2 p-0">
                     <form action="">
@@ -96,51 +134,88 @@
                     </form>
                 </div>
                 <div class="col-3 p-0 text-right col3">
-                    <a href="#">Вход / Регистрация</a>
+                    <a href="#" class="registration">Вход / Регистрация</a>
+                    <a href="#" class="userIcon"><i class="fas fa-user"></i></a>
                 </div>
             </div>
         </div>
     </div>
     <!--2navbar-->
     <div class="container p-0">
-        <nav class="navbar navbar-expand-lg navbar-light p-0 navBar2Wraper">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav navBar2">
-                    <li class="nav-item active py-2 ml-1">
-                        <a class="nav-link py-2 px-3 border-left text-uppercase" href="#">ТОП АКЦИИ <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item py-2 ml-1">
-                        <a class="nav-link py-2 px-3 border-left text-uppercase" href="#">Все 280</a>
-                    </li>
-                    <li class="nav-item py-2 ml-1">
-                        <a class="nav-link py-2 px-3 border-left text-uppercase" href="#">услуги</a>
-                    </li>
-                    <li class="nav-item py-2 ml-1">
-                        <a class="nav-link py-2 px-3 border-left text-uppercase" href="#">отели</a>
-                    </li>
-                    <li class="nav-item py-2 ml-1">
-                        <a class="nav-link py-2 px-3 border-left text-uppercase" href="#">еда</a>
-                    </li>
-                    <li class="nav-item py-2 ml-1">
-                        <a class="nav-link py-2 px-3 border-left text-uppercase" href="#">промокоды</a>
-                    </li>
-                    <li class="nav-item py-2 ml-1">
-                        <a class="nav-link py-2 px-3 border-left text-uppercase" href="#">товары</a>
-                    </li>
-                    <li class="nav-item py-2 ml-1">
-                        <a class="nav-link py-2 px-3 border-left text-uppercase" href="#">бассейны</a>
-                    </li>
-                    <li class="nav-item py-2 ml-1">
-                        <a class="nav-link py-2 px-3 border-left border-right text-uppercase" href="#">КАРТА</a>
-                    </li>
-                </ul>
+        <!--carusel0-->
+        <div class="row">
+            <div class="col-12">
+                <section class="carusel0">
+                    <div class="py-2 ml-1">
+                        <a class="text-uppercase" href="#">ТОП АКЦИИ</a>
+                    </div>
+                    <div class="py-2 ml-1">
+                        <a class="text-uppercase" href="#">Все 280</a>
+                    </div>
+                    <div class="py-2 ml-1">
+                        <a class="text-uppercase" href="#">услуги</a>
+                    </div>
+                    <div class="py-2 ml-1">
+                        <a class="text-uppercase" href="#">отели</a>
+                    </div>
+                    <div class="py-2 ml-1">
+                        <a class="text-uppercase" href="#">еда</a>
+                    </div>
+                    <div class="py-2 ml-1">
+                        <a class="text-uppercase" href="#">промокоды</a>
+                    </div>
+                    <div class="py-2 ml-1">
+                        <a class="text-uppercase" href="#">товары</a>
+                    </div>
+                    <div class="py-2 ml-1">
+                        <a class="text-uppercase" href="#">бассейны</a>
+                    </div>
+                    <div class="py-2 ml-1">
+                        <a class="text-uppercase" href="#">КАРТА</a>
+                    </div>
+                </section>
             </div>
-        </nav>
+        </div>
     </div>
-</div>
+
+<!--        <nav class="navbar navbar-expand-lg navbar-light p-0 navBar2Wraper">-->
+<!--            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--                <span class="navbar-toggler-icon"></span>-->
+<!--            </button>-->
+<!--            <div class="collapse navbar-collapse" id="navbarNav">-->
+<!--                <ul class="navbar-nav navBar2">-->
+<!--                    <li class="nav-item active py-2 ml-1">-->
+<!--                        <a class="nav-link py-2 px-3 border-left text-uppercase" href="#">ТОП АКЦИИ <span class="sr-only">(current)</span></a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item py-2 ml-1">-->
+<!--                        <a class="nav-link py-2 px-3 border-left text-uppercase" href="#">Все 280</a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item py-2 ml-1">-->
+<!--                        <a class="nav-link py-2 px-3 border-left text-uppercase" href="#">услуги</a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item py-2 ml-1">-->
+<!--                        <a class="nav-link py-2 px-3 border-left text-uppercase" href="#">отели</a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item py-2 ml-1">-->
+<!--                        <a class="nav-link py-2 px-3 border-left text-uppercase" href="#">еда</a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item py-2 ml-1">-->
+<!--                        <a class="nav-link py-2 px-3 border-left text-uppercase" href="#">промокоды</a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item py-2 ml-1">-->
+<!--                        <a class="nav-link py-2 px-3 border-left text-uppercase" href="#">товары</a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item py-2 ml-1">-->
+<!--                        <a class="nav-link py-2 px-3 border-left text-uppercase" href="#">бассейны</a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item py-2 ml-1">-->
+<!--                        <a class="nav-link py-2 px-3 border-left border-right text-uppercase" href="#">КАРТА</a>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </div>-->
+<!--        </nav>-->
+<!--    </div>-->
+<!--</div>-->
 
 <div class="container">
     <!--carusel1-->
@@ -233,6 +308,7 @@
                           <i class="fa fa-heart-o "></i>
                        </a>
                        <span class="sale px-3 py-1"> -35%</span>
+                       <span class="sale sale-2 px-3 py-1 text-uppercase"> работает</span>
                    </div>
                     <div>
                         <div class="row cartTitle  m-0 p-3">
@@ -245,7 +321,7 @@
                                 <span><del>60.000 др</del> От 39.000 драм</span>
                             </div>
                             <div class="col-5 p-0 text-right">
-                                <span class="cartBonus px-2 py-1">1500 др</span>
+                                <span class="cartBonus px-2 py-1">1500<span class="cartBonusDram">др</span></span>
                             </div>
                         </div>
                         <div class="row m-0 px-3">
@@ -279,11 +355,12 @@
                         <a href="#" class="icons">
                             <i class="fa fa-eye"></i>
                         </a>
-                        <a href="#" class="icons  onclick={favoritIcon(this)}">
-                            <i class="fa fa-heart-o"></i>
+                        <a href="#" class="icons" onclick={favoritIcon(this)}>
+                            <i class="fa fa-heart-o "></i>
                         </a>
                         <span class="sale px-3 py-1"> -35%</span>
                         <span class="sale sale-2 px-3 py-1 text-uppercase"> работает</span>
+
                     </div>
                     <div>
                         <div class="row cartTitle  m-0 p-3">
@@ -296,57 +373,7 @@
                                 <span><del>60.000 др</del> От 39.000 драм</span>
                             </div>
                             <div class="col-5 p-0 text-right">
-                                <span class="cartBonus px-2 py-1">1500 др</span>
-                            </div>
-                        </div>
-                        <div class="row m-0 px-3">
-                            <div class="col-8 p-0">
-                                <span>4.3</span>
-                                <div class="Stars" style="--rating: 4;" aria-label="Rating of this product is 2.3 out of 5."></div>
-                                <span>1250 отзыв</span>
-                            </div>
-                            <div class="col-4 text-right p-0">
-                                <img src="images/reclam.png" alt="">
-                                <span>496</span>
-                            </div>
-                        </div>
-                        <hr class="m-2">
-                        <div class="row m-0 px-3 pb-3">
-                            <div class="col-7 p-0">
-                                <img src="images/time.png" alt="">
-                                <small>3 д 6 ч 2 м</small>
-                            </div>
-                            <div class="col-5 p-0">
-                                <a href="#"><span class="cartBtn py-1 px-4 float-right">Подробнее</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-10 col-xs-12 cart p-2 mb-1">
-                <div class="cartMainContent">
-                    <div class="cartTopSide">
-                        <a href=""><img class="imgBG" src="images/home-coupon.jpg" alt=""></a>
-                        <a href="#" class="icons">
-                            <i class="fa fa-eye"></i>
-                        </a>
-                        <a href="#" class="icons" onclick={favoritIcon(this)}>
-                            <i class="fa fa-heart-o "></i>
-                        </a>
-                        <span class="sale px-3 py-1"> -35%</span>
-                    </div>
-                    <div>
-                        <div class="row cartTitle  m-0 p-3">
-                            <div class="col p-0">
-                                <h3><a href="">Проведите ваш отдых в шикарном отеле  Tsaghkadzor MARRIOTT</a></h3>
-                            </div>
-                        </div>
-                        <div class="row m-0 pl-3">
-                            <div class="col-7 p-0">
-                                <span><del>60.000 др</del> От 39.000 драм</span>
-                            </div>
-                            <div class="col-5 p-0 text-right">
-                                <span class="cartBonus px-2 py-1">1500 др</span>
+                                <span class="cartBonus px-2 py-1">1500<span class="cartBonusDram">др</span></span>
                             </div>
                         </div>
                         <div class="row m-0 px-3">
@@ -396,7 +423,57 @@
                                 <span><del>60.000 др</del> От 39.000 драм</span>
                             </div>
                             <div class="col-5 p-0 text-right">
-                                <span class="cartBonus px-2 py-1">1500 др</span>
+                                <span class="cartBonus px-2 py-1">1500<span class="cartBonusDram">др</span></span>
+                            </div>
+                        </div>
+                        <div class="row m-0 px-3">
+                            <div class="col-8 p-0">
+                                <span>4.3</span>
+                                <div class="Stars" style="--rating: 4.5;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                                <span>1250 отзыв</span>
+                            </div>
+                            <div class="col-4 text-right p-0">
+                                <img src="images/reclam.png" alt="">
+                                <span>496</span>
+                            </div>
+                        </div>
+                        <hr class="m-2">
+                        <div class="row m-0 px-3 pb-3">
+                            <div class="col-7 p-0">
+                                <img src="images/time.png" alt="">
+                                <small>3 д 6 ч 2 м</small>
+                            </div>
+                            <div class="col-5 p-0">
+                                <a href="#"><span class="cartBtn py-1 px-4 float-right">Подробнее</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-10 col-xs-12 cart p-2 mb-1">
+                <div class="cartMainContent">
+                    <div class="cartTopSide">
+                        <a href=""><img class="imgBG" src="images/home-coupon.jpg" alt=""></a>
+                        <a href="#" class="icons">
+                            <i class="fa fa-eye"></i>
+                        </a>
+                        <a href="#" class="icons" onclick={favoritIcon(this)}>
+                            <i class="fa fa-heart-o "></i>
+                        </a>
+                        <span class="sale px-3 py-1"> -35%</span>
+                    </div>
+                    <div>
+                        <div class="row cartTitle  m-0 p-3">
+                            <div class="col p-0">
+                                <h3><a href="">Проведите ваш отдых в шикарном отеле  Tsaghkadzor MARRIOTT</a></h3>
+                            </div>
+                        </div>
+                        <div class="row m-0 pl-3">
+                            <div class="col-7 p-0">
+                                <span><del>60.000 др</del> От 39.000 драм</span>
+                            </div>
+                            <div class="col-5 p-0 text-right">
+                                <span class="cartBonus px-2 py-1">1500<span class="cartBonusDram">др</span></span>
                             </div>
                         </div>
                         <div class="row m-0 px-3">
@@ -451,7 +528,7 @@
                                 <span><del>60.000 др</del> От 39.000 драм</span>
                             </div>
                             <div class="col-5 p-0 text-right">
-                                <span class="cartBonus px-2 py-1">1500 др</span>
+                                <span class="cartBonus px-2 py-1">1500<span class="cartBonusDram">др</span></span>
                             </div>
                         </div>
                         <div class="row m-0 px-3">
@@ -518,7 +595,7 @@
                             <span><del>60.000 др</del> От 39.000 драм</span>
                         </div>
                         <div class="col-5 p-0 text-right">
-                            <span class="cartBonus px-2 py-1">1500 др</span>
+                            <span class="cartBonus px-2 py-1">1500<span class="cartBonusDram">др</span></span>
                         </div>
                     </div>
                     <div class="row m-0 px-3">
@@ -568,7 +645,7 @@
                             <span><del>60.000 др</del> От 39.000 драм</span>
                         </div>
                         <div class="col-5 p-0 text-right">
-                            <span class="cartBonus px-2 py-1">1500 др</span>
+                            <span class="cartBonus px-2 py-1">1500<span class="cartBonusDram">др</span></span>
                         </div>
                     </div>
                     <div class="row m-0 px-3">
@@ -618,7 +695,7 @@
                             <span><del>60.000 др</del> От 39.000 драм</span>
                         </div>
                         <div class="col-5 p-0 text-right">
-                            <span class="cartBonus px-2 py-1">1500 др</span>
+                            <span class="cartBonus px-2 py-1">1500<span class="cartBonusDram">др</span></span>
                         </div>
                     </div>
                     <div class="row m-0 px-3">
@@ -668,7 +745,7 @@
                             <span><del>60.000 др</del> От 39.000 драм</span>
                         </div>
                         <div class="col-5 p-0 text-right">
-                            <span class="cartBonus px-2 py-1">1500 др</span>
+                            <span class="cartBonus px-2 py-1">1500<span class="cartBonusDram">др</span></span>
                         </div>
                     </div>
                     <div class="row m-0 px-3">
@@ -718,7 +795,7 @@
                             <span><del>60.000 др</del> От 39.000 драм</span>
                         </div>
                         <div class="col-5 p-0 text-right">
-                            <span class="cartBonus px-2 py-1">1500 др</span>
+                            <span class="cartBonus px-2 py-1">1500<span class="cartBonusDram">др</span></span>
                         </div>
                     </div>
                     <div class="row m-0 px-3">
@@ -768,7 +845,7 @@
                             <span><del>60.000 др</del> От 39.000 драм</span>
                         </div>
                         <div class="col-5 p-0 text-right">
-                            <span class="cartBonus px-2 py-1">1500 др</span>
+                            <span class="cartBonus px-2 py-1">1500<span class="cartBonusDram">др</span></span>
                         </div>
                     </div>
                     <div class="row m-0 px-3">
@@ -843,7 +920,7 @@
                                 <span><del>60.000 др</del> От 39.000 драм</span>
                             </div>
                             <div class="col-5 p-0 text-right">
-                                <span class="cartBonus px-2 py-1">1500 др</span>
+                                <span class="cartBonus px-2 py-1">1500<span class="cartBonusDram">др</span></span>
                             </div>
                         </div>
                         <div class="row m-0 px-3">
@@ -893,7 +970,7 @@
                                 <span><del>60.000 др</del> От 39.000 драм</span>
                             </div>
                             <div class="col-5 p-0 text-right">
-                                <span class="cartBonus px-2 py-1">1500 др</span>
+                                <span class="cartBonus px-2 py-1">1500<span class="cartBonusDram">др</span></span>
                             </div>
                         </div>
                         <div class="row m-0 px-3">
@@ -943,7 +1020,7 @@
                                 <span><del>60.000 др</del> От 39.000 драм</span>
                             </div>
                             <div class="col-5 p-0 text-right">
-                                <span class="cartBonus px-2 py-1">1500 др</span>
+                                <span class="cartBonus px-2 py-1">1500<span class="cartBonusDram">др</span></span>
                             </div>
                         </div>
                         <div class="row m-0 px-3">
@@ -1051,7 +1128,7 @@
                             <span><del>60.000 др</del> От 39.000 драм</span>
                         </div>
                         <div class="col-5 p-0 text-right">
-                            <span class="cartBonus px-2 py-1">1500 др</span>
+                            <span class="cartBonus px-2 py-1">1500<span class="cartBonusDram">др</span></span>
                         </div>
                     </div>
                     <div class="row m-0 px-3">
@@ -1101,7 +1178,7 @@
                             <span><del>60.000 др</del> От 39.000 драм</span>
                         </div>
                         <div class="col-5 p-0 text-right">
-                            <span class="cartBonus px-2 py-1">1500 др</span>
+                            <span class="cartBonus px-2 py-1">1500<span class="cartBonusDram">др</span></span>
                         </div>
                     </div>
                     <div class="row m-0 px-3">
@@ -1151,7 +1228,7 @@
                             <span><del>60.000 др</del> От 39.000 драм</span>
                         </div>
                         <div class="col-5 p-0 text-right">
-                            <span class="cartBonus px-2 py-1">1500 др</span>
+                            <span class="cartBonus px-2 py-1">1500<span class="cartBonusDram">др</span></span>
                         </div>
                     </div>
                     <div class="row m-0 px-3">
@@ -1201,7 +1278,7 @@
                             <span><del>60.000 др</del> От 39.000 драм</span>
                         </div>
                         <div class="col-5 p-0 text-right">
-                            <span class="cartBonus px-2 py-1">1500 др</span>
+                            <span class="cartBonus px-2 py-1">1500<span class="cartBonusDram">др</span></span>
                         </div>
                     </div>
                     <div class="row m-0 px-3">
@@ -1251,7 +1328,7 @@
                             <span><del>60.000 др</del> От 39.000 драм</span>
                         </div>
                         <div class="col-5 p-0 text-right">
-                            <span class="cartBonus px-2 py-1">1500 др</span>
+                            <span class="cartBonus px-2 py-1">1500<span class="cartBonusDram">др</span></span>
                         </div>
                     </div>
                     <div class="row m-0 px-3">
@@ -1301,7 +1378,7 @@
                             <span><del>60.000 др</del> От 39.000 драм</span>
                         </div>
                         <div class="col-5 p-0 text-right">
-                            <span class="cartBonus px-2 py-1">1500 др</span>
+                            <span class="cartBonus px-2 py-1">1500<span class="cartBonusDram">др</span></span>
                         </div>
                     </div>
                     <div class="row m-0 px-3">
@@ -1366,7 +1443,7 @@
                             <span><del>60.000 др</del> От 39.000 драм</span>
                         </div>
                         <div class="col-5 p-0 text-right">
-                            <span class="cartBonus px-2 py-1">1500 др</span>
+                            <span class="cartBonus px-2 py-1">1500<span class="cartBonusDram">др</span></span>
                         </div>
                     </div>
                     <div class="row m-0 px-3">
@@ -1416,7 +1493,7 @@
                             <span><del>60.000 др</del> От 39.000 драм</span>
                         </div>
                         <div class="col-5 p-0 text-right">
-                            <span class="cartBonus px-2 py-1">1500 др</span>
+                            <span class="cartBonus px-2 py-1">1500<span class="cartBonusDram">др</span></span>
                         </div>
                     </div>
                     <div class="row m-0 px-3">
@@ -1544,8 +1621,8 @@
                     <a href="#" class="icons">
                         <i class="fa fa-eye"></i>
                     </a>
-                    <a href="#" class="icons  onclick={favoritIcon(this)}">
-                        <i class="fa fa-heart-o"></i>
+                    <a href="#" class="icons" onclick={favoritIcon(this)}>
+                        <i class="fa fa-heart-o "></i>
                     </a>
                     <span class="sale px-3 py-1"> -35%</span>
                     <span class="sale sale-2 px-3 py-1 text-uppercase"> работает</span>
@@ -1561,13 +1638,13 @@
                             <span><del>60.000 др</del> От 39.000 драм</span>
                         </div>
                         <div class="col-5 p-0 text-right">
-                            <span class="cartBonus px-2 py-1">1500 др</span>
+                            <span class="cartBonus px-2 py-1">1500<span class="cartBonusDram">др</span></span>
                         </div>
                     </div>
                     <div class="row m-0 px-3">
                         <div class="col-8 p-0">
                             <span>4.3</span>
-                            <div class="Stars" style="--rating: 4;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                            <div class="Stars" style="--rating: 4.5;" aria-label="Rating of this product is 2.3 out of 5."></div>
                             <span>1250 отзыв</span>
                         </div>
                         <div class="col-4 text-right p-0">
@@ -1595,8 +1672,8 @@
                     <a href="#" class="icons">
                         <i class="fa fa-eye"></i>
                     </a>
-                    <a href="#" class="icons  onclick={favoritIcon(this)}">
-                        <i class="fa fa-heart-o"></i>
+                    <a href="#" class="icons" onclick={favoritIcon(this)}>
+                        <i class="fa fa-heart-o "></i>
                     </a>
                     <span class="sale px-3 py-1"> -35%</span>
                     <span class="sale sale-2 px-3 py-1 text-uppercase"> работает</span>
@@ -1612,13 +1689,13 @@
                             <span><del>60.000 др</del> От 39.000 драм</span>
                         </div>
                         <div class="col-5 p-0 text-right">
-                            <span class="cartBonus px-2 py-1">1500 др</span>
+                            <span class="cartBonus px-2 py-1">1500<span class="cartBonusDram">др</span></span>
                         </div>
                     </div>
                     <div class="row m-0 px-3">
                         <div class="col-8 p-0">
                             <span>4.3</span>
-                            <div class="Stars" style="--rating: 4;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                            <div class="Stars" style="--rating: 4.5;" aria-label="Rating of this product is 2.3 out of 5."></div>
                             <span>1250 отзыв</span>
                         </div>
                         <div class="col-4 text-right p-0">
@@ -1646,8 +1723,8 @@
                     <a href="#" class="icons">
                         <i class="fa fa-eye"></i>
                     </a>
-                    <a href="#" class="icons  onclick={favoritIcon(this)}">
-                        <i class="fa fa-heart-o"></i>
+                    <a href="#" class="icons" onclick={favoritIcon(this)}>
+                        <i class="fa fa-heart-o "></i>
                     </a>
                     <span class="sale px-3 py-1"> -35%</span>
                     <span class="sale sale-2 px-3 py-1 text-uppercase"> работает</span>
@@ -1663,13 +1740,13 @@
                             <span><del>60.000 др</del> От 39.000 драм</span>
                         </div>
                         <div class="col-5 p-0 text-right">
-                            <span class="cartBonus px-2 py-1">1500 др</span>
+                            <span class="cartBonus px-2 py-1">1500<span class="cartBonusDram">др</span></span>
                         </div>
                     </div>
                     <div class="row m-0 px-3">
                         <div class="col-8 p-0">
                             <span>4.3</span>
-                            <div class="Stars" style="--rating: 4;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                            <div class="Stars" style="--rating: 4.5;" aria-label="Rating of this product is 2.3 out of 5."></div>
                             <span>1250 отзыв</span>
                         </div>
                         <div class="col-4 text-right p-0">
