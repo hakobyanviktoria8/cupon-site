@@ -134,7 +134,7 @@
                         <a class="text-uppercase" href="#">товары</a>
                     </div>
                     <div class="py-2 ml-1">
-                        <a class="text-uppercase" href="swimming-pool.html">бассейны</a>
+                        <a class="text-uppercase" href="category.php">бассейны</a>
                     </div>
                     <div class="py-2 ml-1">
                         <a class="text-uppercase" href="#">КАРТА</a>

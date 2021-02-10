@@ -1,6 +1,4 @@
-<?php
-require_once('header.php');
-?>
+<?php require_once('header.php'); ?>
 
 <!--main content-->
 <div class="container">
@@ -27,13 +25,11 @@ require_once('header.php');
                     <span>Топ акции</span>
                 </div>
                 <div class="iconCart">
-                    <a href="swimming-pool.html">
                         <div class="circle circle2">
                             <img class="img1" src="images/home-icon2.png" alt="">
                             <img class="img1-1" src="images/home-icon2-1.png" alt="">
                         </div>
                         <span>Бассейны</span>
-                    </a>
                 </div>
                 <div class="iconCart">
                     <div class="circle circle3">
@@ -1666,24 +1662,6 @@ require_once('header.php');
             <a href="">Повседневный - 10 серии</a><br>
             <a href="">Квартиры - 10, Зелёная</a><br>
             <a href="">Квартиры - 10, Серебро</a><br>
-        </div>
-    </div>
-</div>
-
-<!--send mail-->
-<div class="gray-BG">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <p><b>Подписывайтесь на нашу новостную рассылку</b></p>
-                <p>Подпишитесь на нашу новостную рассылку и получайте подробную получайте подробную.</p>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <form action="" class="form">
-                    <input type="email" placeholder="введите адрес эл. почты">
-                    <button><img src="" alt=""><i class="fab fa-telegram-plane"></i></button>
-                </form>
-            </div>
         </div>
     </div>
 </div>

@@ -1,3 +1,20 @@
+<!--send mail-->
+<div class="gray-BG">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <p><b>Подписывайтесь на нашу новостную рассылку</b></p>
+                <p>Подпишитесь на нашу новостную рассылку и получайте подробную получайте подробную.</p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <form action="" class="form">
+                    <input type="email" placeholder="введите адрес эл. почты">
+                    <button><img src="" alt=""><i class="fab fa-telegram-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!--footer-->
 <div class="footer-top py-5">

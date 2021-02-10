@@ -23,7 +23,7 @@
 .header-top{
     font-size: 13px;
 }
-.dropdown-menu{
+.help .dropdown-menu{
     margin: 0.125rem -45px 0;
     width: 220px;
     font-size: 14px;
@@ -782,6 +782,49 @@
     padding: 10px 20px;
     border-radius: 4px;
 }
+
+/*____________________Category path___________________*/
+.category-path{
+    font-size: 12px;
+    color: rgb(180, 180, 180);
+}
+.without-sorting{
+    color: red;
+}
+.without-sorting button{
+    outline: none;
+    box-shadow: 0 0 5px #333;
+    float: right;
+    border: none;
+    font-size: 14px;
+    color: #333333;
+    background: white;
+}
+.without-sorting a{
+    font-size: 10px;
+}
+/*pagination*/
+.page-item.active .page-link{
+    background: rgb(80, 155, 68);
+    border-color: rgb(80, 155, 68);
+}
+.page-link{
+    color: #333333;
+    border: none;
+    font-size: 16px;
+}
+.page-link:hover{
+    color: #212529;
+}
+.pagination .disabled i{
+    color: #bababa;
+}
+.pagination i{
+    font-size: 35px;
+    color: rgb(80, 155, 68);
+}
+
+
 
 @media (max-width: 992px) {
     .navbar_linkIcons{
