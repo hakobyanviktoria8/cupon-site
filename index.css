@@ -8,6 +8,7 @@
 .headerWraper {
     padding-bottom: 20px;
     box-shadow: 0 8px 6px -6px gray;
+    margin-bottom: 1.5rem;
 }
 /*flags Icons*/
 .flagsIcons{
