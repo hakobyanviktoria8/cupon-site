@@ -25,11 +25,11 @@
 .dropdown-menu{
     margin: 0.125rem -45px 0;
     width: 220px;
-    font-size: 13px;
+    font-size: 14px;
 }
 .dropdown-menu small{
-    color: gray;
-    font-size: 8px;
+    color: rgb(160,160,160);
+    font-size: 10px;
 }
 .help li{
     list-style-type: none;
@@ -40,7 +40,6 @@
     color: #519b42;
 }
 .help .dropdown-item:hover p{
-    color: black;
     font-weight: bold;
 }
 .help .btn{
@@ -54,7 +53,7 @@
     border-left: .4em solid transparent;
 }
 .dropdown-menu p{
-    color: #2b2b2b;
+    color: rgb(51,51,51);
 }
 .header-top div:nth-of-type(2){
     text-align: center;
