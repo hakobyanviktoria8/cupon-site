@@ -28,7 +28,7 @@
     font-size: 14px;
 }
 .dropdown-menu small{
-    color: rgb(160,160,160);
+    color: #b4b4b4;
     font-size: 10px;
 }
 .help li{
@@ -37,23 +37,24 @@
 .help .dropdown-item:hover li{
     list-style-type: disc;
     margin-left: 15px;
-    color: #519b42;
+    color: #509c44;
 }
 .help .dropdown-item:hover p{
     font-weight: bold;
 }
 .help .btn{
     font-size: 13px;
+    color: #333333;
     text-transform: uppercase;
 }
 .help .dropdown-toggle::after {
-    color: #343a40;
+    color: #333333;
     border-top: .4em solid;
     border-right: .4em solid transparent;
     border-left: .4em solid transparent;
 }
 .dropdown-menu p{
-    color: rgb(51,51,51);
+    color: #333333;
 }
 .header-top div:nth-of-type(2){
     text-align: center;
