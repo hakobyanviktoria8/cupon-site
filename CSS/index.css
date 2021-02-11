@@ -354,17 +354,26 @@
 .cartTopSide{
     position: relative;
 }
+.cartTopSide .modal_button{
+    color: white;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 25px;
+}
+.modal_button:focus{
+    box-shadow: none;
+}
 .cartTopSide .icons i{
     color: white;
     position: absolute;
-    top: 10px;
-}
-.cartTopSide .icons .fa-eye{
-    left: 20px;
-    font-size: 25px;
+    top: 20px;
 }
 .cartTopSide .icons .fa-heart-o{
-    right: 20px;
+    right: 30px;
     font-size: 22px;
 }
 .cart .imgBG{
@@ -375,11 +384,6 @@
     position: absolute;
     top: 20px;
     left: 20px;
-}
-.heart1{
-    width: 100px !important;
-    height: 100px !important;
-    border: 1px solid red !important;
 }
 .heart{
     position: absolute;
@@ -500,7 +504,7 @@
     width: 100%;
     background-size: cover;
     background-position: center center;
-    background-image: url("images/Rectangle8.png");
+    background-image: url("../images/Rectangle8.png");
 }
 .imgBG-main{
     width: 100%;

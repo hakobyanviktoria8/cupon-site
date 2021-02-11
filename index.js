@@ -195,6 +195,26 @@ $(document).ready(function (){
 
 });
 
+//carusel_modal_eye
+$(".carusel_modal_eye").slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: '.carusel_modal_eye_bottom'
+});
+// carusel_modal_eye_bottom
+$('.carusel_modal_eye_bottom').slick({
+    slidesToShow: 10,
+    slidesToScroll: 1,
+    asNavFor: '.carusel_modal_eye',
+    // dots: true,
+    arrows: false,
+    centerMode: false,
+    focusOnSelect: true
+});
+
+
 //Get the button
 var mybutton = document.getElementById("myBtn");
 

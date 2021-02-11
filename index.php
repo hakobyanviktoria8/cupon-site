@@ -85,9 +85,112 @@
                 <div class="cartMainContent">
                    <div class="cartTopSide">
                        <a href=""><img class="imgBG" src="images/home-coupon.jpg" alt=""></a>
-                       <a href="#" class="icons">
-                          <i class="fa fa-eye"></i>
-                       </a>
+
+                        <!-- Button trigger modal -->
+                       <button type="button" class="btn modal_button" data-toggle="modal" data-target="#exampleModalCenter">
+                           <i class="fa fa-eye"></i>
+                       </button>
+
+                       <!-- Modal -->
+                        <div class="modal fade modal_eye_btn" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                          <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content container">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">Открытый бассейн PARADISE POOL в Ереване</h5>
+                                <button type="button" class="close eye_close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                              <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <!--                stars-->
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, quia.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-8 left">
+                                        <section class="carusel_modal_eye">
+                                            <div><img src="images/home-coupon.jpg"></div>
+                                            <div><img src="images/home-coupon.jpg"></div>
+                                            <div><img src="images/home-coupon.jpg"></div>
+                                            <div><img src="images/home-coupon.jpg"></div>
+                                            <div><img src="images/home-coupon.jpg"></div>
+                                        </section>
+                                        <section class="carusel_modal_eye_bottom">
+                                            <div><img src="images/home-coupon.jpg"></div>
+                                            <div><img src="images/home-coupon.jpg"></div>
+                                            <div><img src="images/home-coupon.jpg"></div>
+                                            <div><img src="images/home-coupon.jpg"></div>
+                                            <div><img src="images/home-coupon.jpg"></div>
+                                        </section>
+                                    </div>
+                                    <div class="col-4 right">
+                                       <div class="row">
+                                           <div class="col-4">
+                                               <p><i class="far fa-eye"></i></p>
+                                               <p>250 Lorem ipsum</p>
+                                           </div>
+                                           <div class="col-4">
+                                                <p><i class="far fa-eye"></i></p>
+                                               <p>50+ Lorem ipsum</p>
+                                           </div>
+                                           <div class="col-4">
+                                               <p><i class="fas fa-user-friends"></i></p>
+                                               <p>250 Lorem ipsum</p>
+                                           </div>
+                                           </div>
+                                           <hr>
+                                           <div class="row">
+                                               <div class="col-12 price_kupon">
+                                                   <p>Lorem ipsum <b>300 dram</b></p>
+                                                   <small><del>60.000dr</del> Ot 1500 dram</small>
+                                               </div>
+                                           </div>
+                                           <div class="row">
+                                               <div class="col-9">
+                                                   <a href="#" class="buy">Lorem</a>
+                                               </div>
+                                               <div class="col-3">
+                                                   <a href="#" class="heart">
+                                                       <p><i class="far fa-heart"></i></p>
+                                                       <p>125</p>
+                                                   </a>
+                                               </div>
+                                           </div>
+                                           <div class="row">
+                                               <div class="col-10">
+                                                   <a href="#">Lorem</a>
+                                               </div>
+                                           </div>
+                                           <div class="row">
+                                               <div class="col-12">
+                                                   <small>Lorem ipsum dolor sit amet.</small>
+                                                   <i class="far fa-clock"></i>
+                                                   <span> <b>9 </b> D <b>19 </b> C <b>46 </b> M</span>
+                                               </div>
+                                           </div>
+                                           <div class="row">
+                                               <div class="col-6">
+                                                   <small>Lorem ipsum</small>
+                                                   <p>01/05/2020</p>
+                                               </div>
+                                               <div class="col-6">
+                                                   <small>Lorem ipsum</small>
+                                                   <p>01/05/2020</p>
+                                               </div>
+                                           </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
                        <a href="#" class="icons" onclick={favoritIcon(this)}>
                           <i class="fa fa-heart-o "></i>
                        </a>
