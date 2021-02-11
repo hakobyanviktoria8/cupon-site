@@ -72,7 +72,6 @@
                 </div>
             </div>
         </div>
-
         <!--carts-->
         <div class="row  m-0">
             <div class="col-lg-4 col-md-6 col-sm-10 col-xs-12 cart p-2 mb-1">
