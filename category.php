@@ -30,7 +30,7 @@
         <!--without sorting-->
         <div class="row mb-3 mx-0">
             <div class="col-12 p-0">
-                <div class="dropdown without-sorting">
+                <div class="dropdown with-sorting float-right">
                   <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Dropdown button
                   </button>

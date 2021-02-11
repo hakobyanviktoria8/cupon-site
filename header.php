@@ -87,11 +87,13 @@
                 </div>
             </div>
 
-          <!--header row 2-->
+          <!--header bottom-->
             <div class="row  my-3 header-bottom">
                 <div class="col-lg-3 col-md-2 p-0">
-                    <img class = "bigLemon logo" src="images/footer-logo.png" alt="">
-                    <img class = "lemon logo" src="images/home-icon8.png" alt="">
+                    <a href="index.php">
+                        <img class = "bigLemon logo" src="images/footer-logo.png" alt="">
+                        <img class = "lemon logo" src="images/home-icon8.png" alt="">
+                    </a>
                 </div>
                 <div class="col-lg-6 col-md-8 border col2 p-0">
                     <form action="">
@@ -113,10 +115,10 @@
             <div class="col-12 p-0">
                 <section class="carusel0">
                     <div class="py-2 ml-1">
-                        <a class="text-uppercase" href="#">ТОП АКЦИИ</a>
+                        <a class="text-uppercase" href="category.php">ТОП АКЦИИ</a>
                     </div>
                     <div class="py-2 ml-1">
-                        <a class="text-uppercase" href="#">Все 280</a>
+                        <a class="text-uppercase" href="category-with-sorting.php">Все 280</a>
                     </div>
                     <div class="py-2 ml-1">
                         <a class="text-uppercase" href="#">услуги</a>
@@ -134,7 +136,7 @@
                         <a class="text-uppercase" href="#">товары</a>
                     </div>
                     <div class="py-2 ml-1">
-                        <a class="text-uppercase" href="category.php">бассейны</a>
+                        <a class="text-uppercase" href="#">бассейны</a>
                     </div>
                     <div class="py-2 ml-1">
                         <a class="text-uppercase" href="#">КАРТА</a>

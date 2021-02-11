@@ -21,7 +21,9 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-6 col-xs-12 text-white">
-                <img src="images/header-logo.png" alt="">
+                <a href="index.php">
+                    <img src="images/header-logo.png" alt="">
+                </a>
                 <p class="footer-top-p">сленг</p>
                 <h3 class="">Контакты</h3>
                 <hr class="text-white">

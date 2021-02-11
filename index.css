@@ -791,17 +791,19 @@
 .without-sorting{
     color: red;
 }
-.without-sorting button{
+.with-sorting button{
     outline: none;
-    box-shadow: 0 0 5px #333;
-    float: right;
     border: none;
     font-size: 14px;
     color: #333333;
-    background: white;
+    background: #f4f4f5;
+    margin: 0 10px;
 }
-.without-sorting a{
+.with-sorting a{
     font-size: 10px;
+}
+.with-sorting:last-child{
+    float: right;
 }
 /*pagination*/
 .page-item.active .page-link{
@@ -954,6 +956,9 @@
     #myBtn{
         font-size: 30px;
         padding: 0 10px;
+    }
+    .with-sorting:last-child{
+        float: left;
     }
 }
 @media (max-width: 375px) {
