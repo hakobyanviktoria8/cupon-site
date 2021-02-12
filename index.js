@@ -193,27 +193,34 @@ $(document).ready(function (){
             ]
     });
 
-});
+    //carusel_modal_eye
+    $(".carusel_modal_eye").slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: '.carusel_modal_eye_bottom'
+    });
 
-//carusel_modal_eye
-$(".carusel_modal_eye").slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    fade: true,
-    asNavFor: '.carusel_modal_eye_bottom'
-});
-// carusel_modal_eye_bottom
-$('.carusel_modal_eye_bottom').slick({
-    slidesToShow: 10,
-    slidesToScroll: 1,
-    asNavFor: '.carusel_modal_eye',
-    // dots: true,
-    arrows: false,
-    centerMode: false,
-    focusOnSelect: true
-});
+    // carusel_modal_eye_bottom
+    $('.carusel_modal_eye_bottom').slick({
+        slidesToShow: 10,
+        slidesToScroll: 1,
+        asNavFor: '.carusel_modal_eye',
+        // dots: true,
+        arrows: false,
+        centerMode: false,
+        focusOnSelect: true
+    });
 
+    //modal-rating
+    $(".my-rating").starRating({
+        initialRating: 4,
+        strokeColor: '#894A00',
+        strokeWidth: 10,
+        starSize: 25
+    });
+});
 
 //Get the button
 var mybutton = document.getElementById("myBtn");
@@ -237,6 +244,7 @@ function topFunction() {
 
 //heart icon onclick
 let favorit = false;
+
 function favoritIcon(element){
     if (favorit) {
         favorit = false;
@@ -245,6 +253,21 @@ function favoritIcon(element){
     else {
         favorit = true;
         element.querySelector(".fa-heart-o").style.color = "#519a42";
+    }
+}
+
+//heart icon onclick add number and change style
+let reating = false;
+
+function growing_reating(element){
+    if (reating) {
+        reating = false;
+        element.querySelector(".fa-heart").style.fontWeight = "500";
+        document.getElementById("growing_reating_number").innerHTML = +document.getElementById("growing_reating_number").innerHTML - 1;
+    } else {
+        element.querySelector(".fa-heart").style.fontWeight = "600";
+        document.getElementById("growing_reating_number").innerHTML = +document.getElementById("growing_reating_number").innerHTML + 1;
+        reating = true;
     }
 }
 

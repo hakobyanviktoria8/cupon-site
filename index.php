@@ -103,8 +103,8 @@
                               </div>
                               <div class="modal-body">
                                 <div class="row">
-                                    <div class="col-12">
-                                        <!--                stars-->
+                                    <div class="col-12 bg-warning">
+                                        <div class="my-rating jq-stars"></div>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -115,11 +115,31 @@
                                 <div class="row">
                                     <div class="col-8 left">
                                         <section class="carusel_modal_eye">
-                                            <div><img src="images/home-coupon.jpg"></div>
-                                            <div><img src="images/home-coupon.jpg"></div>
-                                            <div><img src="images/home-coupon.jpg"></div>
-                                            <div><img src="images/home-coupon.jpg"></div>
-                                            <div><img src="images/home-coupon.jpg"></div>
+                                            <div>
+                                                <img src="images/home-coupon.jpg">
+                                                <span class="carusel_sale">-33%</span>
+                                                <span class="carusel_working">Working</span>
+                                            </div>
+                                            <div>
+                                                <img src="images/home-coupon.jpg">
+                                                <span class="carusel_sale">-33%</span>
+                                                <span class="carusel_working">Working</span>
+                                            </div>
+                                            <div>
+                                                <img src="images/home-coupon.jpg">
+                                                <span class="carusel_sale">-33%</span>
+                                                <span class="carusel_working">Working</span>
+                                            </div>
+                                            <div>
+                                                <img src="images/home-coupon.jpg">
+                                                <span class="carusel_sale">-33%</span>
+                                                <span class="carusel_working">Working</span>
+                                            </div>
+                                            <div>
+                                                <img src="images/home-coupon.jpg">
+                                                <span class="carusel_sale">-33%</span>
+                                                <span class="carusel_working">Working</span>
+                                            </div>
                                         </section>
                                         <section class="carusel_modal_eye_bottom">
                                             <div><img src="images/home-coupon.jpg"></div>
@@ -132,15 +152,15 @@
                                     <div class="col-4 right">
                                        <div class="row">
                                            <div class="col-4">
-                                               <p><i class="far fa-eye"></i></p>
+                                               <p><i class="fa fa-eye"></i></p>
                                                <p>250 Lorem ipsum</p>
                                            </div>
                                            <div class="col-4">
-                                                <p><i class="far fa-eye"></i></p>
+                                                <p><i class="fa fa-line-chart"></i></p>
                                                <p>50+ Lorem ipsum</p>
                                            </div>
                                            <div class="col-4">
-                                               <p><i class="fas fa-user-friends"></i></p>
+                                               <p><i class="fa fa-user-circle-o"></i></p>
                                                <p>250 Lorem ipsum</p>
                                            </div>
                                            </div>
@@ -151,30 +171,36 @@
                                                    <small><del>60.000dr</del> Ot 1500 dram</small>
                                                </div>
                                            </div>
-                                           <div class="row">
-                                               <div class="col-9">
-                                                   <a href="#" class="buy">Lorem</a>
+                                           <div class="row my-3">
+                                               <div class="col-10 buy">
+                                                   <a href="#" class="text-uppercase">КУПИТЬ</a>
                                                </div>
-                                               <div class="col-3">
-                                                   <a href="#" class="heart">
-                                                       <p><i class="far fa-heart"></i></p>
-                                                       <p>125</p>
-                                                   </a>
+                                               <div class="col-2 heart_rating" onclick="growing_reating(this)">
+                                                   <button>
+                                                        <i class="far fa-heart"></i>
+                                                        <p id="growing_reating_number">125</p>
+                                                   </button>
+                                              </div>
+                                           </div>
+                                           <div class="row">
+                                               <div class="col-10 buy_present">
+                                                   <a href="#" class="buy_present_link text-uppercase">Lorem lorem</a>
                                                </div>
                                            </div>
                                            <div class="row">
-                                               <div class="col-10">
-                                                   <a href="#">Lorem</a>
-                                               </div>
-                                           </div>
-                                           <div class="row">
-                                               <div class="col-12">
+                                               <div class="col-12 my-2 time_kupon">
                                                    <small>Lorem ipsum dolor sit amet.</small>
-                                                   <i class="far fa-clock"></i>
-                                                   <span> <b>9 </b> D <b>19 </b> C <b>46 </b> M</span>
                                                </div>
                                            </div>
-                                           <div class="row">
+                                           <div class="row time_limit">
+                                               <div class="col-2 pr-0">
+                                                   <i class="far fa-clock"></i>
+                                               </div>
+                                               <div class="col-10 pl-0">
+                                                   <p> <b> 9 </b> D <b> 19 </b> C <b> 46 </b> M</p>
+                                               </div>
+                                           </div>
+                                           <div class="row start_end_day mt-3">
                                                <div class="col-6">
                                                    <small>Lorem ipsum</small>
                                                    <p>01/05/2020</p>
