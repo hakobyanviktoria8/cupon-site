@@ -204,13 +204,37 @@ $(document).ready(function (){
 
     // carusel_modal_eye_bottom
     $('.carusel_modal_eye_bottom').slick({
-        slidesToShow: 10,
+        slidesToShow: 8,
         slidesToScroll: 1,
         asNavFor: '.carusel_modal_eye',
         // dots: true,
         arrows: false,
         centerMode: false,
-        focusOnSelect: true
+        focusOnSelect: true,
+        responsive: [
+            {
+                breakpoint: 1025,
+                settings: {
+                    slidesToShow: 6,
+                    slidesToScroll: 1,
+                    infinite: true,
+                }
+            },
+            {
+                breakpoint: 770,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     });
 
     //modal-rating stars users change
@@ -219,9 +243,9 @@ $(document).ready(function (){
     var SetRatingStar = function() {
         return $star_rating.each(function() {
             if (parseInt($star_rating.siblings('input.rating-value').val()) >= parseInt($(this).data('rating'))) {
-                return $(this).removeClass('fa-star-o').addClass('fa-star');
+                return $(this).removeClass('color_gray').addClass('color_green');
             } else {
-                return $(this).removeClass('fa-star').addClass('fa-star-o');
+                return $(this).removeClass('color_green').addClass('color_gray');
             }
         });
     };

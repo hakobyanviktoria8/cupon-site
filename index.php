@@ -120,7 +120,7 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-8 left">
+                                    <div class="left">
                                         <section class="carusel_modal_eye">
                                             <div>
                                                 <img src="images/home-coupon.jpg">
@@ -156,7 +156,7 @@
                                             <div><img src="images/home-coupon.jpg"></div>
                                         </section>
                                     </div>
-                                    <div class="col-4 right">
+                                    <div class="right">
                                        <div class="row more_information">
                                            <div class="col-4">
                                                <p><i class="fa fa-eye"></i></p>
@@ -180,7 +180,7 @@
                                            </div>
                                            <div class="row my-3">
                                                <div class="col-10 buy">
-                                                   <a href="#" class="text-uppercase">КУПИТЬ</a>
+                                                   <a href="checkout.html" class="text-uppercase">КУПИТЬ</a>
                                                </div>
                                                <div class="col-2 heart_rating" onclick="growing_reating(this)">
                                                    <button>
@@ -191,7 +191,7 @@
                                            </div>
                                            <div class="row">
                                                <div class="col-10 buy_present">
-                                                   <a href="#" class="buy_present_link text-uppercase">Lorem lorem</a>
+                                                   <a href="checkout.html" class="buy_present_link text-uppercase">Lorem lorem</a>
                                                </div>
                                            </div>
                                            <div class="row">
@@ -200,10 +200,10 @@
                                                </div>
                                            </div>
                                            <div class="row time_limit">
-                                               <div class="col-2 pr-0">
+                                               <div class="col-xl-1 col-lg-1 col-md-1 col-1 ">
                                                    <i class="far fa-clock"></i>
                                                </div>
-                                               <div class="col-10 pl-0">
+                                               <div class="col-xl-10 col-10">
                                                    <p> <b> 9 </b> D <b> 19 </b> C <b> 46 </b> M</p>
                                                </div>
                                            </div>
