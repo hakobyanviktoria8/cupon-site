@@ -95,16 +95,23 @@
                         <div class="modal fade modal_eye_btn" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                           <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content container">
-                              <div class="modal-header">
+                              <div class="modal-header pb-0">
                                 <h5 class="modal-title" id="exampleModalLongTitle">Открытый бассейн PARADISE POOL в Ереване</h5>
                                 <button type="button" class="close eye_close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                               </div>
-                              <div class="modal-body">
+                              <div class="modal-body pt-0">
                                 <div class="row">
-                                    <div class="col-12 bg-warning">
-                                        <div class="my-rating jq-stars"></div>
+                                    <div class="col-12">
+                                        <div class="star-rating">
+                                          <span class="fa fa-star" data-rating="1"></span>
+                                          <span class="fa fa-star" data-rating="2"></span>
+                                          <span class="fa fa-star" data-rating="3"></span>
+                                          <span class="fa fa-star" data-rating="4"></span>
+                                          <span class="fa fa-star" data-rating="5"></span>
+                                          <input type="hidden" name="whatever" class="rating-value" value="0">
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -150,7 +157,7 @@
                                         </section>
                                     </div>
                                     <div class="col-4 right">
-                                       <div class="row">
+                                       <div class="row more_information">
                                            <div class="col-4">
                                                <p><i class="fa fa-eye"></i></p>
                                                <p>250 Lorem ipsum</p>
