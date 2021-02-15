@@ -191,7 +191,7 @@
                                            </div>
                                            <div class="row">
                                                <div class="col-10 buy_present">
-                                                   <a href="checkout.php" class="buy_present_link text-uppercase">Lorem lorem</a>
+                                                   <a href="checkout-more.php" class="buy_present_link text-uppercase">Lorem lorem</a>
                                                </div>
                                            </div>
                                            <div class="row">

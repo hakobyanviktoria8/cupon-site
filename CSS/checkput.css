@@ -78,6 +78,7 @@ hr {
 .checkout_right .font_15{
     font-size: 15px;
     font-weight: bold;
+    line-height: 45px;
 }
 .checkout_right .font_10{
     font-size: 10px;
@@ -86,7 +87,7 @@ hr {
     border: 1px solid gray;
     width: 90%;
     background: none;
-    font-size: 12px;
+    font-size: 15px;
     text-align: center;
     padding: .8rem;
 }
@@ -103,6 +104,22 @@ hr {
 .width_80{
     width: 80%;
 }
+
+
+/*checkout more */
+.checkout_right .checkout_right_send input,
+.checkout_right .checkout_right_send textarea{
+    width: 100%;
+    outline: none;
+    text-align: center;
+}
+
+
+
+
+
+
+
 @media (max-width: 992px) {
     .checkout_right .text_right{
         text-align: left;
