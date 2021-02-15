@@ -99,7 +99,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
 
-<script src="index.js?v=1"></script>
+<script src="JS/index.js?v=1"></script>
 
 </body>
 </html>

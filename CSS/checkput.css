@@ -1,7 +1,14 @@
 .checkout{
-    background: #f3f3f3;
+    /*background: #f3f3f3;*/
+    background: #751515;
     padding: 3rem;
     color: #272630;
+}
+hr {
+    margin-top: .5rem;
+}
+.text_right{
+    text-align: right;
 }
 /*checkout top*/
 .checkout_top{
@@ -93,9 +100,25 @@
     background: green;
     padding: .5rem;
 }
-
-
-
+.width_80{
+    width: 80%;
+}
+@media (max-width: 992px) {
+    .checkout_right .text_right{
+        text-align: left;
+    }
+    .pay_bonus{
+        margin-top: .5rem;
+    }
+}
+@media (max-width: 425px){
+    .width_80{
+        width: 60%;
+    }
+    .checkout_right h2 {
+        font-size: 27px;
+    }
+}
 
 
 

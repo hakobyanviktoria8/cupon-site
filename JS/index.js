@@ -311,17 +311,12 @@ function growing_reating(element){
 
 
 // checkout multiply money and count
-
-
-
 function countMoney(){
+    const num = 300;
     const output_value = document.querySelector("#output_value");
     const input_value = document.querySelector("#input_value");
-    let x = input_value.value * parseInt(output_value.value);
-    console.log(input_value.value);
-    console.log(parseInt(output_value.value));
-    console.log(x);
-    // output_value.value = x + " dr";
+    let x = input_value.value * num;
+    output_value.innerHTML = x + " dr";
 }
 
 
