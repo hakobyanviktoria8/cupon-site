@@ -16,6 +16,53 @@
     </div>
 </div>
 
+<!--registration_form-->
+<div class="registration_form">
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        <a href="#" class="registration">Вход / Регистрация</a>
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a href="#" class="modal-title" id="exampleModalLabel">
+                        <img src="../images/header-logo.png" alt="">
+                    </a>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem</p>
+                    <button class="user">User</button>
+                    <button class="partner">Partner</button>
+                    <div class="bg_line">
+                        <p>lorem</p>
+                    </div>
+                    <div class="with_facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <div class="bg_line">
+                        <p>lorem</p>
+                    </div>
+                    <input type="email">
+                    <input type="password">
+                    <div>
+                        <input type="checkbox" id="remember_me" name="remember_me">
+                        <label for="remember_me">remember me</label>
+                    </div>
+                    <a href="#">Forget password ?</a>
+                    <button>Lorem</button>
+                    <div>
+                        <p>Lorem ipsum new?</p>
+                        <a href="#">Sign up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!--footer-->
 <div class="footer-top py-5">
     <div class="container">
