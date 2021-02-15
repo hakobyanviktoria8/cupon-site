@@ -180,7 +180,7 @@
                                            </div>
                                            <div class="row my-3">
                                                <div class="col-10 buy">
-                                                   <a href="checkout.html" class="text-uppercase">КУПИТЬ</a>
+                                                   <a href="checkout.php" class="text-uppercase">КУПИТЬ</a>
                                                </div>
                                                <div class="col-2 heart_rating" onclick="growing_reating(this)">
                                                    <button>
@@ -191,7 +191,7 @@
                                            </div>
                                            <div class="row">
                                                <div class="col-10 buy_present">
-                                                   <a href="checkout.html" class="buy_present_link text-uppercase">Lorem lorem</a>
+                                                   <a href="checkout.php" class="buy_present_link text-uppercase">Lorem lorem</a>
                                                </div>
                                            </div>
                                            <div class="row">

@@ -21,6 +21,7 @@
 
     <link rel="stylesheet" href="CSS/index.css">
     <link rel="stylesheet" href="CSS/modal_eye_btn.css">
+    <link rel="stylesheet" href="CSS/checkput.css">
 
 </head>
 <body>

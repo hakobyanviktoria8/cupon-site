@@ -1,13 +1,98 @@
 .checkout{
     background: #f3f3f3;
+    padding: 3rem;
+    color: #272630;
 }
-.checkout_right{
+/*checkout top*/
+.checkout_top{
     background: white;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-top: 3px solid #509b44;
+}
+.checkout_top p{
+    font-size: 16px;
+    margin: 0;
+}
+.checkout_top_span{
+    font-size: 22px;
+    font-weight: bold;
+    color: #509b44;
 }
 
-
-
-
+/*checkout left*/
+.checkout_left{
+    padding: 1rem;
+}
+.checkout_left h3 {
+    font-size: 20px;
+}
+.checkout_left p{
+    font-size: 16px;
+}
+.checkout_left .checkout_top_span{
+    color: #272630;
+}
+.checkout_left a{
+    background: #509b44;
+    color: white;
+    padding: .7rem 4rem;
+    font-size: 14px;
+}
+/*checkout right*/
+.checkout_right {
+    background: white;
+    padding: 2rem;
+}
+.checkout_right h2 {
+    font-size: 31px;
+}
+.checkout_right .gray_color{
+    color: #7d8592;
+    font-weight: bold;
+}
+.checkout_right input{
+    background: #e5e5e5;
+    border: none;
+    outline: none;
+    width: 50px;
+    padding: 5px;
+    border-radius: 3px;
+    color: #272630;
+}
+#output_value{
+    width: 150px;
+    background: none;
+    text-align: right;
+    font-size: 19px;
+    color: #509b44;
+    font-weight: bold;
+}
+.checkout_right .font_15{
+    font-size: 15px;
+    font-weight: bold;
+}
+.checkout_right .font_10{
+    font-size: 10px;
+}
+.checkout_right .pay_bonus{
+    border: 1px solid gray;
+    width: 90%;
+    background: none;
+    font-size: 12px;
+    text-align: center;
+    padding: .8rem;
+}
+.checkout_right .checkout_btn{
+    margin-top: 2rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    background: green;
+    padding: .5rem;
+}
 
 
 
