@@ -1,6 +1,5 @@
 .checkout{
-    /*background: #f3f3f3;*/
-    background: #751515;
+    background: #f3f3f3;
     padding: 3rem;
     color: #272630;
 }
@@ -100,6 +99,9 @@ hr {
     font-size: 20px;
     background: green;
     padding: .5rem;
+    display: block;
+    text-align: center;
+    text-decoration: none;
 }
 .width_80{
     width: 80%;
@@ -114,8 +116,13 @@ hr {
     text-align: center;
 }
 
-
-
+/*checkout buy*/
+.checkout_right b{
+    font-size: 20px;
+}
+.checkout_right_text{
+    font-size: 16px;
+}
 
 
 

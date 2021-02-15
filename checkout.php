@@ -103,7 +103,7 @@
                         </label>
                     </div>
                 </div>
-                <button class="text-uppercase checkout_btn">Lorem</button>
+                <a href="checkout-buy.php" class="text-uppercase checkout_btn">Buy</a>
             </div>
         </div>
 
