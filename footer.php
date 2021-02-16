@@ -1,3 +1,4 @@
+
 <!--send mail-->
 <div class="gray-BG">
     <div class="container-fluid">
@@ -11,53 +12,6 @@
                     <input type="email" placeholder="введите адрес эл. почты">
                     <button><img src="" alt=""><i class="fab fa-telegram-plane"></i></button>
                 </form>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--registration_form-->
-<div class="registration_form">
-    <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-        <a href="#" class="registration">Вход / Регистрация</a>
-    </button>
-
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <a href="#" class="modal-title" id="exampleModalLabel">
-                        <img src="../images/header-logo.png" alt="">
-                    </a>
-                </div>
-                <div class="modal-body">
-                    <p>Lorem</p>
-                    <button class="user">User</button>
-                    <button class="partner">Partner</button>
-                    <div class="bg_line">
-                        <p>lorem</p>
-                    </div>
-                    <div class="with_facebook">
-                        <i class="fab fa-facebook-f"></i>
-                    </div>
-                    <div class="bg_line">
-                        <p>lorem</p>
-                    </div>
-                    <input type="email">
-                    <input type="password">
-                    <div>
-                        <input type="checkbox" id="remember_me" name="remember_me">
-                        <label for="remember_me">remember me</label>
-                    </div>
-                    <a href="#">Forget password ?</a>
-                    <button>Lorem</button>
-                    <div>
-                        <p>Lorem ipsum new?</p>
-                        <a href="#">Sign up</a>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -139,6 +93,220 @@
     </div>
 </div>
 <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up"></i></button>
+
+<!-- Modal Registration-->
+<div class="modal fade registration_form" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title" id="exampleModalLabel">
+                    <img src="images/header-logo.png" alt="">
+                    <div class="d-flex">
+                        <div class="text-uppercase">
+                            Sale
+                        </div>
+                        <div class="line_hr"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body p-0">
+                <h3 class="mb-3">Lorem</h3>
+                <div class="button_wraper">
+                    <button class="button user m-0 p-0 active_btn" id="user_btn" onclick="user_or_partner()">User</button>
+                    <button class="button partner m-0 p-0" id="partner_btn" onclick="partner_or_user()">Partner</button>
+                </div>
+                <div id="user">
+                    <div class="px-4 py-5">
+                        <div class="bg_line">
+                            <div class="line_hr_gray"></div>
+                            <p class= "m-0 mx-2">lorem</p>
+                            <div class="line_hr_gray"></div>
+                        </div>
+                        <button class="with_facebook text-center">
+                            <span class="facebook_icon">f</span>
+                        </button>
+                        <div class="bg_line">
+                            <div class="line_hr_gray"></div>
+                            <p class= "m-0 mx-2">lorem</p>
+                            <div class="line_hr_gray"></div>
+                        </div>
+                        <div class="mt-4 input_wraper">
+                            <input type="email" placeholder="E-mail">
+                            <input type="password" placeholder="Password">
+                        </div>
+                        <div class="remember_forget my-2 px-2">
+                            <input type="checkbox" id="remember_me" name="remember_me">
+                            <label for="remember_me">remember me</label>
+                            <a href="#" class="float-right">Forget password ?</a>
+                        </div>
+                        <button class="registration_btn">Lorem</button>
+                        <div class="text-center mt-5 sign_up_wraper">
+                            <span>Lorem ipsum new?</span>
+                            <a href="#" class="">Sign up</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="partner">
+                    <div class="px-4 py-5">
+                        <div class="mt-4 input_wraper">
+                            <input type="email" placeholder="E-mail">
+                            <input type="password" placeholder="Password">
+                        </div>
+                        <div class="remember_forget my-2 px-2">
+                            <input type="checkbox" id="remember_me" name="remember_me">
+                            <label for="remember_me">remember me</label>
+                            <a href="#" class="float-right">Forget password ?</a>
+                        </div>
+                        <button class="registration_btn">Lorem</button>
+                        <div class="text-center mt-5 sign_up_wraper">
+                            <span>Lorem ipsum new?</span>
+                            <a href="#" class="">Sign up</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="close_btn">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Modal eye-->
+<div class="modal fade modal_eye_btn" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content container">
+      <div class="modal-header pb-0">
+        <h5 class="modal-title" id="exampleModalLongTitle">Открытый бассейн PARADISE POOL в Ереване</h5>
+        <button type="button" class="close eye_close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body pt-0">
+        <div class="row">
+            <div class="col-12">
+                <div class="star-rating">
+                  <span class="fa fa-star" data-rating="1"></span>
+                  <span class="fa fa-star" data-rating="2"></span>
+                  <span class="fa fa-star" data-rating="3"></span>
+                  <span class="fa fa-star" data-rating="4"></span>
+                  <span class="fa fa-star" data-rating="5"></span>
+                  <input type="hidden" name="whatever" class="rating-value" value="0">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, quia.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="left">
+                <section class="carusel_modal_eye">
+                    <div>
+                        <img src="images/home-coupon.jpg">
+                        <span class="carusel_sale">-33%</span>
+                        <span class="carusel_working">Working</span>
+                    </div>
+                    <div>
+                        <img src="images/home-coupon.jpg">
+                        <span class="carusel_sale">-33%</span>
+                        <span class="carusel_working">Working</span>
+                    </div>
+                    <div>
+                        <img src="images/home-coupon.jpg">
+                        <span class="carusel_sale">-33%</span>
+                        <span class="carusel_working">Working</span>
+                    </div>
+                    <div>
+                        <img src="images/home-coupon.jpg">
+                        <span class="carusel_sale">-33%</span>
+                        <span class="carusel_working">Working</span>
+                    </div>
+                    <div>
+                        <img src="images/home-coupon.jpg">
+                        <span class="carusel_sale">-33%</span>
+                        <span class="carusel_working">Working</span>
+                    </div>
+                </section>
+                <section class="carusel_modal_eye_bottom">
+                    <div><img src="images/home-coupon.jpg"></div>
+                    <div><img src="images/home-coupon.jpg"></div>
+                    <div><img src="images/home-coupon.jpg"></div>
+                    <div><img src="images/home-coupon.jpg"></div>
+                    <div><img src="images/home-coupon.jpg"></div>
+                </section>
+            </div>
+            <div class="right">
+               <div class="row more_information">
+                   <div class="col-4">
+                       <p><i class="fa fa-eye"></i></p>
+                       <p>250 Lorem ipsum</p>
+                   </div>
+                   <div class="col-4">
+                        <p><i class="fa fa-line-chart"></i></p>
+                       <p>50+ Lorem ipsum</p>
+                   </div>
+                   <div class="col-4">
+                       <p><i class="fa fa-user-circle-o"></i></p>
+                       <p>250 Lorem ipsum</p>
+                   </div>
+                   </div>
+                   <hr>
+                   <div class="row">
+                       <div class="col-12 price_kupon">
+                           <p>Lorem ipsum <b>300 dram</b></p>
+                           <small><del>60.000dr</del> Ot 1500 dram</small>
+                       </div>
+                   </div>
+                   <div class="row my-3">
+                       <div class="col-10 buy">
+                           <a href="checkout.php" class="text-uppercase">КУПИТЬ</a>
+                       </div>
+                       <div class="col-2 heart_rating" onclick="growing_reating(this)">
+                           <button>
+                                <i class="far fa-heart"></i>
+                                <p id="growing_reating_number">125</p>
+                           </button>
+                      </div>
+                   </div>
+                   <div class="row">
+                       <div class="col-10 buy_present">
+                           <a href="checkout-more.php" class="buy_present_link text-uppercase">Lorem lorem</a>
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="col-12 my-2 time_kupon">
+                           <small>Lorem ipsum dolor sit amet.</small>
+                       </div>
+                   </div>
+                   <div class="row time_limit">
+                       <div class="col-xl-1 col-lg-1 col-md-1 col-1 ">
+                           <i class="far fa-clock"></i>
+                       </div>
+                       <div class="col-xl-10 col-10">
+                           <p> <b> 9 </b> D <b> 19 </b> C <b> 46 </b> M</p>
+                       </div>
+                   </div>
+                   <div class="row start_end_day mt-3">
+                       <div class="col-6">
+                           <small>Lorem ipsum</small>
+                           <p>01/05/2020</p>
+                       </div>
+                       <div class="col-6">
+                           <small>Lorem ipsum</small>
+                           <p>01/05/2020</p>
+                       </div>
+                   </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!--carusel slick-->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

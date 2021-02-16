@@ -113,6 +113,142 @@
 .userIcon{
     display: none;
 }
+/*registaration*/
+.registration_form{
+    background: #dcdcdcb8;!important;
+}
+.registration_form button.close {
+    padding: 0;
+    border: 0;
+    background: #fff;
+    box-shadow: 0 0 10px gray;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    opacity: 1;
+    color: #4f4f4f;
+}
+.registration_form .close_btn {
+    position: absolute;
+    right: -25px;
+    top: -25px;
+}
+.registration_form .modal-dialog{
+    display: flex;
+}
+.registration_form .modal-content{
+    border: 3px solid  #509b44;
+}
+.registration_form .modal-header{
+    justify-content: center;
+    padding: 4rem 3rem 3rem;
+}
+.registration_form .modal-header .d-flex{
+    margin-top: 1px;
+}
+.registration_form .modal-header .text-uppercase{
+    color: #509b44;
+    font-size: 8px;
+}
+.registration_form .line_hr{
+    width: 100%;
+    height: 1px;
+    margin-top: 5px;
+    background:  #509b44;
+}
+.registration_form h3 {
+    font-size: 28px;
+    color: #272630;
+    text-align: center;
+}
+.button_wraper{
+    border-top: 3px solid  #509b44;
+    display: flex;
+}
+.registration_form .modal-body .button{
+    width: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #f3f3f3;
+    height: 3rem;
+    color: #272630;
+    font-size: 16px;
+}
+.registration_form .modal-body .active_btn{
+    background: #509b44;
+    color: white;
+}
+.registration_form .modal-body .bg_line{
+    display: flex;
+    justify-content: center;
+    color: #b4b4b4;
+}
+.registration_form .modal-body .line_hr_gray{
+    width: 3rem;
+    height: 1px;
+    background: #b4b4b4;
+    margin-top: 12px;
+}
+.registration_form .modal-body .with_facebook{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    background: #f3f3f3;
+    line-height: 3.5rem;
+    margin: 2rem auto;
+    box-shadow:  0 0 15px #9b9b9b;
+    display: block;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.registration_form .modal-body .with_facebook:focus{
+    outline: none;
+}
+.registration_form .modal-body .facebook_icon{
+    color: #3b5998;
+    font-weight: bold;
+    font-size: 30px;
+}
+.registration_form .modal-body .input_wraper input{
+    width: 97%;
+    text-align: center;
+    font-size: 16px;
+    padding: .5rem;
+    margin: .3rem;
+    outline: none;
+}
+.registration_form .modal-body .remember_forget a{
+    color: #272630;
+    font-size: 13px;
+}
+.registration_form .modal-body .remember_forget a:hover{
+    text-decoration: none;
+}
+.registration_form .modal-body .registration_btn{
+    border: none;
+    width: 60%;
+    margin: 0 20%;
+    outline: none;
+    background: #509b44;
+    color: white;
+    font-size: 20px;
+    padding: .8rem;
+}
+.registration_form .modal-body .sign_up_wraper span{
+    font-size: 16px;
+}
+.registration_form .modal-body .sign_up_wraper a{
+    text-decoration: none;
+    color: #509b44;
+    font-size: 16px;
+}
+#partner{
+    display: none;
+}
+
 /*carusel0*/
 .carusel0{
     width: 100%;
@@ -804,7 +940,7 @@
     margin: 0 10px;
 }
 .with-sorting a{
-    font-size: 10px;
+    font-size: 14px;
 }
 .with-sorting:last-child{
     float: right;
@@ -918,9 +1054,6 @@
         padding-right: 10px !important;
         width: 60%;
     }
-    .header-bottom .col3 .userIcon{
-        margin-right: 10px;
-    }
     .subTitleWraper{
         padding: 0 1rem;
     }
@@ -935,6 +1068,10 @@
     }
     .subTitleWraper div:nth-of-type(2){
         width: 20%;
+    }
+
+    .registration_form .close_btn{
+        display: none;
     }
 }
 @media (max-width: 480px) {

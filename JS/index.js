@@ -257,6 +257,18 @@ $(document).ready(function (){
 
     SetRatingStar();
 
+    //__________________________________________________________________________veranayel
+    //eye modal show
+    $('#exampleModalCenter').on('shown.bs.modal', function () {
+        $('#exampleModalCenter').trigger('focus')
+    })
+
+    // $("#button1").click(function(){
+    //     $("#exampleModalCenter").modal("show");
+    // });
+    // $("#exampleModalCenter").on('show.bs.modal', function () {
+    //
+    // });
 
 });
 
@@ -319,7 +331,24 @@ function countMoney(){
     output_value.innerHTML = x + " dr";
 }
 
+//user_or_partner
+let partner = document.querySelector("#partner");
+let partner_btn = document.querySelector("#partner_btn");
+let user = document.querySelector("#user");
+let user_btn = document.querySelector("#user_btn");
 
+function user_or_partner(){
+    user_btn.classList.add("active_btn");
+    partner_btn.classList.remove("active_btn");
+    user.style.display = "block";
+    partner.style.display = "none";
+}
+function partner_or_user(){
+    partner_btn.classList.add("active_btn");
+    user_btn.classList.remove("active_btn");
+    user.style.display = "none";
+    partner.style.display = "block";
+}
 
 
 

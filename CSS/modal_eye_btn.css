@@ -14,9 +14,12 @@
     top: 0;
     border: 1px solid gray;
     opacity: 1;
+    outline: none;
 }
 .modal_eye_btn .eye_close span{
     font-size: 2rem;
+    color: gray;
+    outline: none;
 }
 @media (min-width: 576px) {
     .modal_eye_btn .modal-dialog {
@@ -137,6 +140,8 @@
 .modal_eye_btn .right .heart_rating button{
     color: #519b44;
     background: none;
+    border: none;
+    outline: none;
 }
 .left_img{
     width: 100%;
