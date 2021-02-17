@@ -225,8 +225,26 @@
                         </div>
                         <button class="forget_password_btn">Send Email</button>
                     </form>
-
                 </div>
+
+                <!--change_password-->
+                <div class="container" id="change_password">
+                    <h3 class="mb-3">Change password</h3>
+                    <p class="">lorem ipsum dolor</p>
+                    <form action="">
+                         <div class="row">
+                            <div class="col-12">
+                                <input type="password" placeholder="Password">
+                            </div>
+                            <div class="col-12">
+                                <input type="password" placeholder="Confirm password">
+                            </div>
+                         </div>
+                        <button class="change_password_btn">Change password</button>
+                    </form>
+                </div>
+
+
             </div>
         </div>
 
