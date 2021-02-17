@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="CSS/index.css">
     <link rel="stylesheet" href="CSS/modal_eye_btn.css">
     <link rel="stylesheet" href="CSS/checkput.css">
+    <link rel="stylesheet" href="CSS/product.css">
 
 </head>
 <body>

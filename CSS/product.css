@@ -1,0 +1,167 @@
+.gray_color{
+    color: #7d8592;
+}
+.green_color{
+    color: #519b44;
+}
+
+
+.product .carusel_sale {
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    padding: .2rem 1.5rem;
+    color: white;
+    font-size: 20px;
+    background: #03a9f4;
+}
+.product .carusel_working{
+    background: #512da8;
+    font-size: 13px;
+    color: white;
+    padding: .5rem 3rem;
+    position: absolute;
+    right: 0;
+    bottom: 1rem;
+}
+.product .more_information{
+    color: #7d8592;
+    text-align: center;
+}
+/*right side*/
+.product .more_information p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.product .more_information .fa{
+    font-size: 20px !important;
+    margin-bottom: .5rem;
+}
+.product .buy a {
+    color: white;
+    background-color: #519b44;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    box-shadow: 0 0 10px grey;
+    display: block;
+}
+.product .buy a:hover{
+    text-decoration: none;
+}
+.product .heart_rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px grey;
+}
+.product .heart_rating button{
+    border: none;
+    outline: none;
+    color: #519b44;
+    background: none;
+}
+.product .heart_rating p {
+    font-size: 10px;
+    margin-bottom: 0;
+}
+.product .price_kupon p {
+    font-size: 16px;
+}
+.product .time_kupon small {
+    font-size: 13px;
+    color: #7d8592;
+}
+.product .time_limit i {
+    color: #519b44;
+    font-size: 20px;
+}
+.product .time_limit p {
+    font-size: 14px;
+    color: #7d8592;
+    margin-bottom: 0;
+}
+.product .time_limit b {
+    font-size: 16px;
+    color: #272630;
+    padding-left: 5px;
+}
+.product .website{
+    color: #b4b4b4;
+}
+.product .website a{
+    border: 1px solid #b4b4b4;
+    text-decoration: none;
+    background: none;
+    padding: 5px 1rem;
+    font-size: 18px;
+}
+.product .website .facebook{
+    color: #3b5998;
+}
+.product .website .fa-odnoklassniki{
+    color: #ed812b;
+    font-weight: bold;
+}
+.product .website .fa-twitter{
+    color: #00aced;
+}
+.product .website .fa-vk{
+    color: #4c75a3;
+}
+.product .tags span{
+    background: #f4f4f5;
+    padding: .6rem 1.3rem;
+    margin-right: 5px;
+    box-shadow: 0 0 5px #d2d2d2;
+}
+.product .banners img{
+    width: 100%;
+}
+
+/*about product*/
+.product .about_product p{
+    font-size: 16px;
+    color: #272630;
+}
+.product .about_product b{
+    font-size: 18px;
+}
+.product .about_product h3{
+    font-size: 24px;
+}
+.about_product .nav_bar{
+    margin: 1.5rem 0;
+    border-bottom: 1px solid gray;
+    padding: 7px 0;
+}
+.about_product .nav_bar a{
+    color: #272630;
+    font-size: 20px;
+
+    text-decoration: none;
+    padding: .7rem 1.5rem;
+    margin-right: 10px;
+}
+.about_product .nav_bar .nav_bar_active{
+    background: green;
+    color: white;
+}
+/*review*/
+#review{
+    background: #f3f3f3;
+    color: #272630;
+}
+#review h3{
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+

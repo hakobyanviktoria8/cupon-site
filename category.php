@@ -49,9 +49,10 @@
                 <div class="cartMainContent">
                    <div class="cartTopSide">
                        <a href=""><img class="imgBG" src="images/home-coupon.jpg" alt=""></a>
-                       <a href="#" class="icons">
+                       <!-- Button trigger modal -->
+                      <button id="button1" type="button" class="btn modal_button" data-toggle="modal" data-target="#exampleModalCenter">
                           <i class="fa fa-eye"></i>
-                       </a>
+                      </button>
                        <a href="#" class="icons" onclick={favoritIcon(this)}>
                           <i class="fa fa-heart-o "></i>
                        </a>
@@ -100,9 +101,10 @@
                 <div class="cartMainContent">
                     <div class="cartTopSide">
                         <a href=""><img class="imgBG" src="images/home-coupon.jpg" alt=""></a>
-                        <a href="#" class="icons">
-                            <i class="fa fa-eye"></i>
-                        </a>
+                        <!-- Button trigger modal -->
+                       <button id="button1" type="button" class="btn modal_button" data-toggle="modal" data-target="#exampleModalCenter">
+                           <i class="fa fa-eye"></i>
+                       </button>
                         <a href="#" class="icons" onclick={favoritIcon(this)}>
                             <i class="fa fa-heart-o "></i>
                         </a>
@@ -152,9 +154,10 @@
                 <div class="cartMainContent">
                     <div class="cartTopSide">
                         <a href=""><img class="imgBG" src="images/home-coupon.jpg" alt=""></a>
-                        <a href="#" class="icons">
-                            <i class="fa fa-eye"></i>
-                        </a>
+                        <!-- Button trigger modal -->
+                       <button id="button1" type="button" class="btn modal_button" data-toggle="modal" data-target="#exampleModalCenter">
+                           <i class="fa fa-eye"></i>
+                       </button>
                         <a href="#" class="icons" onclick={favoritIcon(this)}>
                             <i class="fa fa-heart-o "></i>
                         </a>
@@ -202,9 +205,10 @@
                 <div class="cartMainContent">
                     <div class="cartTopSide">
                         <a href=""><img class="imgBG" src="images/home-coupon.jpg" alt=""></a>
-                        <a href="#" class="icons">
-                            <i class="fa fa-eye"></i>
-                        </a>
+                        <!-- Button trigger modal -->
+                       <button id="button1" type="button" class="btn modal_button" data-toggle="modal" data-target="#exampleModalCenter">
+                           <i class="fa fa-eye"></i>
+                       </button>
                         <a href="#" class="icons" onclick={favoritIcon(this)}>
                             <i class="fa fa-heart-o "></i>
                         </a>
@@ -257,9 +261,10 @@
                 <div class="cartMainContent">
                     <div class="cartTopSide">
                         <a href=""><img class="imgBG" src="images/home-coupon.jpg" alt=""></a>
-                        <a href="#" class="icons">
-                            <i class="fa fa-eye"></i>
-                        </a>
+                        <!-- Button trigger modal -->
+                       <button id="button1" type="button" class="btn modal_button" data-toggle="modal" data-target="#exampleModalCenter">
+                           <i class="fa fa-eye"></i>
+                       </button>
                         <a href="#" class="icons" onclick={favoritIcon(this)}>
                             <i class="fa fa-heart-o "></i>
                         </a>
@@ -325,9 +330,10 @@
                 <div class="cartMainContent">
                     <div class="cartTopSide">
                         <a href=""><img class="imgBG" src="images/home-coupon.jpg" alt=""></a>
-                        <a href="#" class="icons">
-                            <i class="fa fa-eye"></i>
-                        </a>
+                        <!-- Button trigger modal -->
+                       <button id="button1" type="button" class="btn modal_button" data-toggle="modal" data-target="#exampleModalCenter">
+                           <i class="fa fa-eye"></i>
+                       </button>
                         <a href="#" class="icons" onclick={favoritIcon(this)}>
                             <i class="fa fa-heart-o "></i>
                         </a>
@@ -375,9 +381,10 @@
                 <div class="cartMainContent">
                     <div class="cartTopSide">
                         <a href=""><img class="imgBG" src="images/home-coupon.jpg" alt=""></a>
-                        <a href="#" class="icons">
-                            <i class="fa fa-eye"></i>
-                        </a>
+                        <!-- Button trigger modal -->
+                       <button id="button1" type="button" class="btn modal_button" data-toggle="modal" data-target="#exampleModalCenter">
+                           <i class="fa fa-eye"></i>
+                       </button>
                         <a href="#" class="icons" onclick={favoritIcon(this)}>
                             <i class="fa fa-heart-o "></i>
                         </a>
@@ -425,9 +432,10 @@
                 <div class="cartMainContent">
                     <div class="cartTopSide">
                         <a href=""><img class="imgBG" src="images/home-coupon.jpg" alt=""></a>
-                        <a href="#" class="icons">
-                            <i class="fa fa-eye"></i>
-                        </a>
+                        <!-- Button trigger modal -->
+                       <button id="button1" type="button" class="btn modal_button" data-toggle="modal" data-target="#exampleModalCenter">
+                           <i class="fa fa-eye"></i>
+                       </button>
                         <a href="#" class="icons" onclick={favoritIcon(this)}>
                             <i class="fa fa-heart-o "></i>
                         </a>
@@ -475,9 +483,10 @@
                 <div class="cartMainContent">
                     <div class="cartTopSide">
                         <a href=""><img class="imgBG" src="images/home-coupon.jpg" alt=""></a>
-                        <a href="#" class="icons">
-                            <i class="fa fa-eye"></i>
-                        </a>
+                        <!-- Button trigger modal -->
+                       <button id="button1" type="button" class="btn modal_button" data-toggle="modal" data-target="#exampleModalCenter">
+                           <i class="fa fa-eye"></i>
+                       </button>
                         <a href="#" class="icons" onclick={favoritIcon(this)}>
                             <i class="fa fa-heart-o "></i>
                         </a>
@@ -525,9 +534,10 @@
                 <div class="cartMainContent">
                     <div class="cartTopSide">
                         <a href=""><img class="imgBG" src="images/home-coupon.jpg" alt=""></a>
-                        <a href="#" class="icons">
-                            <i class="fa fa-eye"></i>
-                        </a>
+                        <!-- Button trigger modal -->
+                       <button id="button1" type="button" class="btn modal_button" data-toggle="modal" data-target="#exampleModalCenter">
+                           <i class="fa fa-eye"></i>
+                       </button>
                         <a href="#" class="icons" onclick={favoritIcon(this)}>
                             <i class="fa fa-heart-o "></i>
                         </a>
@@ -575,9 +585,10 @@
                 <div class="cartMainContent">
                     <div class="cartTopSide">
                         <a href=""><img class="imgBG" src="images/home-coupon.jpg" alt=""></a>
-                        <a href="#" class="icons">
-                            <i class="fa fa-eye"></i>
-                        </a>
+                        <!-- Button trigger modal -->
+                       <button id="button1" type="button" class="btn modal_button" data-toggle="modal" data-target="#exampleModalCenter">
+                           <i class="fa fa-eye"></i>
+                       </button>
                         <a href="#" class="icons" onclick={favoritIcon(this)}>
                             <i class="fa fa-heart-o "></i>
                         </a>
@@ -639,9 +650,10 @@
                 <div class="cartMainContent">
                     <div class="cartTopSide">
                         <a href=""><img class="imgBG" src="images/home-coupon.jpg" alt=""></a>
-                        <a href="#" class="icons">
-                            <i class="fa fa-eye"></i>
-                        </a>
+                        <!-- Button trigger modal -->
+                       <button id="button1" type="button" class="btn modal_button" data-toggle="modal" data-target="#exampleModalCenter">
+                           <i class="fa fa-eye"></i>
+                       </button>
                         <a href="#" class="icons" onclick={favoritIcon(this)}>
                             <i class="fa fa-heart-o "></i>
                         </a>
@@ -690,9 +702,10 @@
                 <div class="cartMainContent">
                     <div class="cartTopSide">
                         <a href=""><img class="imgBG" src="images/home-coupon.jpg" alt=""></a>
-                        <a href="#" class="icons">
-                            <i class="fa fa-eye"></i>
-                        </a>
+                        <!-- Button trigger modal -->
+                       <button id="button1" type="button" class="btn modal_button" data-toggle="modal" data-target="#exampleModalCenter">
+                           <i class="fa fa-eye"></i>
+                       </button>
                         <a href="#" class="icons" onclick={favoritIcon(this)}>
                             <i class="fa fa-heart-o "></i>
                         </a>
@@ -742,9 +755,10 @@
                 <div class="cartMainContent">
                     <div class="cartTopSide">
                         <a href=""><img class="imgBG" src="images/home-coupon.jpg" alt=""></a>
-                        <a href="#" class="icons">
-                            <i class="fa fa-eye"></i>
-                        </a>
+                        <!-- Button trigger modal -->
+                       <button id="button1" type="button" class="btn modal_button" data-toggle="modal" data-target="#exampleModalCenter">
+                           <i class="fa fa-eye"></i>
+                       </button>
                         <a href="#" class="icons" onclick={favoritIcon(this)}>
                             <i class="fa fa-heart-o "></i>
                         </a>
@@ -792,9 +806,10 @@
                 <div class="cartMainContent">
                     <div class="cartTopSide">
                         <a href=""><img class="imgBG" src="images/home-coupon.jpg" alt=""></a>
-                        <a href="#" class="icons">
-                            <i class="fa fa-eye"></i>
-                        </a>
+                        <!-- Button trigger modal -->
+                       <button id="button1" type="button" class="btn modal_button" data-toggle="modal" data-target="#exampleModalCenter">
+                           <i class="fa fa-eye"></i>
+                       </button>
                         <a href="#" class="icons" onclick={favoritIcon(this)}>
                             <i class="fa fa-heart-o "></i>
                         </a>
@@ -847,9 +862,10 @@
                 <div class="cartMainContent">
                     <div class="cartTopSide">
                         <a href=""><img class="imgBG" src="images/home-coupon.jpg" alt=""></a>
-                        <a href="#" class="icons">
-                            <i class="fa fa-eye"></i>
-                        </a>
+                        <!-- Button trigger modal -->
+                       <button id="button1" type="button" class="btn modal_button" data-toggle="modal" data-target="#exampleModalCenter">
+                           <i class="fa fa-eye"></i>
+                       </button>
                         <a href="#" class="icons" onclick={favoritIcon(this)}>
                             <i class="fa fa-heart-o "></i>
                         </a>
