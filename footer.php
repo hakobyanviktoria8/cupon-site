@@ -144,11 +144,12 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="modal_footer">
                         <div class="remember_forget my-2 px-2">
                             <input type="checkbox" id="remember_me" name="remember_me">
                             <label for="remember_me">remember me</label>
-                            <a href="#" class="float-right">Forget password ?</a>
+                            <a href="#"  onclick="forget_password_func()" class="float-right">Forget password ?</a>
                         </div>
                         <button class="registration_btn">Signin</button>
                         <div class="text-center mt-5 sign_in_wraper">
@@ -212,6 +213,20 @@
                     </div>
                 </div>
 
+                <!--forget_password-->
+                <div class="container" id="forget_password">
+                    <h3 class="mb-3">Forget password ?</h3>
+                    <p class="text-center">lorem ipsum dolor sit amet, consectetur</p>
+                    <form action="">
+                        <div class="row">
+                           <div class="col-lg-12 col-sm-12">
+                                <input type="email" placeholder="E-mail">
+                           </div>
+                        </div>
+                        <button class="forget_password_btn">Send Email</button>
+                    </form>
+
+                </div>
             </div>
         </div>
 

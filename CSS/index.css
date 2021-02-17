@@ -273,10 +273,33 @@
     width: 99%;
 }
 
-
-
-
-
+/*forget_password*/
+#forget_password{
+    display: none;
+}
+#forget_password p{
+    font-size: 16px;
+    color: #272630;
+}
+#forget_password input{
+     width: 97%;
+     text-align: center;
+     font-size: 16px;
+     padding: .5rem;
+     margin: .3rem;
+     outline: none;
+     border: 1px solid #b4b4b4;
+ }
+.registration_form .modal-body .forget_password_btn{
+    border: none;
+    width: 60%;
+    margin: 2rem 20% 5rem;
+    outline: none;
+    background: #509b44;
+    color: white;
+    font-size: 20px;
+    padding: .8rem;
+}
 
 
 

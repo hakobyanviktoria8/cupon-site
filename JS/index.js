@@ -364,8 +364,14 @@ function signin_or_signup(){
     signup.style.display = "none";
 }
 
+//forget_password
+let forget_password = document.querySelector("#forget_password");
 
-
+function forget_password_func(){
+    forget_password.style.display = "block";
+    signin.style.display = "none";
+    signup.style.display = "none";
+}
 
 
 
