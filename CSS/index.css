@@ -219,6 +219,7 @@
     padding: .5rem;
     margin: .3rem;
     outline: none;
+    border: 1px solid #b4b4b4;
 }
 .registration_form .modal-body .remember_forget a{
     color: #272630;
@@ -237,17 +238,52 @@
     font-size: 20px;
     padding: .8rem;
 }
-.registration_form .modal-body .sign_up_wraper span{
+.registration_form .modal-body .sign_in_wraper span{
     font-size: 16px;
 }
-.registration_form .modal-body .sign_up_wraper a{
+.registration_form .modal-body .sign_in_wraper a{
     text-decoration: none;
     color: #509b44;
     font-size: 16px;
 }
+.registration_form .modal_footer{
+    padding: 0 2rem 3rem;
+}
 #partner{
     display: none;
 }
+
+/*sign up style*/
+#signup{
+    display: none;
+}
+.registration_form .modal-body .input_wraper .input_wraper_name{
+    width: 99%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*carusel0*/
 .carusel0{
@@ -985,9 +1021,6 @@
         display: block;
         width: 40px;
     }
-    /*.header-bottom .col2 button{*/
-    /*    display: none;*/
-    /*}*/
     .header-bottom .col2 input{
         width: 90%;
     }
@@ -997,6 +1030,12 @@
     .header-bottom .col3 .userIcon{
         display: block;
         font-size: 30px;
+    }
+    .registration_form .modal-body .input_wraper .col-sm-12{
+        padding: 0 15px !important;
+    }
+    .registration_form .modal-body .input_wraper input{
+        width: 99%;
     }
 }
 

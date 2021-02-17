@@ -97,76 +97,122 @@
 <!-- Modal Registration-->
 <div class="modal fade registration_form" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
-
         <div class="modal-content">
             <div class="modal-header">
                 <div class="modal-title" id="exampleModalLabel">
                     <img src="images/header-logo.png" alt="">
-                    <div class="d-flex">
-                        <div class="text-uppercase">
-                            Sale
-                        </div>
-                        <div class="line_hr"></div>
-                    </div>
                 </div>
             </div>
+
             <div class="modal-body p-0">
-                <h3 class="mb-3">Lorem</h3>
-                <div class="button_wraper">
-                    <button class="button user m-0 p-0 active_btn" id="user_btn" onclick="user_or_partner()">User</button>
-                    <button class="button partner m-0 p-0" id="partner_btn" onclick="partner_or_user()">Partner</button>
-                </div>
-                <div id="user">
-                    <div class="px-4 py-5">
-                        <div class="bg_line">
-                            <div class="line_hr_gray"></div>
-                            <p class= "m-0 mx-2">lorem</p>
-                            <div class="line_hr_gray"></div>
+
+                <!--signin-->
+                <div  id="signin">
+                    <h3 class="mb-3">Signin</h3>
+                    <div class="button_wraper">
+                        <button class="button user m-0 p-0 active_btn" id="user_btn" onclick="user_or_partner()">User</button>
+                        <button class="button partner m-0 p-0" id="partner_btn" onclick="partner_or_user()">Partner</button>
+                    </div>
+                    <!--user-->
+                    <div id="user">
+                        <div class="px-4 pt-4 pb-1">
+                            <div class="bg_line">
+                                <div class="line_hr_gray"></div>
+                                <p class= "m-0 mx-2">lorem</p>
+                                <div class="line_hr_gray"></div>
+                            </div>
+                            <button class="with_facebook text-center">
+                                <span class="facebook_icon">f</span>
+                            </button>
+                            <div class="bg_line">
+                                <div class="line_hr_gray"></div>
+                                <p class= "m-0 mx-2">lorem</p>
+                                <div class="line_hr_gray"></div>
+                            </div>
+                            <div class="mt-4 input_wraper">
+                                <input type="email" placeholder="E-mail">
+                                <input type="password" placeholder="Password">
+                            </div>
                         </div>
-                        <button class="with_facebook text-center">
-                            <span class="facebook_icon">f</span>
-                        </button>
-                        <div class="bg_line">
-                            <div class="line_hr_gray"></div>
-                            <p class= "m-0 mx-2">lorem</p>
-                            <div class="line_hr_gray"></div>
+                    </div>
+                     <!--partner-->
+                    <div id="partner">
+                        <div class="px-4 pt-3 pb-1">
+                            <div class="mt-4 input_wraper">
+                                <input type="email" placeholder="E-mail">
+                                <input type="password" placeholder="Password">
+                            </div>
                         </div>
-                        <div class="mt-4 input_wraper">
-                            <input type="email" placeholder="E-mail">
-                            <input type="password" placeholder="Password">
-                        </div>
+                    </div>
+                    <div class="modal_footer">
                         <div class="remember_forget my-2 px-2">
                             <input type="checkbox" id="remember_me" name="remember_me">
                             <label for="remember_me">remember me</label>
                             <a href="#" class="float-right">Forget password ?</a>
                         </div>
-                        <button class="registration_btn">Lorem</button>
-                        <div class="text-center mt-5 sign_up_wraper">
-                            <span>Lorem ipsum new?</span>
-                            <a href="#" class="">Sign up</a>
+                        <button class="registration_btn">Signin</button>
+                        <div class="text-center mt-5 sign_in_wraper">
+                           <span>Lorem ipsum new?</span>
+                           <a href="#" id="signup_btn" onclick="signup_or_signin()">Sign up</a>
                         </div>
                     </div>
                 </div>
-                <div id="partner">
-                    <div class="px-4 py-5">
-                        <div class="mt-4 input_wraper">
-                            <input type="email" placeholder="E-mail">
-                            <input type="password" placeholder="Password">
-                        </div>
-                        <div class="remember_forget my-2 px-2">
-                            <input type="checkbox" id="remember_me" name="remember_me">
-                            <label for="remember_me">remember me</label>
-                            <a href="#" class="float-right">Forget password ?</a>
-                        </div>
-                        <button class="registration_btn">Lorem</button>
-                        <div class="text-center mt-5 sign_up_wraper">
-                            <span>Lorem ipsum new?</span>
-                            <a href="#" class="">Sign up</a>
+
+                <!--signup-->
+                <div id="signup">
+                    <h3 class="mb-3">Sign Up</h3>
+                    <div>
+                        <div class="px-4 pb-5">
+                            <div class="bg_line">
+                                <div class="line_hr_gray"></div>
+                                <p class= "m-0 mx-2">lorem</p>
+                                <div class="line_hr_gray"></div>
+                            </div>
+                            <button class="with_facebook text-center">
+                                <span class="facebook_icon">f</span>
+                            </button>
+                            <div class="bg_line">
+                                <div class="line_hr_gray"></div>
+                                <p class= "m-0 mx-2">lorem</p>
+                                <div class="line_hr_gray"></div>
+                            </div>
+                            <div class="mt-4 input_wraper">
+                                <form action="">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <input type="text" class="input_wraper_name" placeholder="Name">
+                                        </div>
+                                    </div>
+                                    <div class="row my-1">
+                                        <div class="col-lg-6 col-sm-12 pr-1">
+                                            <input type="email" placeholder="E-mail">
+                                        </div>
+                                        <div class="col-lg-6 col-sm-12 pl-1">
+                                            <input type="phone" placeholder="Phone number">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-sm-12 pr-1">
+                                            <input type="password" placeholder="Password">
+                                        </div>
+                                        <div class="col-lg-6 col-sm-12 pl-1">
+                                            <input type="password" placeholder="Confirm password">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <button class="registration_btn mt-4">Sign Up</button>
+                            <div class="text-center mt-5 sign_in_wraper">
+                               <span>Lorem ipsum new?</span>
+                               <a href="#" id="signin_btn" onclick="signin_or_signup()">Signin</a>
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
+
         <div class="close_btn">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>

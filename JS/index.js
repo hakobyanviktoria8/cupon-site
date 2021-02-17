@@ -350,9 +350,19 @@ function partner_or_user(){
     partner.style.display = "block";
 }
 
+//sign up or signin
+let signin = document.querySelector("#signin");
+let signup = document.querySelector("#signup");
 
+function signup_or_signin(){
+    signin.style.display = "none";
+    signup.style.display = "block";
+}
 
-
+function signin_or_signup(){
+    signin.style.display = "block";
+    signup.style.display = "none";
+}
 
 
 
