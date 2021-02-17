@@ -206,6 +206,8 @@
                                <span>Lorem ipsum new?</span>
                                <a href="#" id="signin_btn" onclick="signin_or_signup()">Signin</a>
                             </div>
+                            <div class="line_hr_gray_bottom"></div>
+                            <small>Lorem ipsum dolor sit amet, consectetur<b> adipisicing elit. Eius, quae!</b></small>
                         </div>
                     </div>
                 </div>

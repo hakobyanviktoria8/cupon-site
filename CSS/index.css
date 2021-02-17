@@ -191,6 +191,18 @@
     background: #b4b4b4;
     margin-top: 12px;
 }
+.registration_form .modal-body .line_hr_gray_bottom{
+    width: 5rem;
+    height: 1px;
+    background: #b4b4b4;
+    margin: 2rem auto 1rem;
+}
+.registration_form .modal-body small{
+    color: #b4b4b4;
+    font-size: 12px;
+    text-align: center;
+    display: block;
+}
 .registration_form .modal-body .with_facebook{
     width: 3.5rem;
     height: 3.5rem;
