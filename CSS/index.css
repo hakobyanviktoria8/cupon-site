@@ -75,7 +75,7 @@
 }
 /*logo*/
 .logo{
-    width: 60%;
+    width: 70%;
 }
 .lemon{
     display: none;
@@ -108,7 +108,7 @@
 .header-bottom .col3 a{
     color: #4f4f4f;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 16px;
 }
 .userIcon{
     display: none;
@@ -586,14 +586,14 @@
     position: relative;
 }
 .cartTopSide .modal_button{
-    color: white;
+    color: #2b2b2b;
     position: absolute;
     top: 5px;
     left: 20px;
     background: none;
     border: none;
     outline: none;
-    font-size: 25px;
+    font-size: 30px;
 }
 .modal_button:focus{
     box-shadow: none;
@@ -636,7 +636,9 @@
 .cart:hover .cartMainContent{
     box-shadow: 0 0 6px gray;
 }
-
+.cartMainContent .cartMainContent_sale_wraper .sales{
+    font-size: 15px;
+}
 .cart:hover h3 a{
     color: #4f9b42;
     text-decoration: none;
@@ -1014,7 +1016,7 @@
     background: #4f9a42;
     color: white;
     cursor: pointer;
-    padding: 10px 20px;
+    padding: 5px 20px;
     border-radius: 4px;
 }
 
@@ -1194,7 +1196,7 @@
     }
     #myBtn{
         font-size: 30px;
-        padding: 0 10px;
+        padding: 0 15px;
     }
     .with-sorting:last-child{
         float: left;
@@ -1237,6 +1239,9 @@
     }
     .subTitleWraper {
         padding: 0
+    }
+    .cartMainContent .cartMainContent_sale_wraper .sales{
+        font-size: 14px;
     }
 }
 

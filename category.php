@@ -30,8 +30,8 @@
         <!--without sorting-->
         <div class="row mb-3 mx-0">
             <div class="col-12 p-0">
-                <div class="dropdown with-sorting float-right">
-                  <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div multiple=true class="dropdown with-sorting float-right">
+                  <button class="btn dropdown-toggle"  type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Dropdown button
                   </button>
                   <div class="dropdown-menu dropdown-menu-right">
@@ -74,12 +74,12 @@
                             </div>
                         </div>
                         <div class="row m-0 px-3">
-                            <div class="col-8 p-0">
+                            <div class="col-10 p-0">
                                 <span>4.3</span>
                                 <div class="Stars" style="--rating: 4.5;" aria-label="Rating of this product is 2.3 out of 5."></div>
                                 <span>1250 отзыв</span>
                             </div>
-                            <div class="col-4 text-right p-0">
+                            <div class="col-2 text-right p-0">
                                 <img src="images/reclam.png" alt="">
                                 <span>496</span>
                             </div>
@@ -127,12 +127,12 @@
                             </div>
                         </div>
                         <div class="row m-0 px-3">
-                            <div class="col-8 p-0">
+                            <div class="col-10 p-0">
                                 <span>4.3</span>
                                 <div class="Stars" style="--rating: 4.5;" aria-label="Rating of this product is 2.3 out of 5."></div>
                                 <span>1250 отзыв</span>
                             </div>
-                            <div class="col-4 text-right p-0">
+                            <div class="col-2 text-right p-0">
                                 <img src="images/reclam.png" alt="">
                                 <span>496</span>
                             </div>
@@ -178,12 +178,12 @@
                             </div>
                         </div>
                         <div class="row m-0 px-3">
-                            <div class="col-8 p-0">
+                            <div class="col-10 p-0">
                                 <span>4.3</span>
                                 <div class="Stars" style="--rating: 4.5;" aria-label="Rating of this product is 2.3 out of 5."></div>
                                 <span>1250 отзыв</span>
                             </div>
-                            <div class="col-4 text-right p-0">
+                            <div class="col-2 text-right p-0">
                                 <img src="images/reclam.png" alt="">
                                 <span>496</span>
                             </div>
@@ -229,12 +229,12 @@
                             </div>
                         </div>
                         <div class="row m-0 px-3">
-                            <div class="col-8 p-0">
+                            <div class="col-10 p-0">
                                 <span>4.3</span>
                                 <div class="Stars" style="--rating: 4.5;" aria-label="Rating of this product is 2.3 out of 5."></div>
                                 <span>1250 отзыв</span>
                             </div>
-                            <div class="col-4 text-right p-0">
+                            <div class="col-2 text-right p-0">
                                 <img src="images/reclam.png" alt="">
                                 <span>496</span>
                             </div>
@@ -285,12 +285,12 @@
                             </div>
                         </div>
                         <div class="row m-0 px-3">
-                            <div class="col-8 p-0">
+                            <div class="col-10 p-0">
                                 <span>4.3</span>
                                 <div class="Stars" style="--rating: 4.5;" aria-label="Rating of this product is 2.3 out of 5."></div>
                                 <span>1250 отзыв</span>
                             </div>
-                            <div class="col-4 text-right p-0">
+                            <div class="col-2 text-right p-0">
                                 <img src="images/reclam.png" alt="">
                                 <span>496</span>
                             </div>
@@ -354,12 +354,12 @@
                             </div>
                         </div>
                         <div class="row m-0 px-3">
-                            <div class="col-8 p-0">
+                            <div class="col-10 p-0">
                                 <span>4.3</span>
                                 <div class="Stars" style="--rating: 4.5;" aria-label="Rating of this product is 2.3 out of 5."></div>
                                 <span>1250 отзыв</span>
                             </div>
-                            <div class="col-4 text-right p-0">
+                            <div class="col-2 text-right p-0">
                                 <img src="images/reclam.png" alt="">
                                 <span>496</span>
                             </div>
@@ -405,12 +405,12 @@
                             </div>
                         </div>
                         <div class="row m-0 px-3">
-                            <div class="col-8 p-0">
+                            <div class="col-10 p-0">
                                 <span>4.3</span>
                                 <div class="Stars" style="--rating: 4.5;" aria-label="Rating of this product is 2.3 out of 5."></div>
                                 <span>1250 отзыв</span>
                             </div>
-                            <div class="col-4 text-right p-0">
+                            <div class="col-2 text-right p-0">
                                 <img src="images/reclam.png" alt="">
                                 <span>496</span>
                             </div>
@@ -456,12 +456,12 @@
                             </div>
                         </div>
                         <div class="row m-0 px-3">
-                            <div class="col-8 p-0">
+                            <div class="col-10 p-0">
                                 <span>4.3</span>
                                 <div class="Stars" style="--rating: 4.5;" aria-label="Rating of this product is 2.3 out of 5."></div>
                                 <span>1250 отзыв</span>
                             </div>
-                            <div class="col-4 text-right p-0">
+                            <div class="col-2 text-right p-0">
                                 <img src="images/reclam.png" alt="">
                                 <span>496</span>
                             </div>
@@ -507,12 +507,12 @@
                             </div>
                         </div>
                         <div class="row m-0 px-3">
-                            <div class="col-8 p-0">
+                            <div class="col-10 p-0">
                                 <span>4.3</span>
                                 <div class="Stars" style="--rating: 4.5;" aria-label="Rating of this product is 2.3 out of 5."></div>
                                 <span>1250 отзыв</span>
                             </div>
-                            <div class="col-4 text-right p-0">
+                            <div class="col-2 text-right p-0">
                                 <img src="images/reclam.png" alt="">
                                 <span>496</span>
                             </div>
@@ -558,12 +558,12 @@
                             </div>
                         </div>
                         <div class="row m-0 px-3">
-                            <div class="col-8 p-0">
+                            <div class="col-10 p-0">
                                 <span>4.3</span>
                                 <div class="Stars" style="--rating: 4.5;" aria-label="Rating of this product is 2.3 out of 5."></div>
                                 <span>1250 отзыв</span>
                             </div>
-                            <div class="col-4 text-right p-0">
+                            <div class="col-2 text-right p-0">
                                 <img src="images/reclam.png" alt="">
                                 <span>496</span>
                             </div>
@@ -609,12 +609,12 @@
                             </div>
                         </div>
                         <div class="row m-0 px-3">
-                            <div class="col-8 p-0">
+                            <div class="col-10 p-0">
                                 <span>4.3</span>
                                 <div class="Stars" style="--rating: 4.5;" aria-label="Rating of this product is 2.3 out of 5."></div>
                                 <span>1250 отзыв</span>
                             </div>
-                            <div class="col-4 text-right p-0">
+                            <div class="col-2 text-right p-0">
                                 <img src="images/reclam.png" alt="">
                                 <span>496</span>
                             </div>
@@ -675,12 +675,12 @@
                             </div>
                         </div>
                         <div class="row m-0 px-3">
-                            <div class="col-8 p-0">
+                            <div class="col-10 p-0">
                                 <span>4.3</span>
                                 <div class="Stars" style="--rating: 4.5;" aria-label="Rating of this product is 2.3 out of 5."></div>
                                 <span>1250 отзыв</span>
                             </div>
-                            <div class="col-4 text-right p-0">
+                            <div class="col-2 text-right p-0">
                                 <img src="images/reclam.png" alt="">
                                 <span>496</span>
                             </div>
@@ -728,12 +728,12 @@
                             </div>
                         </div>
                         <div class="row m-0 px-3">
-                            <div class="col-8 p-0">
+                            <div class="col-10 p-0">
                                 <span>4.3</span>
                                 <div class="Stars" style="--rating: 4.5;" aria-label="Rating of this product is 2.3 out of 5."></div>
                                 <span>1250 отзыв</span>
                             </div>
-                            <div class="col-4 text-right p-0">
+                            <div class="col-2 text-right p-0">
                                 <img src="images/reclam.png" alt="">
                                 <span>496</span>
                             </div>
@@ -779,12 +779,12 @@
                             </div>
                         </div>
                         <div class="row m-0 px-3">
-                            <div class="col-8 p-0">
+                            <div class="col-10 p-0">
                                 <span>4.3</span>
                                 <div class="Stars" style="--rating: 4.5;" aria-label="Rating of this product is 2.3 out of 5."></div>
                                 <span>1250 отзыв</span>
                             </div>
-                            <div class="col-4 text-right p-0">
+                            <div class="col-2 text-right p-0">
                                 <img src="images/reclam.png" alt="">
                                 <span>496</span>
                             </div>
@@ -830,12 +830,12 @@
                             </div>
                         </div>
                         <div class="row m-0 px-3">
-                            <div class="col-8 p-0">
+                            <div class="col-10 p-0">
                                 <span>4.3</span>
                                 <div class="Stars" style="--rating: 4.5;" aria-label="Rating of this product is 2.3 out of 5."></div>
                                 <span>1250 отзыв</span>
                             </div>
-                            <div class="col-4 text-right p-0">
+                            <div class="col-2 text-right p-0">
                                 <img src="images/reclam.png" alt="">
                                 <span>496</span>
                             </div>
@@ -886,12 +886,12 @@
                             </div>
                         </div>
                         <div class="row m-0 px-3">
-                            <div class="col-8 p-0">
+                            <div class="col-10 p-0">
                                 <span>4.3</span>
                                 <div class="Stars" style="--rating: 4.5;" aria-label="Rating of this product is 2.3 out of 5."></div>
                                 <span>1250 отзыв</span>
                             </div>
-                            <div class="col-4 text-right p-0">
+                            <div class="col-2 text-right p-0">
                                 <img src="images/reclam.png" alt="">
                                 <span>496</span>
                             </div>
