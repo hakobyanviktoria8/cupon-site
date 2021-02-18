@@ -69,7 +69,7 @@
                     <div><img src="images/home-coupon.jpg"></div>
                     <div><img src="images/home-coupon.jpg"></div>
                 </section>
-                 <div class="row start_end_day mt-3 gray_color">
+                 <div class="row start_end_day my-3 gray_color">
                        <div class="col-2">
                            <small>Lorem ipsum</small>
                            <p>01/05/2020</p>
@@ -82,13 +82,33 @@
 
                 <!--nav bar-->
                 <div class="about_product">
-                    <div class="nav_bar">
-                        <a href="#conditions"  class="nav_bar_active" >conditions</a>
-                        <a href="#description" >description</a>
-                        <a href="#review" >review</a>
-                        <a href="#addess" >addess</a>
+                    <div id="nav_bar_product">
+                        <div class= "container">
+                            <div class="row">
+                                <div class="col-12 p-0">
+                                    <div class="nav_bar">
+                                        <ul class="nav nav-pills">
+                                          <li class="nav-item">
+                                            <a class="nav-link nav_bar_active" href="#conditions">conditions</a>
+                                          </li>
+                                          <li class="nav-item">
+                                            <a class="nav-link" href="#description">description</a>
+                                          </li>
+                                          <li class="nav-item">
+                                            <a class="nav-link" href="#review">review</a>
+                                          </li>
+                                          <li class="nav-item">
+                                            <a class="nav-link disabled" href="#addess">addess</a>
+                                          </li>
+                                          <li class="nav-item" id="nav_item_buy">
+                                            <a class="nav-link disabled" href="#checkout.php">Buy: 1500dr</a>
+                                          </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
                     <div class="px-2" id="conditions">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, veritatis!</p>
                         <b>Lorem</b>
@@ -99,7 +119,7 @@
                     </div>
 
                     <div class="px-2 mt-5" id="description">
-                        <h3>Description</h2>
+                        <h3>Description</h3>
                         <hr>
                         <p class="px-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci aliquam assumenda consequatur, cumque debitis deserunt dicta doloremque doloribus eos eum hic inventore ipsa iure labore laborum minima molestiae natus nemo non optio pariatur quia sapiente sequi sit soluta suscipit tempora vel veritatis vero vitae voluptas voluptate voluptatem. Architecto autem esse ex exercitationem fugit illum itaque laboriosam magni maiores, molestias nam quo rem saepe ut velit vitae voluptatibus. Ad aperiam aspernatur, atque autem corporis debitis deserunt dolore excepturi explicabo magnam molestiae nam nulla obcaecati possimus provident quidem quis quisquam sint voluptate voluptatem. Accusamus doloremque molestiae neque nobis similique soluta tempore.</p>
                     </div>
@@ -191,48 +211,178 @@
         </div>
     </div>
 </div>
-<div id="review" class="py-3 my-3">
+<div id="review" class="py-5 my-3">
     <div class="container">
         <div class="row">
-            <div class="col-8">
-                <h3>Review</h2>
+            <div class="col-8 ">
+                <h3>Review</h3>
+                <div class="row review_stars mb-2">
+                    <div class="col-1">
+                        <h2>4.5</h2>
+                    </div>
+                    <div class="col-5">
+                        <div class="Stars" style="--rating: 4.5;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                        <p>lorem: 21.021</p>
+                    </div>
+                    <div class="col-6 select_wraper">
+                        <label for="type">Select type:</label>
 
+                        <select name="type" id="type">
+                            <option value="one">one</option>
+                            <option value="two">two</option>
+                            <option value="three">three</option>
+                            <option value="four">four</option>
+                        </select>
+                    </div>
+                </div>
+                <!--one review_user_wraper-->
+                <div class="review_user_wraper my-2">
+                    <div class="row review_user_data">
+                        <div class="col-12 font-weight-bold">
+                            <span class="user_name">Full name</span>
+                            <span class="more">Top-lorem</span>
+                            <span class="more">Top-lorem</span>
+                        </div>
+                        <div class="col-12 star_massage">
+                            <span>
+                                <i class="fas fa-star mr-1"></i>
+                                18 lorem
+                            </span>
+                            <span>
+                                <i class="fas fa-comment ml-3 mr-1"></i>
+                                18 lorem
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row review_stars_data">
+                        <div class="col-12 my-2">
+                            <div class="Stars" style="--rating: 4.5;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                            <span>11 september 2021 y.</span>
+                        </div>
+                    </div>
+                    <div class="row review_comment">
+                        <div class="col-12">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, adipisicing elit. Magni, temporibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, adipisicing elit. Magni, temporibus.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review_user_wraper my-2">
+                    <div class="row review_user_data">
+                        <div class="col-12 font-weight-bold">
+                            <span class="user_name">Full name</span>
+                            <span class="more">Top-lorem</span>
+                            <span class="more">Top-lorem</span>
+                        </div>
+                        <div class="col-12 star_massage">
+                            <span>
+                                <i class="fas fa-star mr-1"></i>
+                                18 lorem
+                            </span>
+                            <span>
+                                <i class="fas fa-comment ml-3 mr-1"></i>
+                                18 lorem
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row review_stars_data">
+                        <div class="col-12 my-2">
+                            <div class="Stars" style="--rating: 4.5;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                            <span>11 september 2021 y.</span>
+                        </div>
+                    </div>
+                    <div class="row review_comment">
+                        <div class="col-12">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, adipisicing elit. Magni, temporibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, adipisicing elit. Magni, temporibus.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review_user_wraper my-2">
+                    <div class="row review_user_data">
+                        <div class="col-12 font-weight-bold">
+                            <span class="user_name">Full name</span>
+                            <span class="more">Top-lorem</span>
+                            <span class="more">Top-lorem</span>
+                        </div>
+                        <div class="col-12 star_massage">
+                            <span>
+                                <i class="fas fa-star mr-1"></i>
+                                18 lorem
+                            </span>
+                            <span>
+                                <i class="fas fa-comment ml-3 mr-1"></i>
+                                18 lorem
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row review_stars_data">
+                        <div class="col-12 my-2">
+                            <div class="Stars" style="--rating: 4.5;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                            <span>11 september 2021 y.</span>
+                        </div>
+                    </div>
+                    <div class="row review_comment">
+                        <div class="col-12">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, adipisicing elit. Magni, temporibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, adipisicing elit. Magni, temporibus.</p>
+                        </div>
+                    </div>
+                </div>
 
+                <a href="#">See all reviews</a>
+                <div class="row">
+                    <div class="col-12 my-4">
+                        <button id="write_review_btn" onclick="write_review()">Write review</button>
 
-
-
-
-
-
-
-
-
-
-
+                        <div id="write_review_text">
+                            <p>Write review</p>
+                            <form action="">
+                                <div class="row">
+                                    <div class="col-6 pr-2">
+                                        <input type="text" placeholder="Full name">
+                                    </div>
+                                    <div class="col-6 pl-2">
+                                        <input type="email" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 ">
+                                        <textarea id="" name="" rows="4" cols="50" placeholder="Review"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <input type="submit" name="" id="send_review">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+
     </div>
 </div>
 <div  class="py-3 my-3">
     <div class="container">
         <div class="row">
             <div class="col-8" id="addess">
-                <h3>Addess</h2>
-
-
-
-
-
-
-
-
-
-
+                <h3>Addess</h3>
+                <p>Lorem ipsum <a href="#">dolor amet </a></p>
+                <hr>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet:43 34</p>
+                <p>Lorem:2344 433 343 34 334 343 34 34 3443</p>
+                <div>
+                    <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.3722265870465!2d44.513443315898265!3d40.1785289793935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abcfa5daefc49%3A0x2c3665ccdee75952!2sRepublic%20Square!5e0!3m2!1sen!2s!4v1613657443936!5m2!1sen!2s"
+                    width="600"
+                    height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
             </div>
         </div>
     </div>
 </div>
-
+<hr>
 
 
 
@@ -299,7 +449,7 @@
             <div class="cartTopSide">
                 <a href=""><img class="imgBG" src="images/home-coupon.jpg" alt=""></a>
                 <!-- Button trigger modal -->
-               <button id="button1" type="button" class="btn modal_button" data-toggle="modal" data-target="#exampleModalCenter">
+               <button id="button2" type="button" class="btn modal_button" data-toggle="modal" data-target="#exampleModalCenter">
                    <i class="fa fa-eye"></i>
                </button>
                 <a href="#" class="icons" onclick={favoritIcon(this)}>
@@ -352,7 +502,7 @@
             <div class="cartTopSide">
                 <a href=""><img class="imgBG" src="images/home-coupon.jpg" alt=""></a>
                 <!-- Button trigger modal -->
-               <button id="button1" type="button" class="btn modal_button" data-toggle="modal" data-target="#exampleModalCenter">
+               <button id="button3" type="button" class="btn modal_button" data-toggle="modal" data-target="#exampleModalCenter">
                    <i class="fa fa-eye"></i>
                </button>
                 <a href="#" class="icons" onclick={favoritIcon(this)}>

@@ -373,6 +373,71 @@ function forget_password_func(){
     signup.style.display = "none";
 }
 
+//show hide product navbar
+let show = false;
+let nav_bar_product = document.querySelector("#nav_bar_product");
+let nav_item_buy = document.querySelector("#nav_item_buy");
+function scrole_bar (){
+    window.addEventListener("scroll", () =>{
+        show = window.scrollY > 1100
+        if(show ) {
+            nav_bar_product.classList.add("big_nav_bar");
+            nav_item_buy.style.display = "block"
+        } else {
+            nav_bar_product.classList.remove("big_nav_bar");
+            nav_item_buy.style.display = "none"
+        }
+    })
+    return () => {
+        window.removeEventListener("scroll");
+    }
+}
+scrole_bar();
+
+
+//write_review comment
+let write_review_btn = document.querySelector("#write_review_btn");
+let write_review_text = document.querySelector("#write_review_text");
+
+function write_review(){
+    write_review_text.style.display = "block";
+    write_review_btn.style.display = "none";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
