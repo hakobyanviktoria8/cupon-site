@@ -217,6 +217,14 @@
             <div class="col-8 ">
                 <h3>Review</h3>
                 <div class="row review_stars mb-2">
+                <a
+                    id="tglr"
+                    tabindex="0"
+                    class="btn btn-lg popover-toggle"
+                    role="button"
+                    data-toggle="popover"
+                    data-trigger="hover"
+                >
                     <div class="col-1">
                         <h2>4.5</h2>
                     </div>
@@ -224,16 +232,48 @@
                         <div class="Stars" style="--rating: 4.5;" aria-label="Rating of this product is 2.3 out of 5."></div>
                         <p>lorem: 21.021</p>
                     </div>
-                    <div class="col-6 select_wraper">
-                        <label for="type">Select type:</label>
+                </a>
 
-                        <select name="type" id="type">
-                            <option value="one">one</option>
-                            <option value="two">two</option>
-                            <option value="three">three</option>
-                            <option value="four">four</option>
-                        </select>
+                <div id="customdiv" style="display: none">
+                    <h2>4.5</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <div>
+                        <div class="Stars" style="--rating: 5;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                        <input class="range_length" readonly type="range" id="cowbell" name="cowbell" min="0" max="86" value="90" step="10" rea>
+                        <span>86%</span>
                     </div>
+                    <div>
+                        <div class="Stars" style="--rating: 4;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                        <input class="range_length" readonly type="range" id="cowbell" name="cowbell" min="0" max="56" value="90" step="10" rea>
+                        <span>86%</span>
+                    </div>
+                    <div>
+                        <div class="Stars" style="--rating: 3;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                        <input class="range_length" readonly type="range" id="cowbell" name="cowbell" min="0" max="36" value="90" step="10" rea>
+                        <span>86%</span>
+                    </div>
+                    <div>
+                        <div class="Stars" style="--rating: 2;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                        <input class="range_length" readonly type="range" id="cowbell" name="cowbell" min="0" max="26" value="90" step="10" rea>
+                        <span>86%</span>
+                    </div>
+                    <div>
+                        <div class="Stars" style="--rating: 1;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                        <input class="range_length" readonly type="range" id="cowbell" name="cowbell" min="0" max="6" value="90" step="10" rea>
+                        <span>86%</span>
+                    </div>
+                </div>
+
+                <div class="col-6 select_wraper">
+                    <label for="type">Select type:</label>
+
+                    <select name="type" id="type">
+                        <option value="one">one</option>
+                        <option value="two">two</option>
+                        <option value="three">three</option>
+                        <option value="four">four</option>
+                    </select>
+                </div>
                 </div>
                 <!--one review_user_wraper-->
                 <div class="review_user_wraper my-2">
@@ -1060,6 +1100,14 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="row mb-5">
+        <div class="col-lg-2 col-md-1 col-sm-0"></div>
+        <div class="col-lg-8 col-md-10 col-sm-12">
+            <img class="reclam4" src="images/reclam4.png" alt="">
+        </div>
+        <div class="col-lg-2 col-md-1 col-sm-0"></div>
     </div>
 
 </div>

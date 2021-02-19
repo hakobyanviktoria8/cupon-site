@@ -281,9 +281,28 @@
     display: inline;
 }
 
+/*mouse hover stars review*/
 
-
-
+#customdiv{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 380px;
+    padding: 20px;
+}
+#customdiv h2{
+    font-size: 36px;
+}
+#customdiv p{
+    font-size: 14px;
+}
+#customdiv span{
+    font-size: 16px;
+    text-align: right;
+}
+.range_length{
+    width: 120px;
+    margin: 5px 15px;
+}
 
 
 

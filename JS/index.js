@@ -306,6 +306,23 @@ $(document).ready(function (){
     //
     // });
 
+
+//    popovers stars
+    $('#tglr').popover({
+        html : true,
+        content: function() {
+            return $('#customdiv').html();
+        }
+    });
+
+
+
+
+
+
+
+
+
 });
 
 //Get the button
@@ -441,7 +458,7 @@ function write_review(){
 }
 
 
-
+//
 
 
 
