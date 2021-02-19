@@ -126,7 +126,7 @@
                         <div class="row m-0 px-3 pb-3">
                             <div class="col-7 p-0">
                                 <img src="images/time.png" alt="">
-                                <small>3 д 6 ч 2 м</small>
+                                <small><b>2</b> д <b>2</b> ч <b>2</b> м</small>
                             </div>
                             <div class="col-5 p-0">
                                 <a href="product.php"><span class="cartBtn py-1 px-4 float-right">Подробнее</span></a>

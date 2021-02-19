@@ -255,6 +255,39 @@
     text-decoration: none;
 }
 
+/*carusel_cart_wraper*/
+.carusel_cart_wraper h4{
+    font-size: 24px;
+    color: #272630;
+}
+.carusel_cart_wraper .carusel_carts .slick-dots{
+    top: -25px;
+    text-align: right;
+    height: 30px;
+}
+.carusel_cart_wraper .carusel_carts .slick-dots li{
+    margin: 0;
+}
+.carusel_cart_wraper .carusel_carts .slick-dots li button:before{
+    font-size: 10px;
+}
+.carusel_cart_wraper .carusel_carts .slick-dots li.slick-active button:before{
+    color: #509b44;
+}
+
+
+/*inside cart*/
+.carusel_cart_wraper .carusel_carts .slick-slide img{
+    display: inline;
+}
+
+
+
+
+
+
+
+
 
 
 

@@ -237,6 +237,42 @@ $(document).ready(function (){
         ]
     });
 
+    // cart_carusel
+    $(".carusel_carts").slick({
+        // variableWidth: true,
+        dots: true,
+        infinite: true,
+        // autoplay: true,
+        arrows: false,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1025,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+
     //modal-rating stars users change
     var $star_rating = $('.star-rating .fa');
 

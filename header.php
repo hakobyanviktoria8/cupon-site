@@ -106,7 +106,7 @@
                 </div>
                 <div class="col-lg-3 col-md-2 p-0 text-right col3">
                      <a href="#" class="registration" data-toggle="modal" data-target="#exampleModal">Вход / Регистрация</a>
-                     <a href="#" class="userIcon" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-user"></i></a>
+                     <a href="#" class="userIcon" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-user mr-2"></i></a>
                 </div>
             </div>
         </div>
