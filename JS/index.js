@@ -433,7 +433,16 @@ let nav_item_buy = document.querySelector("#nav_item_buy");
 
 function scrole_bar (){
     window.addEventListener("scroll", () =>{
-        show = window.scrollY > 1100
+        if (window.innerWidth >= 1920){
+            show = window.scrollY > 1100
+        } else if (window.innerWidth >= 1440){
+            show = window.scrollY > 1100
+        } else if (window.innerWidth >= 1024){
+            show = window.scrollY > 1000
+        }else if (window.innerWidth >= 768){
+            show = window.scrollY > 1600
+        }
+
         if(show ) {
             nav_bar_product.classList.add("big_nav_bar");
             nav_item_buy.style.display = "block"
@@ -468,7 +477,7 @@ function customdiv_btn_leave(){
 }
 
 
-
+console.log(window.innerWidth)
 
 
 
