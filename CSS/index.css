@@ -63,6 +63,9 @@
 .header-top div:nth-of-type(3){
     text-align: right;
 }
+.mobile_320{
+    display: none;
+}
 
 /*header*/
 .header{
@@ -1205,7 +1208,7 @@
         float: left;
     }
 }
-@media (max-width: 375px) {
+@media (max-width: 376px) {
     .navbar_linkIcons{
         padding-left: 10px;
     }
@@ -1245,6 +1248,15 @@
     }
     .cartMainContent .cartMainContent_sale_wraper .sales{
         font-size: 14px;
+    }
+    .help .dropdown-menu{
+        left: 45px!important;
+    }
+    .web_1440{
+        display: none;
+    }
+    .mobile_320{
+        display: inline-block;
     }
 }
 

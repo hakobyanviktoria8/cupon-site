@@ -70,16 +70,96 @@
                     <div><img src="images/home-coupon.jpg"></div>
                 </section>
                  <div class="row start_end_day my-3 gray_color">
-                       <div class="col-2">
+                       <div class="col-lg-2 col-md-2 col-4">
                            <small>Lorem ipsum</small>
                            <p>01/05/2020</p>
                        </div>
-                       <div class="col-2">
+                       <div class="col-lg-2 col-md-2 col-4">
                            <small>Lorem ipsum</small>
                            <p>01/05/2020</p>
                        </div>
                  </div>
-
+            </div>
+            <div class="col-lg-4">
+                <div class="row more_information">
+                    <div class="col-4">
+                        <p><i class="fa fa-eye"></i></p>
+                        <p>250 Lorem ipsum</p>
+                    </div>
+                    <div class="col-4">
+                        <p><i class="fa fa-line-chart"></i></p>
+                        <p>50+ Lorem ipsum</p>
+                    </div>
+                    <div class="col-4">
+                        <p><i class="fa fa-user-circle-o"></i></p>
+                        <p>250 Lorem ipsum</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-12 price_kupon">
+                        <p class= "gray_color">Lorem ipsum <b class="text-dark">300 dram</b></p>
+                        <small class= "gray_color"><del>60.000dr</del> Ot 1500 dram</small>
+                    </div>
+                </div>
+                <div class="row my-3">
+                    <div class="col-10 buy">
+                        <a href="checkout.php" class="text-uppercase">КУПИТЬ</a>
+                    </div>
+                    <div class="col-2 heart_rating" onclick="growing_reating(this)">
+                        <button>
+                            <i class="far fa-heart"></i>
+                            <p id="growing_reating_number">125</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10 buy_present">
+                        <a href="checkout-more.php" class="buy_present_link text-uppercase">Lorem lorem</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 my-2 time_kupon">
+                        <small class= "gray_color">Lorem ipsum dolor sit amet.</small>
+                    </div>
+                </div>
+                <div class="row time_limit">
+                    <div class="col-xl-1 col-lg-1 col-md-1 col-1 ">
+                        <i class="far fa-clock"></i>
+                    </div>
+                    <div class="col-xl-10 col-10">
+                        <p> <b> 9 </b> D <b> 19 </b> C <b> 46 </b> M</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 website my-2 ">
+                        <small class= "gray_color">Lorem ipsum dolor sit amet.</small>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 website mb-3">
+                        <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-odnoklassniki"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-12 my-2 website">
+                        <small class= "gray_color">Tags</small>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 my-2 tags">
+                        <span>Swimming</span>
+                        <span>Relax</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-md-12">
                 <!--nav bar-->
                 <div class="about_product">
                     <div id="nav_bar_product">
@@ -125,155 +205,73 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-lg-4">
-               <div class="row more_information">
-                   <div class="col-4">
-                       <p><i class="fa fa-eye"></i></p>
-                       <p>250 Lorem ipsum</p>
-                   </div>
-                   <div class="col-4">
-                        <p><i class="fa fa-line-chart"></i></p>
-                       <p>50+ Lorem ipsum</p>
-                   </div>
-                   <div class="col-4">
-                       <p><i class="fa fa-user-circle-o"></i></p>
-                       <p>250 Lorem ipsum</p>
-                   </div>
-               </div>
-               <hr>
-               <div class="row">
-                   <div class="col-12 price_kupon">
-                       <p class= "gray_color">Lorem ipsum <b class="text-dark">300 dram</b></p>
-                       <small class= "gray_color"><del>60.000dr</del> Ot 1500 dram</small>
-                   </div>
-               </div>
-               <div class="row my-3">
-                   <div class="col-10 buy">
-                       <a href="checkout.php" class="text-uppercase">КУПИТЬ</a>
-                   </div>
-                   <div class="col-2 heart_rating" onclick="growing_reating(this)">
-                       <button>
-                            <i class="far fa-heart"></i>
-                            <p id="growing_reating_number">125</p>
-                       </button>
-                  </div>
-               </div>
-               <div class="row">
-                   <div class="col-10 buy_present">
-                       <a href="checkout-more.php" class="buy_present_link text-uppercase">Lorem lorem</a>
-                   </div>
-               </div>
-               <div class="row">
-                   <div class="col-12 my-2 time_kupon">
-                       <small class= "gray_color">Lorem ipsum dolor sit amet.</small>
-                   </div>
-               </div>
-               <div class="row time_limit">
-                   <div class="col-xl-1 col-lg-1 col-md-1 col-1 ">
-                       <i class="far fa-clock"></i>
-                   </div>
-                   <div class="col-xl-10 col-10">
-                       <p> <b> 9 </b> D <b> 19 </b> C <b> 46 </b> M</p>
-                   </div>
-               </div>
-               <div class="row">
-                   <div class="col-12 website my-2 ">
-                       <small class= "gray_color">Lorem ipsum dolor sit amet.</small>
-                   </div>
-               </div>
-               <div class="row">
-                   <div class="col-12 website mb-3">
-                       <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
-                       <a href="#"><i class="fab fa-odnoklassniki"></i></a>
-                       <a href="#"><i class="fab fa-twitter"></i></a>
-                       <a href="#"><i class="fab fa-vk"></i></a>
-                   </div>
-               </div>
-               <hr>
-               <div class="row">
-                    <div class="col-12 my-2 website">
-                        <small class= "gray_color">Tags</small>
-                    </div>
-               </div>
-               <div class="row">
-                    <div class="col-12 my-2 tags">
-                        <span>Swimming</span>
-                        <span>Relax</span>
-                    </div>
-               </div>
                 <div class="row">
                     <div class="col-12 my-2 banners">
                         <img class="imgBG-main" src="images/Rectangle8.png" alt>
                     </div>
-               </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
 <div id="review" class="py-5 my-3">
     <div class="container">
         <div class="row">
-            <div class="col-8 ">
+            <div class="col-lg-8 col-md-12">
                 <h3>Review</h3>
-                <div class="row review_stars mb-2">
-                <a
-                    id="tglr"
-                    tabindex="0"
-                    class="btn btn-lg popover-toggle"
-                    role="button"
-                    data-toggle="popover"
-                    data-trigger="hover"
-                >
-                    <div class="col-1">
+                <div class="row review_stars mb-4">
+                    <div id="customdiv_btn" onmouseenter="customdiv_btn_enter()" onmouseleave="customdiv_btn_leave()">
+                        <div class="col-lg-1 col-md-1 col-sm-2 col-xs-3 p-0">
+                            <h2><b>4.5</b></h2>
+                        </div>
+                        <div class="col-lg-5 col-md-4 col-sm-6 col-xs-6">
+                            <div class="Stars" style="--rating: 4.5;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                            <p class="m-0">lorem: 21.021</p>
+                        </div>
+                    </div>
+
+                    <div id="customdiv" style="display: none">
                         <h2>4.5</h2>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <div>
+                            <div class="Stars" style="--rating: 5;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                            <input class="range_length" readonly type="range" id="cowbell" name="cowbell" min="0" max="86" value="90" step="10" rea>
+                            <span>86%</span>
+                        </div>
+                        <div>
+                            <div class="Stars" style="--rating: 4;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                            <input class="range_length" readonly type="range" id="cowbell" name="cowbell" min="0" max="56" value="60" step="10" rea>
+                            <span>86%</span>
+                        </div>
+                        <div>
+                            <div class="Stars" style="--rating: 3;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                            <input class="range_length" readonly type="range" id="cowbell" name="cowbell" min="0" max="36" value="30" step="10" rea>
+                            <span>86%</span>
+                        </div>
+                        <div>
+                            <div class="Stars" style="--rating: 2;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                            <input class="range_length" readonly type="range" id="cowbell" name="cowbell" min="0" max="26" value="10" step="10" rea>
+                            <span>86%</span>
+                        </div>
+                        <div>
+                            <div class="Stars" style="--rating: 1;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                            <input class="range_length" readonly type="range" id="cowbell" name="cowbell" min="0" max="6" value="90" step="10" rea>
+                            <span>86%</span>
+                        </div>
                     </div>
-                    <div class="col-5">
-                        <div class="Stars" style="--rating: 4.5;" aria-label="Rating of this product is 2.3 out of 5."></div>
-                        <p>lorem: 21.021</p>
-                    </div>
-                </a>
 
-                <div id="customdiv" style="display: none">
-                    <h2>4.5</h2>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <div>
-                        <div class="Stars" style="--rating: 5;" aria-label="Rating of this product is 2.3 out of 5."></div>
-                        <input class="range_length" readonly type="range" id="cowbell" name="cowbell" min="0" max="86" value="90" step="10" rea>
-                        <span>86%</span>
-                    </div>
-                    <div>
-                        <div class="Stars" style="--rating: 4;" aria-label="Rating of this product is 2.3 out of 5."></div>
-                        <input class="range_length" readonly type="range" id="cowbell" name="cowbell" min="0" max="56" value="90" step="10" rea>
-                        <span>86%</span>
-                    </div>
-                    <div>
-                        <div class="Stars" style="--rating: 3;" aria-label="Rating of this product is 2.3 out of 5."></div>
-                        <input class="range_length" readonly type="range" id="cowbell" name="cowbell" min="0" max="36" value="90" step="10" rea>
-                        <span>86%</span>
-                    </div>
-                    <div>
-                        <div class="Stars" style="--rating: 2;" aria-label="Rating of this product is 2.3 out of 5."></div>
-                        <input class="range_length" readonly type="range" id="cowbell" name="cowbell" min="0" max="26" value="90" step="10" rea>
-                        <span>86%</span>
-                    </div>
-                    <div>
-                        <div class="Stars" style="--rating: 1;" aria-label="Rating of this product is 2.3 out of 5."></div>
-                        <input class="range_length" readonly type="range" id="cowbell" name="cowbell" min="0" max="6" value="90" step="10" rea>
-                        <span>86%</span>
-                    </div>
-                </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-10 select_wraper">
+                        <label for="type">Select type:</label>
 
-                <div class="col-6 select_wraper">
-                    <label for="type">Select type:</label>
-
-                    <select name="type" id="type">
-                        <option value="one">one</option>
-                        <option value="two">two</option>
-                        <option value="three">three</option>
-                        <option value="four">four</option>
-                    </select>
-                </div>
+                        <select name="type" id="type">
+                            <option value="one">one</option>
+                            <option value="two">two</option>
+                            <option value="three">three</option>
+                            <option value="four">four</option>
+                        </select>
+                    </div>
                 </div>
                 <!--one review_user_wraper-->
                 <div class="review_user_wraper my-2">
@@ -375,16 +373,16 @@
                         <div id="write_review_text">
                             <p>Write review</p>
                             <form action="">
-                                <div class="row">
-                                    <div class="col-6 pr-2">
+                                <div class="row mb-2">
+                                    <div class="col-lg-6 col-sm-12">
                                         <input type="text" placeholder="Full name">
                                     </div>
-                                    <div class="col-6 pl-2">
+                                    <div class="col-lg-6 col-sm-12">
                                         <input type="email" placeholder="Email">
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-12 ">
+                                    <div class="col-12">
                                         <textarea id="" name="" rows="4" cols="50" placeholder="Review"></textarea>
                                     </div>
                                 </div>
@@ -405,17 +403,17 @@
 <div  class="py-3 my-3">
     <div class="container">
         <div class="row">
-            <div class="col-8" id="addess">
+            <div class="col-lg-8 col-md-12" id="addess">
                 <h3>Addess</h3>
                 <p>Lorem ipsum <a href="#">dolor amet </a></p>
                 <hr>
                 <p>Lorem ipsum dolor sit amet.</p>
                 <p>Lorem ipsum dolor sit amet:43 34</p>
                 <p>Lorem:2344 433 343 34 334 343 34 34 3443</p>
-                <div>
+                <div class="col-lg-10 col-md-12">
                     <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.3722265870465!2d44.513443315898265!3d40.1785289793935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abcfa5daefc49%3A0x2c3665ccdee75952!2sRepublic%20Square!5e0!3m2!1sen!2s!4v1613657443936!5m2!1sen!2s"
-                    width="600"
+                    width="100%"
                     height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
             </div>

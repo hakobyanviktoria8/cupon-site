@@ -242,7 +242,7 @@ $(document).ready(function (){
         // variableWidth: true,
         dots: true,
         infinite: true,
-        // autoplay: true,
+        autoplay: true,
         arrows: false,
         speed: 500,
         slidesToShow: 3,
@@ -308,12 +308,12 @@ $(document).ready(function (){
 
 
 //    popovers stars
-    $('#tglr').popover({
-        html : true,
-        content: function() {
-            return $('#customdiv').html();
-        }
-    });
+//     $('#tglr').popover({
+//         html : true,
+//         content: function() {
+//             return $('#customdiv').html();
+//         }
+//     });
 
 
 
@@ -430,6 +430,7 @@ function forget_password_func(){
 let show = false;
 let nav_bar_product = document.querySelector("#nav_bar_product");
 let nav_item_buy = document.querySelector("#nav_item_buy");
+
 function scrole_bar (){
     window.addEventListener("scroll", () =>{
         show = window.scrollY > 1100
@@ -447,7 +448,6 @@ function scrole_bar (){
 }
 scrole_bar();
 
-
 //write_review comment
 let write_review_btn = document.querySelector("#write_review_btn");
 let write_review_text = document.querySelector("#write_review_text");
@@ -457,9 +457,15 @@ function write_review(){
     write_review_btn.style.display = "none";
 }
 
+//customdiv_btn
+let customdiv = document.querySelector("#customdiv");
 
-//
-
+function customdiv_btn_enter(){
+    customdiv.style.display = "block";
+}
+function customdiv_btn_leave(){
+    customdiv.style.display = "none";
+}
 
 
 

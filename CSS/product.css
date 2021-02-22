@@ -162,9 +162,12 @@
 #review .review_stars h2{
     font-size: 36px;
     font-weight: bold;
+    color: #272630;
+    padding-left: 15px;
 }
 #review .review_stars p{
     font-size: 14px;
+    color: #272630;
 }
 #review .review_stars .select_wraper{
     text-align: right;
@@ -282,15 +285,25 @@
 }
 
 /*mouse hover stars review*/
-
+#custom_div_btn:hover #customdiv {
+    display: block;
+}
 #customdiv{
     border: 1px solid gray;
     border-radius: 10px;
-    width: 380px;
+    width: 350px;
     padding: 20px;
+    position: absolute;
+    z-index: 3;
+    background: white;
+    left: 12.5rem;
+    top: -5rem;
+    outline: none;
+    display: none;
 }
 #customdiv h2{
     font-size: 36px;
+    font-weight: bold;
 }
 #customdiv p{
     font-size: 14px;
@@ -303,6 +316,71 @@
     width: 120px;
     margin: 5px 15px;
 }
+#customdiv_btn{
+    display: contents;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    .product .heart_rating {
+        box-shadow: none;
+        padding-left: 0;
+        justify-content: left;
+    }
+    .product .heart_rating button {
+        padding: 4px 20px;
+        box-shadow: 0 0 10px grey;
+    }
+}
+@media (max-width: 480px) {
+    #review .review_stars .select_wraper {
+        width: 100% !important;
+        text-align: left;
+    }
+    #customdiv{
+        left: 3.8rem;
+    }
+    .product .heart_rating{
+        box-shadow: none;
+    }
+    #customdiv_btn .col-xs-3{
+        width: 15%!important;
+    }
+    #customdiv_btn .col-xs-6{
+        width: 50%!important;
+        margin-left: 1rem;
+    }
+    .big_nav_bar{
+        display: none;
+    }
+}
+@media (max-width: 376px) {
+    #customdiv{
+        width: 220px;
+        left: 5rem;
+    }
+    #customdiv input{
+        display: none;
+    }
+    #customdiv span {
+        padding-left: 30px;
+    }
+    .carusel_cart_wraper .carusel_carts .slick-dots {
+        top: -15px;
+    }
+    .product .heart_rating button {
+        padding: 4px 15px;
+    }
+}
+
+
+
+
+
+
+
+
 
 
 
