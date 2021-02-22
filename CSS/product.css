@@ -376,12 +376,36 @@
 
 
 
-
-
-
-
-
-
+/*product-more style*/
+.kupon_wraper label{
+    display: flex;
+}
+.kupon_wraper .kupon_info h4{
+    font-size: 18px;
+}
+.kupon_wraper .kupon_info p, .kupon_wraper .kupon_info  h6{
+    margin: 0;
+}
+.kupon_wraper .kupon_info small, .kupon_wraper .kupon_info  h6{
+    font-size: 13px;
+}
+.kupon_wraper .kupon_info b{
+    color: #509b44;
+}
+.kupon_wraper  input[type=radio] {
+    width: 40px;
+    height: 40px;
+    margin-right: 1rem;
+}
+.kupon_wraper .kupon_info{
+    margin-top: .5rem;
+}
+.kupon_wraper button{
+    font-size: 15px;
+    color: #b4b4b4;
+    border: none;
+    outline: none;
+}
 
 
 

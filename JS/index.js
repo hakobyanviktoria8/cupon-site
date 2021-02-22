@@ -433,16 +433,10 @@ let nav_item_buy = document.querySelector("#nav_item_buy");
 
 function scrole_bar (){
     window.addEventListener("scroll", () =>{
-        if (window.innerWidth >= 1920){
-            show = window.scrollY > 1100
-        } else if (window.innerWidth >= 1440){
-            show = window.scrollY > 1100
-        } else if (window.innerWidth >= 1024){
-            show = window.scrollY > 1000
-        }else if (window.innerWidth >= 768){
-            show = window.scrollY > 1600
-        }
-
+        //__________________________________________________________________________veranayel
+        console.log(document.body.clientWidth);
+        console.log(window.innerWidth);
+        show = window.scrollY > 1100
         if(show ) {
             nav_bar_product.classList.add("big_nav_bar");
             nav_item_buy.style.display = "block"
@@ -457,6 +451,7 @@ function scrole_bar (){
 }
 scrole_bar();
 
+
 //write_review comment
 let write_review_btn = document.querySelector("#write_review_btn");
 let write_review_text = document.querySelector("#write_review_text");
@@ -465,6 +460,7 @@ function write_review(){
     write_review_text.style.display = "block";
     write_review_btn.style.display = "none";
 }
+
 
 //customdiv_btn
 let customdiv = document.querySelector("#customdiv");
@@ -476,8 +472,21 @@ function customdiv_btn_leave(){
     customdiv.style.display = "none";
 }
 
+//see_more_kupon
+const more_kupon = document.querySelector("#more_kupon");
+let show_kupon = false;
 
-console.log(window.innerWidth)
+function see_more_kupon(el){
+    show_kupon = !show_kupon;
+    el.innerHTML = show_kupon ?  "Show less kupon <i class=\"fas fa-chevron-up  ml-2\"></i>" : "See more kupon <i class=\" ml-2 fas fa-chevron-down\"></i>"
+    console.log(show_kupon)
+    if (show_kupon) {
+        more_kupon.style.display = "block";
+    }else {
+        more_kupon.style.display = "none";
+    }
+}
+//${show_kupon ? }
 
 
 

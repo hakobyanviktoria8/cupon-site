@@ -138,7 +138,7 @@
             <div class="col-lg-4 col-md-6 col-sm-10 col-xs-12 cart p-2 mb-1">
                 <div class="cartMainContent">
                     <div class="cartTopSide">
-                        <a href=""><img class="imgBG" src="images/home-coupon.jpg" alt=""></a>
+                        <a href="product-more.php"><img class="imgBG" src="images/home-coupon.jpg" alt=""></a>
                          <!-- Button trigger modal -->
                        <button type="button" class="btn modal_button" data-toggle="modal" data-target="#exampleModalCenter">
                            <i class="fa fa-eye"></i>
@@ -153,7 +153,7 @@
                     <div>
                         <div class="row cartTitle  m-0 p-3">
                             <div class="col p-0">
-                                <h3><a href="">Проведите ваш отдых в шикарном отеле  Tsaghkadzor MARRIOTT</a></h3>
+                                <h3><a href="product-more.php">Проведите ваш отдых в шикарном отеле  Tsaghkadzor MARRIOTT</a></h3>
                             </div>
                         </div>
                         <div class="row m-0 pl-3">
@@ -182,7 +182,7 @@
                                 <small>3 д 6 ч 2 м</small>
                             </div>
                             <div class="col-5 p-0">
-                                <a href="#"><span class="cartBtn py-1 px-4 float-right">Подробнее</span></a>
+                                <a href="product-more.php"><span class="cartBtn py-1 px-4 float-right">Подробнее</span></a>
                             </div>
                         </div>
                     </div>
