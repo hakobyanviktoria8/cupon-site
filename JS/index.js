@@ -293,6 +293,11 @@ $(document).ready(function (){
 
     SetRatingStar();
 
+
+    $('select').selectpicker();
+
+
+
     //__________________________________________________________________________veranayel
     //eye modal show
     $('#exampleModalCenter').on('shown.bs.modal', function () {
@@ -433,10 +438,22 @@ let nav_item_buy = document.querySelector("#nav_item_buy");
 
 function scrole_bar (){
     window.addEventListener("scroll", () =>{
+
         //__________________________________________________________________________veranayel
-        console.log(document.body.clientWidth);
-        console.log(window.innerWidth);
-        show = window.scrollY > 1100
+        // console.log(document.body.clientWidth);
+        // console.log(window.innerWidth);
+
+        if (window.innerWidth >= 1440){
+            show = window.scrollY > 1100
+        }else if (window.innerWidth >= 1024){
+            show = window.scrollY > 1000
+        }else if (window.innerWidth >= 768){
+            show = window.scrollY > 1600
+        } else {
+            show = window.scrollY > 1600
+        }
+
+        // show = window.scrollY > 1100
         if(show ) {
             nav_bar_product.classList.add("big_nav_bar");
             nav_item_buy.style.display = "block"
@@ -484,6 +501,19 @@ function see_more_kupon(el){
         more_kupon.style.display = "block";
     }else {
         more_kupon.style.display = "none";
+    }
+}
+
+const more_kupon_bottom = document.querySelector("#more_kupon_bottom");
+let show_kupon_bottom = false;
+
+function see_more_kupon_bottom(el){
+    show_kupon = !show_kupon;
+    el.innerHTML = show_kupon ?  "Show less kupon <i class=\"fas fa-chevron-up  ml-2\"></i>" : "See more kupon <i class=\" ml-2 fas fa-chevron-down\"></i>"
+    if (show_kupon) {
+        more_kupon_bottom.style.display = "block";
+    }else {
+        more_kupon_bottom.style.display = "none";
     }
 }
 //${show_kupon ? }

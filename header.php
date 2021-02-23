@@ -31,14 +31,18 @@
 <div class="flagsIcons">
     <div class="container p-0">
         <div class="row m-0">
-            <div class="col-lg-12 p-0">
-                <span class="navbar_linkIcons">
+            <div class="col-lg-6 col-5 p-0 text-left">
+                <span class="navbar_linkPhone ">
+                    <a href="tel: +374-10-505-506" class="m-0 text-dark">(010) 505 506</a>
+                    <a href="tel: +374-96-500-183" class="m-0 text-dark hide_mobile">, (096/093) 500 183</a>
+                </span>
+            </div>
+            <div class="col-lg-6 col-7 p-0">
+                <span class="navbar_linkFlags">
                     <a href="#"><img src="images/facebook.png" alt=""></a>
                     <a href="#"><img src="images/instagram.png" alt=""></a>
                     <a href="#"><img src="images/twitter.png" alt=""></a>
                     <a href="#"><img src="images/odnoklassniki.png" alt=""></a>
-                </span>
-                <span class="navbar_linkFlags">
                     <a href="#"><img src="images/arm.jpg" alt=""></a>
                     <a href="#"><img src="images/ru.jpg" alt=""></a>
                 </span>
@@ -54,11 +58,7 @@
         <!--header-top-->
             <div class="row mb-2 header-top">
                 <div class="col-lg-7 col-md-0 p-0">
-                    <a href="tel: +374-96-500-183" class="m-0 text-dark">(096/093) 500 183, </a>
-                    <a href="tel: +374-10-505-506" class="m-0 text-dark">(010) 505 506, </a>
-                    <a href="tel: +374-93-500-173" class="m-0 text-dark">(093/060) 500 173, </a><br>
-                    <a href="tel: +374-10-505-507" class="m-0 text-dark">(010) 505 507, </a>
-                    <a href="tel: +374-55-336-070" class="m-0 text-dark">(055) 336 070 </a>
+
                 </div>
                 <!-- Помощь -->
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-2  p-0">
@@ -119,13 +119,13 @@
             <div class="col-12 p-0">
                 <section class="carusel0">
                     <div class="py-2 ml-1">
-                        <a class="text-uppercase" href="category.php">ТОП АКЦИИ</a>
+                        <a class="text-uppercase" href="category.php">category</a>
                     </div>
                     <div class="py-2 ml-1">
-                        <a class="text-uppercase" href="category-with-sorting.php">Все 280</a>
+                        <a class="text-uppercase" href="category-with-sorting.php">Sorting</a>
                     </div>
                     <div class="py-2 ml-1">
-                        <a class="text-uppercase" href="#">услуги</a>
+                        <a class="text-uppercase" href="category-relax.php">relax</a>
                     </div>
                     <div class="py-2 ml-1">
                         <a class="text-uppercase" href="#">отели</a>

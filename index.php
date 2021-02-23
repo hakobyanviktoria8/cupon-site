@@ -1703,8 +1703,18 @@
     </div>
 </div>
 
-<!--adresses side-->
 <div class="container my-5 adresses">
+    <!--text-->
+    <div class="row">
+        <div class="col-12 my-5">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores consequatur delectus, dolores ducimus eaque nesciunt quisquam, ratione sequi similique tempore unde vel. Cumque cupiditate doloremque ex magnam mollitia nihil obcaecati officiis quia tempora, tempore. Asperiores optio, saepe! Aliquam amet commodi dicta ea eligendi ex fugit impedit incidunt, ipsa labore maiores minus modi nesciunt nostrum officia omnis provident quidem quisquam reprehenderit, saepe soluta vel vitae voluptates! Amet cupiditate deleniti dolores ea magni molestias pariatur quia sit temporibus velit. Ab ad adipisci aliquam at autem culpa dolor dolorem ea enim eum excepturi impedit inventore laudantium modi nemo, nihil nisi perferendis quae quam quia quibusdam quod ratione, reiciendis repellat repudiandae similique, unde ut vero voluptas voluptatum? Ab culpa debitis earum facere laborum nam, quasi vitae! Aperiam beatae esse, hic ipsa libero magni odio possimus quasi quibusdam, quis quisquam sapiente, sequi sit velit veritatis!</p>
+            <b>Lorem ipsum dolor sit amet.</b>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab aperiam architecto aspernatur aut consequatur cum delectus dicta doloribus ea error esse facilis fugiat harum id impedit incidunt ipsum laborum maxime nihil nisi nobis nulla odit officia officiis pariatur perferendis possimus quibusdam rem rerum sapiente temporibus tenetur ullam unde, vel, voluptate voluptatem. Amet consectetur consequuntur deserunt excepturi fugit illum labore laborum libero necessitatibus nulla perferendis quaerat reiciendis tenetur voluptate, voluptates. Ab aliquam assumenda corporis dignissimos eaque exercitationem, hic laudantium minus nemo, pariatur quibusdam sint suscipit, voluptas. Alias blanditiis dignissimos dolores facilis minima, obcaecati provident qui totam ullam velit vitae voluptas.</p>
+        </div>
+    </div>
+
+
+    <!--adresses side-->
     <div class="row">
         <h3 class="pl-3">Ботинки и пинетки</h3>
     </div>

@@ -17,6 +17,13 @@
     font-size: 13px;
     line-height: 40px; text-align: right;
 }
+.flagsIcons .navbar_linkPhone a{
+    color: white!important;
+    font-size: 16px;
+}
+.flagsIcons .navbar_linkPhone a:hover{
+    text-decoration: none;
+}
 .flagsIcons .row a{
     margin: 0 5px;
 }
@@ -78,7 +85,7 @@
 }
 /*logo*/
 .logo{
-    width: 70%;
+    width: 75%;
 }
 .lemon{
     display: none;
@@ -1073,7 +1080,7 @@
 
 @media (max-width: 992px) {
     .navbar_linkIcons{
-        float: left;
+        /*float: left;*/
     }
     .header-top .col-md-0{
         display: none;
@@ -1110,6 +1117,9 @@
     .navBar2{
         width: 30%;
     }
+    .hide_mobile{
+        display: none;
+    }
     .header-bottom div:nth-of-type(1){
         max-width: 15%;
     }
@@ -1143,13 +1153,13 @@
 }
 
 @media (max-width: 576px) {
-    .flagsIcons .navbar_linkIcons{
+    .flagsIcons .navbar_linkPhone{
         padding-left: 10px !important;
     }
     .flagsIcons .navbar_linkFlags{
         padding-right: 10px !important;
     }
-    .lemon{
+     .lemon{
         margin-left: 10px;
     }
     .header-top div:nth-of-type(2){

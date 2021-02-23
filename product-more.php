@@ -79,133 +79,131 @@
                            <p>01/05/2020</p>
                        </div>
                  </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="row more_information">
-                    <div class="col-4">
-                        <p><i class="fa fa-eye"></i></p>
-                        <p>250 Lorem ipsum</p>
-                    </div>
-                    <div class="col-4">
-                        <p><i class="fa fa-line-chart"></i></p>
-                        <p>50+ Lorem ipsum</p>
-                    </div>
-                    <div class="col-4">
-                        <p><i class="fa fa-user-circle-o"></i></p>
-                        <p>250 Lorem ipsum</p>
-                    </div>
-                </div>
-                <hr>
-                <div class="row">
-                    <div class="col-12 price_kupon kupon_wraper">
-                        <label for="kupon_1">
-                            <input type="radio" name="kupon" id="kupon_1">
-                            <div class="kupon_info">
-                                 <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, distinctio!</h4>
-                                 <p class= "gray_color">Lorem ipsum <b class="text-dark">300 dram</b></p>
-                                 <small class= "gray_color"><del>60.000dr</del> Ot 1500 dram</small>
-                                 <h6>Lorem <b>33%</b></h6>
-                                 <small class= "gray_color">10+ kupon</small>
-                            </div>
-                        </label>
-                        <hr>
-                        <label for="kupon_1">
-                            <input type="radio" name="kupon" id="kupon_1">
-                            <div class="kupon_info">
-                                 <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, distinctio!</h4>
-                                 <p class= "gray_color">Lorem ipsum <b class="text-dark">300 dram</b></p>
-                                 <small class= "gray_color"><del>60.000dr</del> Ot 1500 dram</small>
-                                 <h6>Lorem <b>33%</b></h6>
-                                 <small class= "gray_color">10+ kupon</small>
-                            </div>
-                        </label>
-                        <hr>
-                        <div id="more_kupon" style="display:none">
-                            <label for="kupon_1">
-                                <input type="radio" name="kupon" id="kupon_1">
-                                <div class="kupon_info">
-                                     <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, distinctio!</h4>
-                                     <p class= "gray_color">Lorem ipsum <b class="text-dark">300 dram</b></p>
-                                     <small class= "gray_color"><del>60.000dr</del> Ot 1500 dram</small>
-                                     <h6>Lorem <b>33%</b></h6>
-                                     <small class= "gray_color">10+ kupon</small>
-                                </div>
-                            </label>
-                            <hr>
-                            <label for="kupon_1">
-                                <input type="radio" name="kupon" id="kupon_1">
-                                <div class="kupon_info">
-                                     <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, distinctio!</h4>
-                                     <p class= "gray_color">Lorem ipsum <b class="text-dark">300 dram</b></p>
-                                     <small class= "gray_color"><del>60.000dr</del> Ot 1500 dram</small>
-                                     <h6>Lorem <b>33%</b></h6>
-                                     <small class= "gray_color">10+ kupon</small>
-                                </div>
-                            </label>
-                            <hr>
-                        </div>
 
-                        <button onclick="see_more_kupon(this)">See more kupon<i class="fas fa-chevron-down ml-2"></i></button>
+                <div id="product_right_aside_in_top">
+                    <div class="row more_information">
+                        <div class="col-4">
+                            <p><i class="fa fa-eye"></i></p>
+                            <p>250 Lorem ipsum</p>
+                        </div>
+                        <div class="col-4">
+                            <p><i class="fa fa-line-chart"></i></p>
+                            <p>50+ Lorem ipsum</p>
+                        </div>
+                        <div class="col-4">
+                            <p><i class="fa fa-user-circle-o"></i></p>
+                            <p>250 Lorem ipsum</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12 price_kupon kupon_wraper">
+                            <label for="kupon_bottom_1">
+                                <input type="radio" name="kupon" id="kupon_bottom_1">
+                                <div class="kupon_info">
+                                     <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, distinctio!</h4>
+                                     <p class= "gray_color">Lorem ipsum <b class="text-dark">300 dram</b></p>
+                                     <small class= "gray_color"><del>60.000dr</del> Ot 1500 dram</small>
+                                     <h6>Lorem <b>33%</b></h6>
+                                     <small class= "gray_color">10+ kupon</small>
+                                </div>
+                            </label>
+                            <hr>
+                            <label for="kupon_bottom_2">
+                                <input type="radio" name="kupon" id="kupon_bottom_2">
+                                <div class="kupon_info">
+                                     <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, distinctio!</h4>
+                                     <p class= "gray_color">Lorem ipsum <b class="text-dark">300 dram</b></p>
+                                     <small class= "gray_color"><del>60.000dr</del> Ot 1500 dram</small>
+                                     <h6>Lorem <b>33%</b></h6>
+                                     <small class= "gray_color">10+ kupon</small>
+                                </div>
+                            </label>
+                            <hr>
+                            <div id="more_kupon_bottom" style="display:none">
+                                <label for="kupon_bottom_3">
+                                    <input type="radio" name="kupon" id="kupon_bottom_3">
+                                    <div class="kupon_info">
+                                         <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, distinctio!</h4>
+                                         <p class= "gray_color">Lorem ipsum <b class="text-dark">300 dram</b></p>
+                                         <small class= "gray_color"><del>60.000dr</del> Ot 1500 dram</small>
+                                         <h6>Lorem <b>33%</b></h6>
+                                         <small class= "gray_color">10+ kupon</small>
+                                    </div>
+                                </label>
+                                <hr>
+                                <label for="kupon_bottom_4">
+                                    <input type="radio" name="kupon" id="kupon_bottom_4">
+                                    <div class="kupon_info">
+                                         <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, distinctio!</h4>
+                                         <p class= "gray_color">Lorem ipsum <b class="text-dark">300 dram</b></p>
+                                         <small class= "gray_color"><del>60.000dr</del> Ot 1500 dram</small>
+                                         <h6>Lorem <b>33%</b></h6>
+                                         <small class= "gray_color">10+ kupon</small>
+                                    </div>
+                                </label>
+                                <hr>
+                            </div>
+
+                            <button onclick="see_more_kupon_bottom(this)">See more kupon<i class="fas fa-chevron-down ml-2"></i></button>
+                        </div>
+                    </div>
+                    <div class="row my-3">
+                        <div class="col-10 buy">
+                            <a href="checkout.php" class="text-uppercase">КУПИТЬ</a>
+                        </div>
+                        <div class="col-2 heart_rating" onclick="growing_reating(this)">
+                            <button>
+                                <i class="far fa-heart"></i>
+                                <p id="growing_reating_number">125</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10 buy_present">
+                            <a href="checkout-more.php" class="buy_present_link text-uppercase">Lorem lorem</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 my-2 time_kupon">
+                            <small class= "gray_color">Lorem ipsum dolor sit amet.</small>
+                        </div>
+                    </div>
+                    <div class="row time_limit">
+                        <div class="col-xl-1 col-lg-1 col-md-1 col-1 ">
+                            <i class="far fa-clock"></i>
+                        </div>
+                        <div class="col-xl-10 col-10">
+                            <p> <b> 9 </b> D <b> 19 </b> C <b> 46 </b> M</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 website my-2 ">
+                            <small class= "gray_color">Lorem ipsum dolor sit amet.</small>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 website mb-3">
+                            <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-odnoklassniki"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-vk"></i></a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12 my-2 website">
+                            <small class= "gray_color">Tags</small>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 my-2 tags">
+                            <span>Swimming</span>
+                            <span>Relax</span>
+                        </div>
                     </div>
                 </div>
-                <div class="row my-3">
-                    <div class="col-10 buy">
-                        <a href="checkout.php" class="text-uppercase">КУПИТЬ</a>
-                    </div>
-                    <div class="col-2 heart_rating" onclick="growing_reating(this)">
-                        <button>
-                            <i class="far fa-heart"></i>
-                            <p id="growing_reating_number">125</p>
-                        </button>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-10 buy_present">
-                        <a href="checkout-more.php" class="buy_present_link text-uppercase">Lorem lorem</a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 my-2 time_kupon">
-                        <small class= "gray_color">Lorem ipsum dolor sit amet.</small>
-                    </div>
-                </div>
-                <div class="row time_limit">
-                    <div class="col-xl-1 col-lg-1 col-md-1 col-1 ">
-                        <i class="far fa-clock"></i>
-                    </div>
-                    <div class="col-xl-10 col-10">
-                        <p> <b> 9 </b> D <b> 19 </b> C <b> 46 </b> M</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 website my-2 ">
-                        <small class= "gray_color">Lorem ipsum dolor sit amet.</small>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 website mb-3">
-                        <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-odnoklassniki"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-vk"></i></a>
-                    </div>
-                </div>
-                <hr>
-                <div class="row">
-                    <div class="col-12 my-2 website">
-                        <small class= "gray_color">Tags</small>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 my-2 tags">
-                        <span>Swimming</span>
-                        <span>Relax</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-8 col-md-12">
+
                 <!--nav bar-->
                 <div class="about_product">
                     <div id="nav_bar_product">
@@ -214,21 +212,21 @@
                                 <div class="col-12 p-0">
                                     <div class="nav_bar">
                                         <ul class="nav nav-pills">
-                                          <li class="nav-item">
-                                            <a class="nav-link nav_bar_active" href="#conditions">conditions</a>
-                                          </li>
-                                          <li class="nav-item">
-                                            <a class="nav-link" href="#description">description</a>
-                                          </li>
-                                          <li class="nav-item">
-                                            <a class="nav-link" href="#review">review</a>
-                                          </li>
-                                          <li class="nav-item">
-                                            <a class="nav-link disabled" href="#addess">addess</a>
-                                          </li>
-                                          <li class="nav-item" id="nav_item_buy">
-                                            <a class="nav-link disabled" href="#checkout.php">Buy: 1500dr</a>
-                                          </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link nav_bar_active" href="#conditions">conditions</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#description">description</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#review">review</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link disabled" href="#addess">addess</a>
+                                            </li>
+                                            <li class="nav-item" id="nav_item_buy">
+                                                <a class="nav-link disabled" href="#checkout.php">Buy: 1500dr</a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -251,7 +249,132 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4" >
+                <div id="product_right_aside">
+                    <div class="row more_information">
+                        <div class="col-4">
+                            <p><i class="fa fa-eye"></i></p>
+                            <p>250 Lorem ipsum</p>
+                        </div>
+                        <div class="col-4">
+                            <p><i class="fa fa-line-chart"></i></p>
+                            <p>50+ Lorem ipsum</p>
+                        </div>
+                        <div class="col-4">
+                            <p><i class="fa fa-user-circle-o"></i></p>
+                            <p>250 Lorem ipsum</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12 price_kupon kupon_wraper">
+                            <label for="kupon_1">
+                                <input type="radio" name="kupon" id="kupon_1">
+                                <div class="kupon_info">
+                                     <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, distinctio!</h4>
+                                     <p class= "gray_color">Lorem ipsum <b class="text-dark">300 dram</b></p>
+                                     <small class= "gray_color"><del>60.000dr</del> Ot 1500 dram</small>
+                                     <h6>Lorem <b>33%</b></h6>
+                                     <small class= "gray_color">10+ kupon</small>
+                                </div>
+                            </label>
+                            <hr>
+                            <label for="kupon_2">
+                                <input type="radio" name="kupon" id="kupon_2">
+                                <div class="kupon_info">
+                                     <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, distinctio!</h4>
+                                     <p class= "gray_color">Lorem ipsum <b class="text-dark">300 dram</b></p>
+                                     <small class= "gray_color"><del>60.000dr</del> Ot 1500 dram</small>
+                                     <h6>Lorem <b>33%</b></h6>
+                                     <small class= "gray_color">10+ kupon</small>
+                                </div>
+                            </label>
+                            <hr>
+                            <div id="more_kupon" style="display:none">
+                                <label for="kupon_3">
+                                    <input type="radio" name="kupon" id="kupon_3">
+                                    <div class="kupon_info">
+                                         <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, distinctio!</h4>
+                                         <p class= "gray_color">Lorem ipsum <b class="text-dark">300 dram</b></p>
+                                         <small class= "gray_color"><del>60.000dr</del> Ot 1500 dram</small>
+                                         <h6>Lorem <b>33%</b></h6>
+                                         <small class= "gray_color">10+ kupon</small>
+                                    </div>
+                                </label>
+                                <hr>
+                                <label for="kupon_4">
+                                    <input type="radio" name="kupon" id="kupon_4">
+                                    <div class="kupon_info">
+                                         <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, distinctio!</h4>
+                                         <p class= "gray_color">Lorem ipsum <b class="text-dark">300 dram</b></p>
+                                         <small class= "gray_color"><del>60.000dr</del> Ot 1500 dram</small>
+                                         <h6>Lorem <b>33%</b></h6>
+                                         <small class= "gray_color">10+ kupon</small>
+                                    </div>
+                                </label>
+                                <hr>
+                            </div>
+
+                            <button onclick="see_more_kupon(this)">See more kupon<i class="fas fa-chevron-down ml-2"></i></button>
+                        </div>
+                    </div>
+                    <div class="row my-3">
+                        <div class="col-10 buy">
+                            <a href="checkout.php" class="text-uppercase">КУПИТЬ</a>
+                        </div>
+                        <div class="col-2 heart_rating" onclick="growing_reating(this)">
+                            <button>
+                                <i class="far fa-heart"></i>
+                                <p id="growing_reating_number">125</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10 buy_present">
+                            <a href="checkout-more.php" class="buy_present_link text-uppercase">Lorem lorem</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 my-2 time_kupon">
+                            <small class= "gray_color">Lorem ipsum dolor sit amet.</small>
+                        </div>
+                    </div>
+                    <div class="row time_limit">
+                        <div class="col-xl-1 col-lg-1 col-md-1 col-1 ">
+                            <i class="far fa-clock"></i>
+                        </div>
+                        <div class="col-xl-10 col-10">
+                            <p> <b> 9 </b> D <b> 19 </b> C <b> 46 </b> M</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 website my-2 ">
+                            <small class= "gray_color">Lorem ipsum dolor sit amet.</small>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 website mb-3">
+                            <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-odnoklassniki"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-vk"></i></a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12 my-2 website">
+                            <small class= "gray_color">Tags</small>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 my-2 tags">
+                            <span>Swimming</span>
+                            <span>Relax</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!--            banners-->
                 <div class="row">
                     <div class="col-12 my-2 banners">
                         <img class="imgBG-main" src="images/Rectangle8.png" alt>
@@ -259,6 +382,19 @@
                 </div>
             </div>
         </div>
+
+<!--        <div class="row">-->
+<!--            <div class="col-lg-8 col-md-12">-->
+<!--               -->
+<!--            </div>-->
+<!--            <div class="col-lg-4">-->
+<!--                <div class="row">-->
+<!--                    <div class="col-12 my-2 banners">-->
+<!--                        <img class="imgBG-main" src="images/Rectangle8.png" alt>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
     </div>
 </div>
 

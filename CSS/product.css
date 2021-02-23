@@ -120,6 +120,10 @@
 .product .banners img{
     width: 100%;
 }
+/*product right side print carusel bottom*/
+#product_right_aside_in_top{
+    display: none;
+}
 
 /*about product*/
 .product .about_product p{
@@ -321,7 +325,19 @@
     cursor: pointer;
 }
 
-
+@media (max-width: 992px) {
+    #product_right_aside {
+        display: none;
+    }
+    #product_right_aside_in_top{
+        display: block;
+    }
+    .kupon_wraper input[type=radio] {
+        width: 30px!important;
+        height: 30px!important;
+        margin-top: 10px;
+    }
+}
 @media (max-width: 768px) {
     .product .heart_rating {
         box-shadow: none;
@@ -371,6 +387,11 @@
     }
     .product .heart_rating button {
         padding: 4px 15px;
+    }
+    .kupon_wraper input[type=radio] {
+        width: 35px!important;
+        height: 35px!important;
+        margin-top: 5px;
     }
 }
 
