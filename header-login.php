@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="CSS/checkput.css">
     <link rel="stylesheet" href="CSS/product.css">
     <link rel="stylesheet" href="CSS/header-login.css">
+    <link rel="stylesheet" href="CSS/personal-area.css">
 
 </head>
 <body>
@@ -106,10 +107,24 @@
                         <button><i class="fas fa-search"></i></button>
                     </form>
                 </div>
+
+                <!--login -->
                 <div class="col-lg-3 col-md-2 p-0 text-right col3">
-                     <a href="#" class="registration" data-toggle="modal" data-target="#exampleModal">Вход / Регистрация</a>
-                     <a href="#" class="userIcon" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-user mr-2"></i></a>
+                    <div class="dropdown login_user">
+                      <button class=" dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Full Name
+                      </button>
+                      <div class="dropdown-menu dropdown-menu-right p-0" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="personal-area.php">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something here</a>
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something here</a>
+                      </div>
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>

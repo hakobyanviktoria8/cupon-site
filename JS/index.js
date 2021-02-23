@@ -504,6 +504,7 @@ function see_more_kupon(el){
     }
 }
 
+//see_more_kupon_bottom
 const more_kupon_bottom = document.querySelector("#more_kupon_bottom");
 let show_kupon_bottom = false;
 
@@ -516,7 +517,6 @@ function see_more_kupon_bottom(el){
         more_kupon_bottom.style.display = "none";
     }
 }
-//${show_kupon ? }
 
 
 

@@ -151,12 +151,15 @@
                             <label for="remember_me">remember me</label>
                             <a href="#"  onclick="forget_password_func()" class="float-right">Forget password ?</a>
                         </div>
-                        <button class="registration_btn">Signin</button>
+                        <a href="home-login.php">
+                            <button class="registration_btn">Signin</button>
+                        </a>
                         <div class="text-center mt-5 sign_in_wraper">
                            <span>Lorem ipsum new?</span>
                            <a href="#" id="signup_btn" onclick="signup_or_signin()">Sign up</a>
                         </div>
                     </div>
+
                 </div>
 
                 <!--signup-->
