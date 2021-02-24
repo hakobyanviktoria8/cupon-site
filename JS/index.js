@@ -435,14 +435,11 @@ function forget_password_func(){
 let show = false;
 let nav_bar_product = document.querySelector("#nav_bar_product");
 let nav_item_buy = document.querySelector("#nav_item_buy");
+let product = document.querySelector(".product");
 
 function scrole_bar (){
+    product &&
     window.addEventListener("scroll", () =>{
-
-        //__________________________________________________________________________veranayel
-        // console.log(document.body.clientWidth);
-        // console.log(window.innerWidth);
-
         if (window.innerWidth >= 1440){
             show = window.scrollY > 1100
         }else if (window.innerWidth >= 1024){
