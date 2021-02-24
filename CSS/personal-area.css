@@ -1,7 +1,6 @@
-.personal_area{
-}
+/*_________________most_important__________________*/
 #most_important{
-    /*display: none;*/
+    display: none;
 }
 .font_14{
     font-size: 14px;
@@ -88,49 +87,50 @@
     font-size: 24px;
     color: #272630;
 }
-.see_all_kupon_link a{
+.see_all_cupon_link a{
     color: #509b44 !important;
     font-size: 16px;
 }
-.see_all_kupon_link a:hover{
+.see_all_cupon_link a:hover{
     text-decoration: none;
 }
 
-/*kupon_cart*/
-.kupon_cart{
+/*cupon_cart*/
+.cupon_cart{
     box-shadow: 0 5px 10px grey;
     padding: 15px;
     margin-bottom: 20px;
 }
-.kupon_cart_acts{
+.cupon_cart_acts{
     background: #509b44;
     color: white;
     padding: 5px;
 }
-.kupon_cart_btn{
+.cupon_cart_btn{
     text-align: right;
 }
-.kupon_cart_btn a{
+.cupon_cart_btn a{
     color: #272630;
     padding: 10px 30px;
     box-shadow: 0 0 10px grey;
     margin: 5px;
 }
-.kupon_cart_btn a:hover{
+.cupon_cart_btn a:hover{
     text-decoration: none;
 }
-/*kupon_cart_link*/
-.kupon_cart_link img{
+/*cupon_cart_link*/
+.cupon_cart_link img{
     width: 100%;
 }
-.kupon_cart_number{
+.cupon_cart_number{
     font-size: 14px;
 }
-.kupon_price{
+.cupon_price{
     font-size: 14px;
     color: red;
 }
 
+/*_____________My cupons_________________*/
 
 
 /*media*/
@@ -138,12 +138,11 @@
     .most_important .first_later {
         width: 30%;
     }
-    .kupon_cart_btn{
+    .cupon_cart_btn{
         text-align: left;
         margin: 10px 0;
     }
 }
-
 
 
 

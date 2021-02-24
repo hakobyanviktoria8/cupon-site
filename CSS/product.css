@@ -67,10 +67,10 @@
     font-size: 10px;
     margin-bottom: 0;
 }
-.product .price_kupon p {
+.product .price_cupon p {
     font-size: 16px;
 }
-.product .time_kupon small {
+.product .time_cupon small {
     font-size: 13px;
     color: #7d8592;
 }
@@ -332,7 +332,7 @@
     #product_right_aside_in_top{
         display: block;
     }
-    .kupon_wraper input[type=radio] {
+    .cupon_wraper input[type=radio] {
         width: 30px!important;
         height: 30px!important;
         margin-top: 10px;
@@ -388,7 +388,7 @@
     .product .heart_rating button {
         padding: 4px 15px;
     }
-    .kupon_wraper input[type=radio] {
+    .cupon_wraper input[type=radio] {
         width: 35px!important;
         height: 35px!important;
         margin-top: 5px;
@@ -398,30 +398,30 @@
 
 
 /*product-more style*/
-.kupon_wraper label{
+.cupon_wraper label{
     display: flex;
 }
-.kupon_wraper .kupon_info h4{
+.cupon_wraper .cupon_info h4{
     font-size: 18px;
 }
-.kupon_wraper .kupon_info p, .kupon_wraper .kupon_info  h6{
+.cupon_wraper .cupon_info p, .cupon_wraper .cupon_info  h6{
     margin: 0;
 }
-.kupon_wraper .kupon_info small, .kupon_wraper .kupon_info  h6{
+.cupon_wraper .cupon_info small, .cupon_wraper .cupon_info  h6{
     font-size: 13px;
 }
-.kupon_wraper .kupon_info b{
+.cupon_wraper .cupon_info b{
     color: #509b44;
 }
-.kupon_wraper  input[type=radio] {
+.cupon_wraper  input[type=radio] {
     width: 40px;
     height: 40px;
     margin-right: 1rem;
 }
-.kupon_wraper .kupon_info{
+.cupon_wraper .cupon_info{
     margin-top: .5rem;
 }
-.kupon_wraper button{
+.cupon_wraper button{
     font-size: 15px;
     color: #b4b4b4;
     border: none;

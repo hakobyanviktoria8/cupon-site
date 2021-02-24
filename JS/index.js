@@ -294,7 +294,7 @@ $(document).ready(function (){
     SetRatingStar();
 
 
-    $('select').selectpicker();
+    // $('select').selectpicker();
 
 
 
@@ -486,38 +486,45 @@ function customdiv_btn_leave(){
     customdiv.style.display = "none";
 }
 
-//see_more_kupon
-const more_kupon = document.querySelector("#more_kupon");
-let show_kupon = false;
+//see_more_cupon
+const more_cupon = document.querySelector("#more_cupon");
+let show_cupon = false;
 
-function see_more_kupon(el){
-    show_kupon = !show_kupon;
-    el.innerHTML = show_kupon ?  "Show less kupon <i class=\"fas fa-chevron-up  ml-2\"></i>" : "See more kupon <i class=\" ml-2 fas fa-chevron-down\"></i>"
-    console.log(show_kupon)
-    if (show_kupon) {
-        more_kupon.style.display = "block";
+function see_more_cupon(el){
+    show_cupon = !show_cupon;
+    el.innerHTML = show_cupon ?  "Show less cupon <i class=\"fas fa-chevron-up  ml-2\"></i>" : "See more cupon <i class=\" ml-2 fas fa-chevron-down\"></i>"
+    console.log(show_cupon)
+    if (show_cupon) {
+        more_cupon.style.display = "block";
     }else {
-        more_kupon.style.display = "none";
+        more_cupon.style.display = "none";
     }
 }
 
-//see_more_kupon_bottom
-const more_kupon_bottom = document.querySelector("#more_kupon_bottom");
-let show_kupon_bottom = false;
+//see_more_cupon_bottom
+const more_cupon_bottom = document.querySelector("#more_cupon_bottom");
+let show_cupon_bottom = false;
 
-function see_more_kupon_bottom(el){
-    show_kupon = !show_kupon;
-    el.innerHTML = show_kupon ?  "Show less kupon <i class=\"fas fa-chevron-up  ml-2\"></i>" : "See more kupon <i class=\" ml-2 fas fa-chevron-down\"></i>"
-    if (show_kupon) {
-        more_kupon_bottom.style.display = "block";
+function see_more_cupon_bottom(el){
+    show_cupon = !show_cupon;
+    el.innerHTML = show_cupon ?  "Show less cupon <i class=\"fas fa-chevron-up  ml-2\"></i>" : "See more cupon <i class=\" ml-2 fas fa-chevron-down\"></i>"
+    if (show_cupon) {
+        more_cupon_bottom.style.display = "block";
     }else {
-        more_kupon_bottom.style.display = "none";
+        more_cupon_bottom.style.display = "none";
     }
 }
 
 
-
-
+// //most_important most_important
+// const most_important_div = document.querySelector("#most_important");
+// const my_cupon_div = document.querySelector("#my_cupon");
+//
+// function most_important(el){
+//     most_important_div.style.display = "block";
+//     el.classList.add("personal_area_active");
+//     my_cupon_div.style.display = "none";
+// }
 
 
 

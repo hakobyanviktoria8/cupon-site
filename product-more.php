@@ -97,55 +97,55 @@
                     </div>
                     <hr>
                     <div class="row">
-                        <div class="col-12 price_kupon kupon_wraper">
-                            <label for="kupon_bottom_1">
-                                <input type="radio" name="kupon" id="kupon_bottom_1">
-                                <div class="kupon_info">
+                        <div class="col-12 price_cupon cupon_wraper">
+                            <label for="cupon_bottom_1">
+                                <input type="radio" name="cupon" id="cupon_bottom_1">
+                                <div class="cupon_info">
                                      <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, distinctio!</h4>
                                      <p class= "gray_color">Lorem ipsum <b class="text-dark">300 dram</b></p>
                                      <small class= "gray_color"><del>60.000dr</del> Ot 1500 dram</small>
                                      <h6>Lorem <b>33%</b></h6>
-                                     <small class= "gray_color">10+ kupon</small>
+                                     <small class= "gray_color">10+ cupon</small>
                                 </div>
                             </label>
                             <hr>
-                            <label for="kupon_bottom_2">
-                                <input type="radio" name="kupon" id="kupon_bottom_2">
-                                <div class="kupon_info">
+                            <label for="cupon_bottom_2">
+                                <input type="radio" name="cupon" id="cupon_bottom_2">
+                                <div class="cupon_info">
                                      <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, distinctio!</h4>
                                      <p class= "gray_color">Lorem ipsum <b class="text-dark">300 dram</b></p>
                                      <small class= "gray_color"><del>60.000dr</del> Ot 1500 dram</small>
                                      <h6>Lorem <b>33%</b></h6>
-                                     <small class= "gray_color">10+ kupon</small>
+                                     <small class= "gray_color">10+ cupon</small>
                                 </div>
                             </label>
                             <hr>
-                            <div id="more_kupon_bottom" style="display:none">
-                                <label for="kupon_bottom_3">
-                                    <input type="radio" name="kupon" id="kupon_bottom_3">
-                                    <div class="kupon_info">
+                            <div id="more_cupon_bottom" style="display:none">
+                                <label for="cupon_bottom_3">
+                                    <input type="radio" name="cupon" id="cupon_bottom_3">
+                                    <div class="cupon_info">
                                          <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, distinctio!</h4>
                                          <p class= "gray_color">Lorem ipsum <b class="text-dark">300 dram</b></p>
                                          <small class= "gray_color"><del>60.000dr</del> Ot 1500 dram</small>
                                          <h6>Lorem <b>33%</b></h6>
-                                         <small class= "gray_color">10+ kupon</small>
+                                         <small class= "gray_color">10+ cupon</small>
                                     </div>
                                 </label>
                                 <hr>
-                                <label for="kupon_bottom_4">
-                                    <input type="radio" name="kupon" id="kupon_bottom_4">
-                                    <div class="kupon_info">
+                                <label for="cupon_bottom_4">
+                                    <input type="radio" name="cupon" id="cupon_bottom_4">
+                                    <div class="cupon_info">
                                          <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, distinctio!</h4>
                                          <p class= "gray_color">Lorem ipsum <b class="text-dark">300 dram</b></p>
                                          <small class= "gray_color"><del>60.000dr</del> Ot 1500 dram</small>
                                          <h6>Lorem <b>33%</b></h6>
-                                         <small class= "gray_color">10+ kupon</small>
+                                         <small class= "gray_color">10+ cupon</small>
                                     </div>
                                 </label>
                                 <hr>
                             </div>
 
-                            <button onclick="see_more_kupon_bottom(this)">See more kupon<i class="fas fa-chevron-down ml-2"></i></button>
+                            <button onclick="see_more_cupon_bottom(this)">See more cupon<i class="fas fa-chevron-down ml-2"></i></button>
                         </div>
                     </div>
                     <div class="row my-3">
@@ -165,7 +165,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12 my-2 time_kupon">
+                        <div class="col-12 my-2 time_cupon">
                             <small class= "gray_color">Lorem ipsum dolor sit amet.</small>
                         </div>
                     </div>
@@ -267,55 +267,55 @@
                     </div>
                     <hr>
                     <div class="row">
-                        <div class="col-12 price_kupon kupon_wraper">
-                            <label for="kupon_1">
-                                <input type="radio" name="kupon" id="kupon_1">
-                                <div class="kupon_info">
+                        <div class="col-12 price_cupon cupon_wraper">
+                            <label for="cupon_1">
+                                <input type="radio" name="cupon" id="cupon_1">
+                                <div class="cupon_info">
                                      <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, distinctio!</h4>
                                      <p class= "gray_color">Lorem ipsum <b class="text-dark">300 dram</b></p>
                                      <small class= "gray_color"><del>60.000dr</del> Ot 1500 dram</small>
                                      <h6>Lorem <b>33%</b></h6>
-                                     <small class= "gray_color">10+ kupon</small>
+                                     <small class= "gray_color">10+ cupon</small>
                                 </div>
                             </label>
                             <hr>
-                            <label for="kupon_2">
-                                <input type="radio" name="kupon" id="kupon_2">
-                                <div class="kupon_info">
+                            <label for="cupon_2">
+                                <input type="radio" name="cupon" id="cupon_2">
+                                <div class="cupon_info">
                                      <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, distinctio!</h4>
                                      <p class= "gray_color">Lorem ipsum <b class="text-dark">300 dram</b></p>
                                      <small class= "gray_color"><del>60.000dr</del> Ot 1500 dram</small>
                                      <h6>Lorem <b>33%</b></h6>
-                                     <small class= "gray_color">10+ kupon</small>
+                                     <small class= "gray_color">10+ cupon</small>
                                 </div>
                             </label>
                             <hr>
-                            <div id="more_kupon" style="display:none">
-                                <label for="kupon_3">
-                                    <input type="radio" name="kupon" id="kupon_3">
-                                    <div class="kupon_info">
+                            <div id="more_cupon" style="display:none">
+                                <label for="cupon_3">
+                                    <input type="radio" name="cupon" id="cupon_3">
+                                    <div class="cupon_info">
                                          <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, distinctio!</h4>
                                          <p class= "gray_color">Lorem ipsum <b class="text-dark">300 dram</b></p>
                                          <small class= "gray_color"><del>60.000dr</del> Ot 1500 dram</small>
                                          <h6>Lorem <b>33%</b></h6>
-                                         <small class= "gray_color">10+ kupon</small>
+                                         <small class= "gray_color">10+ cupon</small>
                                     </div>
                                 </label>
                                 <hr>
-                                <label for="kupon_4">
-                                    <input type="radio" name="kupon" id="kupon_4">
-                                    <div class="kupon_info">
+                                <label for="cupon_4">
+                                    <input type="radio" name="cupon" id="cupon_4">
+                                    <div class="cupon_info">
                                          <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, distinctio!</h4>
                                          <p class= "gray_color">Lorem ipsum <b class="text-dark">300 dram</b></p>
                                          <small class= "gray_color"><del>60.000dr</del> Ot 1500 dram</small>
                                          <h6>Lorem <b>33%</b></h6>
-                                         <small class= "gray_color">10+ kupon</small>
+                                         <small class= "gray_color">10+ cupon</small>
                                     </div>
                                 </label>
                                 <hr>
                             </div>
 
-                            <button onclick="see_more_kupon(this)">See more kupon<i class="fas fa-chevron-down ml-2"></i></button>
+                            <button onclick="see_more_cupon(this)">See more cupon<i class="fas fa-chevron-down ml-2"></i></button>
                         </div>
                     </div>
                     <div class="row my-3">
@@ -335,7 +335,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12 my-2 time_kupon">
+                        <div class="col-12 my-2 time_cupon">
                             <small class= "gray_color">Lorem ipsum dolor sit amet.</small>
                         </div>
                     </div>

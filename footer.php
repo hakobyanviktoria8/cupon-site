@@ -341,7 +341,7 @@
                    </div>
                    <hr>
                    <div class="row">
-                       <div class="col-12 price_kupon">
+                       <div class="col-12 price_cupon">
                            <p>Lorem ipsum <b>300 dram</b></p>
                            <small><del>60.000dr</del> Ot 1500 dram</small>
                        </div>
@@ -363,7 +363,7 @@
                        </div>
                    </div>
                    <div class="row">
-                       <div class="col-12 my-2 time_kupon">
+                       <div class="col-12 my-2 time_cupon">
                            <small>Lorem ipsum dolor sit amet.</small>
                        </div>
                    </div>

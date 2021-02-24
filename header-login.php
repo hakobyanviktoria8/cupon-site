@@ -116,14 +116,14 @@
                       </button>
                       <div class="dropdown-menu dropdown-menu-right p-0" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" href="personal-area.php">Most important</a>
-                        <a class="dropdown-item" href="#">My kupon action</a>
+                        <a class="dropdown-item" href="#">My cupon action</a>
                         <a class="dropdown-item" href="#">Story</a>
                         <a class="dropdown-item" href="#">Action</a>
                         <a class="dropdown-item" href="#">password</a>
                         <a class="dropdown-item" href="#">envelope</a>
                         <a class="dropdown-item" href="#">promocode</a>
-                        <a class="dropdown-item" href="#">bonus kupons</a>
-                        <a class="dropdown-item" href="#">kupons</a>
+                        <a class="dropdown-item" href="#">bonus cupons</a>
+                        <a class="dropdown-item" href="#">cupons</a>
                         <a class="dropdown-item" href="#">map</a>
                       </div>
                     </div>

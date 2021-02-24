@@ -58,18 +58,18 @@
 .modal_eye_btn .right del{
     color: #7d8592;
 }
-.modal_eye_btn .right .price_kupon p{
+.modal_eye_btn .right .price_cupon p{
     font-size: 16px;
 }
-.modal_eye_btn .right .price_kupon b{
+.modal_eye_btn .right .price_cupon b{
     color: #272630;
 }
-.modal_eye_btn .right .price_kupon small{
+.modal_eye_btn .right .price_cupon small{
     font-size: 13px;
     color: #7d8592;
     margin-bottom: 1rem;
 }
-.modal_eye_btn .right .time_kupon small{
+.modal_eye_btn .right .time_cupon small{
     font-size: 13px;
     color: #7d8592;
 }
