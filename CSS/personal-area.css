@@ -132,6 +132,115 @@
 
 /*_____________My cupons_________________*/
 
+#my_cupon{
+    color: #272630;
+}
+#my_cupon  h3{
+    font-size: 36px;
+    margin: 0;
+}
+#my_cupon .col-4{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+#my_cupon .col-4 small{
+    font-size: 10px;
+}
+#my_cupon button, #story button {
+    font-size: 12px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    padding: 10px 20px;
+    box-shadow: 0 5px 10px grey;
+}
+#my_cupon table{
+    border: 3px solid white!important;
+}
+.table-bordered thead th{
+    font-size: 14px;
+}
+.table-bordered tbody tr td:nth-of-type(1){
+    font-size: 13px;
+}
+.table-bordered tbody tr td:nth-of-type(2),
+.table-bordered tbody tr td:nth-of-type(3){
+    font-size: 16px;
+    padding-top: 1.2rem;
+}
+.table-bordered tbody tr td:nth-of-type(4){
+    font-size: 13px;
+}
+.table-bordered tbody tr td:nth-of-type(5){
+    font-size: 12px;
+}
+.table-bordered thead td, .table-bordered thead th {
+    border-bottom-width: 2px;
+    width: 20rem;
+}
+.active_cupon, .active_story{
+    background: #509b44;
+    color: white;
+}
+.active:focus, .active:active{
+    box-shadow: none;
+}
+#my_cupon .see_code button{
+    background: #509b44;
+    color: white;
+    box-shadow: none;
+}
+
+/*my_cupon_current_div*/
+#my_cupon_current_div{
+    display: none;
+}
+#my_cupon_current_div a,
+#my_cupon_used_div a,
+#my_story_receipts_div a,
+#my_story_cashback_div a{
+    color: white;
+    background: #509b44;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+/*my_cupon_expired_div*/
+#my_cupon_expired_div{
+    display: none;
+}
+
+/*my_cupon_used_div*/
+#my_cupon_used_div{
+    display: none;
+}
+
+/*________________story_________________*/
+#story h3{
+    font-size: 36px;
+    margin: 0;
+}
+
+
+#my_story_receipts_div,
+#my_story_withdrawal_div,
+#my_story_cashback_div{
+    display: none;
+}
+
+
+
+
+
+
+/*___________________personal_area___________________*/
+#personal_area h3{
+    font-size: 36px;
+    margin: 0;
+}
+
 
 /*media*/
 @media (max-width: 768px) {

@@ -515,6 +515,49 @@ function see_more_cupon_bottom(el){
     }
 }
 
+//personal area cupon buttons show hide, story,...
+function active_cupon_func() {
+    let header = document.getElementById("my_cupon_buttons");
+    let btns = header.getElementsByClassName("buttons");
+    for (let i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function() {
+            let current = document.getElementsByClassName("active_cupon");
+            document.querySelector(`#${current[0].id}_div`).style.display = "none";
+            current[0].className = current[0].className.replace(" active_cupon", "");
+            this.className += " active_cupon";
+            let elem = this.id + "_div";
+            document.querySelector(`#${elem}`).style.display = "block";
+        });
+    }
+}
+active_cupon_func();
+
+function active_story_func() {
+    let header = document.getElementById("my_story_buttons");
+    let btns = header.getElementsByClassName("buttons");
+    for (let i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function() {
+            let current = document.getElementsByClassName("active_story");
+            document.querySelector(`#${current[0].id}_div`).style.display = "none";
+            current[0].className = current[0].className.replace(" active_story", "");
+            this.className += " active_story";
+            let elem = this.id + "_div";
+            document.querySelector(`#${elem}`).style.display = "block";
+        });
+    }
+}
+active_story_func();
+
+
+
+
+
+
+
+
+
+
+
 
 // //most_important most_important
 // const most_important_div = document.querySelector("#most_important");
