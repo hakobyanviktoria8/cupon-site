@@ -115,10 +115,16 @@
     padding-top: 5px;
     color: white;
 }
+.header-bottom .col3{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
 .header-bottom .col3 a{
     color: #4f4f4f;
     text-decoration: none;
     font-size: 16px;
+    /*padding: 15px 20px;*/
 }
 .userIcon{
     display: none;
@@ -1121,13 +1127,14 @@
         display: none;
     }
     .header-bottom div:nth-of-type(1){
-        max-width: 15%;
+        /*max-width: 15%;*/
     }
     .header-bottom div:nth-of-type(2){
         max-width: 70%;
     }
     .header-bottom div:nth-of-type(3){
         max-width: 15%;
+        padding: 10px 0;
     }
     .col-sm-10{
         margin: .5rem auto;
@@ -1189,6 +1196,9 @@
     .registration_form .close_btn{
         display: none;
     }
+    .header-bottom div:nth-of-type(1){
+        min-width: 15%;
+    }
 }
 @media (max-width: 480px) {
     .carusel1 div img{
@@ -1239,7 +1249,7 @@
         width: 63%;
     }
     .header-bottom div:nth-of-type(1){
-        max-width: 20%;
+        min-width: 20%;
     }
     .header-bottom div:nth-of-type(2){
         max-width: 60%;

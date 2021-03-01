@@ -95,13 +95,13 @@
 
           <!--header bottom-->
             <div class="row  my-3 header-bottom">
-                <div class="col-lg-3 col-md-2 p-0">
+                <div class="col-lg-3 col-md-2 col-2 p-0">
                     <a href="index.php">
                         <img class = "bigLemon logo" src="images/footer-logo.png" alt="">
                         <img class = "lemon logo" src="images/home-icon8.png" alt="">
                     </a>
                 </div>
-                <div class="col-lg-6 col-md-8 border col2 p-0">
+                <div class="col-lg-6 col-md-8 col-8 border col2 p-0">
                     <form action="">
                         <input class="pl-3" type="text" placeholder="Найти среди 400 акций">
                         <button><i class="fas fa-search"></i></button>
@@ -109,22 +109,118 @@
                 </div>
 
                 <!--login -->
-                <div class="col-lg-3 col-md-2 p-0 text-right col3">
+                <div class="col-lg-3 col-md-2 col-2 p-0 text-right col3">
                     <div class="dropdown login_user">
-                      <button class=" dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Full Name
+                      <button class="login_user_full_name dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span>Full Name</span>
                       </button>
+
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn login_user_first_later" data-toggle="modal" data-target="#exampleModal">
+                        A
+                      </button>
+
+                      <!-- Modal -->
+                     <div class="modal " id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document" id="personal_modal">
+                            <div class="modal-content">
+                                <div class="modal-body">
+
+                                <!--     most_important           -->
+                                     <a href="personal-area.php">
+                                        <div class="row">
+                                            <div class="first_later col-3">
+                                                <span>A</span>
+                                            </div>
+                                            <div class="most_important_name col-9">
+                                                <p class="personal_area_gray m-0">Hello Full Name</p>
+                                                <p><b>Самое важное</b></p>
+                                            </div>
+                                         </div>
+                                     </a>
+
+                                    <!--     my_cupon            -->
+                                    <a href="personal-area.php">
+                                        <div  class="personal_area_div">
+                                            <i class="fa fa-tag"></i>
+                                            <span>Мои купоны</span>
+                                        </div>
+                                    </a>
+
+                                    <!--    story          -->
+                                    <a href="personal-area.php">
+                                        <div  class="personal_area_div" >
+                                            <i class="fa fa-exchange"></i>
+                                            <span>История операций</span>
+                                        </div>
+                                    </a>
+
+                                    <!--    personal_area          -->
+                                    <a href="#personal_area">
+                                        <div class="personal_area_div">
+                                            <i class="fa fa-user"></i>
+                                            <span>Личная информация</span>
+                                        </div>
+                                    </a>
+
+                                    <!--    password          -->
+                                    <a href="#password">
+                                        <div class="personal_area_div">
+                                            <i class="fas fa-unlock-alt"></i>
+                                            <span>Смена пароля</span>
+                                        </div>
+                                    </a>
+
+                                    <!--    envelope          -->
+                                    <a href="#envelope">
+                                        <div class="personal_area_div">
+                                            <i class="fa fa-envelope"></i>
+                                            <span>Рассылки</span>
+                                        </div>
+                                    </a>
+
+                                    <!--    promocode          -->
+                                    <a href="#promocode">
+                                        <div class="personal_area_div">
+                                            <i class="fas fa-wallet"></i>
+                                            <span>Промокоды</span>
+                                        </div>
+                                    </a>
+
+                                    <!--    cupons          -->
+                                    <a href="#cupons">
+                                        <div class="personal_area_div">
+                                            <i class="fas fa-percentage"></i>
+                                            <span>Мои купоны</span>
+                                        </div>
+                                    </a>
+
+                                    <!--    carts          -->
+                                    <a href="#carts" aria-controls="carts" role="tab" data-toggle="tab">
+                                        <div class="personal_area_div">
+                                            <i class="fas fa-credit-card"></i>
+                                            <span>Привязанные карты</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+
                       <div class="dropdown-menu dropdown-menu-right p-0" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="personal-area.php">Most important</a>
-                        <a class="dropdown-item" href="#">My cupon action</a>
-                        <a class="dropdown-item" href="#">Story</a>
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">password</a>
-                        <a class="dropdown-item" href="#">envelope</a>
-                        <a class="dropdown-item" href="#">promocode</a>
-                        <a class="dropdown-item" href="#">bonus cupons</a>
-                        <a class="dropdown-item" href="#">cupons</a>
-                        <a class="dropdown-item" href="#">map</a>
+                        <a class="dropdown-item" href="personal-area.php">Самое важное</a>
+                        <a class="dropdown-item" href="#">Личная информация</a>
+                        <a class="dropdown-item" href="#">Мои купоны</a>
+                        <a class="dropdown-item" href="#">Привязанные карты</a>
+                        <a class="dropdown-item" href="#">Пригласит  друга </a>
+                        <a class="dropdown-item" href="#">Промокоды</a>
+                        <a class="dropdown-item" href="#">Бонусы</a>
+                        <a class="dropdown-item" href="#">Список моих желаний</a>
+                        <a class="dropdown-item" href="#">Рассылки</a>
+                        <a class="dropdown-item" href="#">Отзывы</a>
+                        <a class="dropdown-item" href="#">История операций</a>
+                        <a class="dropdown-item" href="#">Смена пароля</a>
+                        <a class="dropdown-item" href="#">выйти</a>
                       </div>
                     </div>
                 </div>

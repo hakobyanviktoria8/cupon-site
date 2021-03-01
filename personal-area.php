@@ -2,6 +2,11 @@
 
 <!--main content-->
 <div class="container">
+    <div class="row m-0">
+        <div class="col-12 p-0">
+            <div class="category-path">Главная / Бассейны / Product</div>
+        </div>
+    </div>
     <!--carusel1-->
     <div class="row">
         <div class="col-12">
@@ -19,7 +24,7 @@
         <h2>личный кабинет</h2>
         <div class="row">
             <div class="col-lg-4 col-md-5 pr-5">
-                <ul class="nav nav-tabs tabs-left" role="tablist">
+                <ul class="nav nav-tabs tabs-left dn" role="tablist">
 
                     <!--     most_important           -->
                     <li role="presentation"  class="active most_important">
@@ -30,7 +35,7 @@
                                 </div>
                                 <div class="most_important_name">
                                     <p class="personal_area_gray">Hello Full Name</p>
-                                    <p><b>Most important</b></p>
+                                    <p><b>Самое важное</b></p>
                                 </div>
                             </div>
                         </a>
@@ -41,7 +46,7 @@
                         <a href="#my_cupon" aria-controls="my_cupon" role="tab" data-toggle="tab">
                             <div  class="personal_area_div">
                                 <i class="fa fa-tag"></i>
-                                <span>My cupon</span>
+                                <span>Мои купоны</span>
                             </div>
                         </a>
                     </li>
@@ -51,7 +56,7 @@
                         <a href="#story" aria-controls="story" role="tab" data-toggle="tab">
                             <div  class="personal_area_div" >
                                 <i class="fa fa-exchange"></i>
-                                <span>Story</span>
+                                <span>История операций</span>
                             </div>
                         </a>
                     </li>
@@ -61,7 +66,7 @@
                         <a href="#personal_area" aria-controls="personal_area" role="tab" data-toggle="tab">
                             <div class="personal_area_div">
                                 <i class="fa fa-user"></i>
-                                <span>personal area</span>
+                                <span>Личная информация</span>
                             </div>
                         </a>
                     </li>
@@ -71,7 +76,7 @@
                         <a href="#password" aria-controls="password" role="tab" data-toggle="tab">
                             <div class="personal_area_div">
                                 <i class="fas fa-unlock-alt"></i>
-                                <span>password</span>
+                                <span>Смена пароля</span>
                             </div>
                         </a>
                     </li>
@@ -81,7 +86,7 @@
                         <a href="#envelope" aria-controls="envelope" role="tab" data-toggle="tab">
                             <div class="personal_area_div">
                                 <i class="fa fa-envelope"></i>
-                                <span>envelope</span>
+                                <span>Рассылки</span>
                             </div>
                         </a>
                     </li>
@@ -91,7 +96,7 @@
                         <a href="#promocode" aria-controls="promocode" role="tab" data-toggle="tab">
                             <div class="personal_area_div">
                                 <i class="fas fa-wallet"></i>
-                                <span>promocode</span>
+                                <span>Промокоды</span>
                             </div>
                         </a>
                     </li>
@@ -101,7 +106,7 @@
                         <a href="#cupons" aria-controls="cupons" role="tab" data-toggle="tab">
                             <div class="personal_area_div">
                                 <i class="fas fa-percentage"></i>
-                                <span>cupons</span>
+                                <span>Мои купоны</span>
                             </div>
                         </a>
                     </li>
@@ -111,7 +116,7 @@
                         <a href="#carts" aria-controls="carts" role="tab" data-toggle="tab">
                             <div class="personal_area_div">
                                 <i class="fas fa-credit-card"></i>
-                                <span>carts</span>
+                                <span>Привязанные карты</span>
                             </div>
                         </a>
                     </li>
@@ -450,7 +455,7 @@
                             </div>
                         </div>
                         <hr>
-                        <form>
+                        <form class="mt-5">
                             <div class="form-group">
                                 <input type="password" class="form-control" id="full_name" aria-describedby="name" placeholder="Смена пароля">
                             </div>
@@ -485,14 +490,14 @@
                             </div>
 
                             <div class="form-group  row">
-                                <div class="form-check col-4">
+                                <div class="form-check col-lg-4 col-md-6">
                                     <label class="form-check-label" for="cashback">
                                         <input type="checkbox" id="cashback" checked="checked">
                                         <span class="checkmark"></span>
                                         Кэшбэк
                                     </label>
                                 </div>
-                                <div class="form-check  col-4">
+                                <div class="form-check  col-lg-4 col-md-6">
                                     <label class="form-check-label" for="pools">
                                         <input type="checkbox" class="form-check-input" id="pools">
                                         <span class="checkmark"></span>
@@ -507,14 +512,14 @@
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <div class="form-check  col-4">
+                                <div class="form-check  col-lg-4 col-md-6">
                                     <label class="form-check-label" for="relax">
                                         <input type="checkbox" class="form-check-input" id="relax">
                                         <span class="checkmark"></span>
                                         Отдых
                                     </label>
                                 </div>
-                                <div class="form-check  col-4">
+                                <div class="form-check  col-lg-4 col-md-6">
                                     <label class="form-check-label" for="top_promotions">
                                         <input type="checkbox" class="form-check-input" id="top_promotions">
                                         <span class="checkmark"></span>
@@ -558,7 +563,44 @@
                     </div>
 
                     <!--promocode-->
-                    <div role="tabpanel" class="tab-pane" id="promocode">promocode</div>
+                    <div role="tabpanel" class="tab-pane" id="promocode">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3>Промокоды</h3>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row mx-0 bonus_cart mt-5">
+                            <div class="col-12 my-3">
+                                <small class="cupon_cart_acts">Date 678 87 78 Date 678 87 78 </small>
+                            </div>
+                            <div class="col-6">
+                                <small class="personal_area_gray">Your promocode</small>
+                                <p><b>12134AS45JJ4</b></p>
+                            </div>
+                            <div class="col-6 text_right_btn">
+                                <a href="#" class="bonus_cart_carts">lorem ipsum </a>
+                            </div>
+                        </div>
+                        <div class="row mx-0 bonus_cart not_active">
+                           <div class="col-12 my-3">
+                                <small class="cupon_cart_acts">Date 678 87 78 Date 678 87 78 </small>
+                           </div>
+                           <div class="col-10">
+                                <small class="personal_area_gray">Your promocode</small>
+                                <p><b>12134AS45JJ4</b></p>
+                            </div>
+                        </div>
+                        <div class="row mx-0 bonus_cart not_active">
+                           <div class="col-12 my-3">
+                                <small class="cupon_cart_acts">Date 678 87 78 Date 678 87 78 </small>
+                           </div>
+                           <div class="col-10">
+                                <small class="personal_area_gray">Your promocode</small>
+                                <p><b>12134AS45JJ4</b></p>
+                            </div>
+                        </div>
+                    </div>
 
                     <!--cupons-->
                     <div role="tabpanel" class="tab-pane" id="cupons">
@@ -687,7 +729,44 @@
                     </div>
 
                     <!--carts-->
-                    <div role="tabpanel" class="tab-pane" id="carts">carts</div>
+                    <div role="tabpanel" class="tab-pane" id="carts">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3>Привязанные карты</h3>
+                            </div>
+                        </div>
+                        <hr>
+                        <form class="mt-5">
+                            <div class="form-group">
+                                <label for="full_name">Имя Фамилия</label>
+                                <input type="text" class="form-control" id="full_name" aria-describedby="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="number">Номер cart</label>
+                                <input type="text" class="form-control" id="number" aria-describedby="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="dob">Дата cupon</label>
+                                <div class="row">
+                                     <div class="col-4">
+                                        <input type="date" class="form-control" id="dob" aria-describedby="name">
+                                     </div>
+                                     <div class="col-4">
+                                        <input type="date" class="form-control" id="dob" aria-describedby="name">
+                                     </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="ccv">ccv</label>
+                                <div class="row">
+                                    <div class="col-4">
+                                        <input type="text" class="form-control" id="ccv" aria-describedby="name">
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn">Remove cart</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>

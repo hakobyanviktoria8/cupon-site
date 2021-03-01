@@ -69,7 +69,7 @@ a[class="active"]{
 
 /*right side*/
 .bonus_cart{
-    box-shadow: 0 5px 10px grey;
+    box-shadow: 0 0 10px grey;
     padding: 20px;
     margin-bottom: 2rem;
 }
@@ -109,7 +109,7 @@ a[class="active"]{
 
 /*cupon_cart*/
 .cupon_cart{
-    box-shadow: 0 5px 10px grey;
+    box-shadow: 0 0 10px grey;
     padding: 15px;
     margin-bottom: 20px;
 }
@@ -257,7 +257,7 @@ a[class="active"]{
 .personal_area{
     width: 100%;
 }
-#personal_area h3, #password h3, #envelope h3{
+#personal_area h3, #password h3, #envelope h3, #promocode h3, #carts h3{
     font-weight: bold;
     font-size: 24px;
     margin: 0;
@@ -324,7 +324,7 @@ a[class="active"]{
     font-size: 20px;
     font-weight: bold;
 }
-.form-check {
+#envelope .form-check {
     padding-left: 2rem;
     /*margin-left: 1rem;*/
 }
@@ -335,18 +335,18 @@ a[class="active"]{
     width: 20px;
     height: 20px;
 }
-.form-check-label {
+#envelope .form-check-label {
     font-size: 16px;
 }
 /*hide defoult checkbox*/
-.container input {
+#envelope input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
     height: 0;
     width: 0;
 }
-.checkmark {
+#envelope .checkmark {
     position: absolute;
     top: 0;
     left: 0;
@@ -354,25 +354,25 @@ a[class="active"]{
     width: 25px;
     background-color: #eee;
 }
-.form-check input:checked ~ .checkmark {
+#envelope .form-check input:checked ~ .checkmark {
     background-color: #d0e2cf;
     border: 1px solid #509b44;
     border-radius: 3px;
 }
-.form-check input ~ .checkmark {
+#envelope .form-check input ~ .checkmark {
     background-color: #d0e2cf;
     border: 1px solid #509b44;
     border-radius: 3px;
 }
-.checkmark:after {
+#envelope .checkmark:after {
     content: "";
     position: absolute;
     display: none;
 }
-.form-check input:checked ~ .checkmark:after {
+#envelope .form-check input:checked ~ .checkmark:after {
     display: block;
 }
-.form-check .checkmark:after {
+#envelope .form-check .checkmark:after {
     left: 7px;
     top: 2px;
     width: 10px;
@@ -399,6 +399,13 @@ a[class="active"]{
 .promocode{
     width: 100%;
 }
+#promocode .not_active .cupon_cart_acts {
+    background: #c5c5c5;
+}
+#promocode .not_active .col-10 .personal_area_gray,
+#promocode .not_active .col-10 p {
+    color: #a2a2a2;
+}
 
 /*__________________bonus__________________*/
 .bonus{
@@ -410,10 +417,26 @@ a[class="active"]{
     width: 100%;
 }
 
-/*__________________map__________________*/
+/*__________________cart__________________*/
 .carts{
     width: 100%;
 }
+#carts form {
+    width: 60%;
+}
+#carts form button {
+    background: #509b44;
+    color: white;
+    font-size: 16px;
+    margin: 20px 0;
+    width: 100%;
+    padding: 8px;
+}
+
+
+
+
+
 
 /*media*/
 @media (max-width: 768px) {
@@ -429,6 +452,9 @@ a[class="active"]{
     }
     .bonus_cart .bonus_cart_bonus{
         padding: 10px 25px;
+    }
+    #personal_area form, #password form, #carts form {
+        width: 100%;
     }
 }
 
