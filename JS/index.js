@@ -493,7 +493,7 @@ let show_cupon = false;
 function see_more_cupon(el){
     show_cupon = !show_cupon;
     el.innerHTML = show_cupon ?  "Show less cupon <i class=\"fas fa-chevron-up  ml-2\"></i>" : "See more cupon <i class=\" ml-2 fas fa-chevron-down\"></i>"
-    console.log(show_cupon)
+    // console.log(show_cupon)
     if (show_cupon) {
         more_cupon.style.display = "block";
     }else {

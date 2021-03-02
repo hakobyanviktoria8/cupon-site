@@ -221,7 +221,7 @@
                         <a class="dropdown-item" href="#">Личная информация</a>
                         <a class="dropdown-item" href="#">Мои купоны</a>
                         <a class="dropdown-item" href="#">Привязанные карты</a>
-                        <a class="dropdown-item" href="#">Пригласит  друга </a>
+                        <a class="dropdown-item" href="personal-area-invite-friend.php">Пригласит  друга </a>
                         <a class="dropdown-item" href="#">Промокоды</a>
                         <a class="dropdown-item" href="#">Бонусы</a>
                         <a class="dropdown-item" href="personal-area-favorite.php">Список моих желаний</a>
