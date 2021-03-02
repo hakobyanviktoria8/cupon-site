@@ -106,7 +106,7 @@
                         <a href="#cupons" aria-controls="cupons" role="tab" data-toggle="tab">
                             <div class="personal_area_div">
                                 <i class="fas fa-percentage"></i>
-                                <span>Мои купоны</span>
+                                <span>товары по купонам</span>
                             </div>
                         </a>
                     </li>
@@ -129,31 +129,31 @@
                     <!--most_important-->
                     <div role="tabpanel" class="tab-pane active" id="most_important">
                         <div class="row mx-0 bonus_cart">
-                            <div class="col-6">
+                            <div class="col-md-6">
                                 <small class="personal_area_gray">Your balans</small>
                                 <p><b>0 dram</b></p>
                             </div>
-                            <div class="col-6 text_right_btn">
+                            <div class="col-md-6 text_right_btn">
                                 <a href="#" class="bonus_cart_carts">carts</a>
                             </div>
                         </div>
 
                         <div class="row mx-0 bonus_cart">
-                            <div class="col-6">
+                            <div class="col-md-6">
                                 <small class="personal_area_gray">Your balans</small>
                                 <p><b>2500 dram</b></p>
                             </div>
-                            <div class="col-6 text_right_btn">
+                            <div class="col-md-6 text_right_btn">
                                  <span class="bonus_cart_bonus">bonus cupons</span>
                             </div>
                         </div>
 
                         <div class="row mx-0 bonus_cart ">
-                            <div class="col-6">
+                            <div class="col-md-6">
                                <small class="personal_area_gray">Your balans</small>
                                <p><b>132KH377H</b></p>
                             </div>
-                            <div class="col-6 text_right_btn">
+                            <div class="col-md-6 text_right_btn">
                                  <span class="bonus_cart_promocode">promocode</span>
                             </div>
                         </div>
@@ -171,18 +171,18 @@
 
                         <div class="cupon_cart mb-5">
                             <div class="row my-3">
-                                <div class="col-lg-6 col-md-7 col-7">
+                                <div class="col-12 col-sm-8 col-md-7 col-lg-6">
                                     <small class="cupon_cart_acts">Date 678 87 78 Date 678 87 78 </small>
                                 </div>
-                                <div class="col-lg-6 col-md-5 col-5 text-right">
+                                <div class="col-12 col-sm-4 col-md-5 col-lg-6 text-right_class">
                                     <small class="personal_area_gray">cupon 123454545</small>
                                 </div>
                             </div>
                             <div class="row mb-3">
-                                <div class="col-lg-2 col-md-3 cupon_cart_link">
+                                <div class="col-12 col-sm-4 col-md-3 col-lg-2 cupon_cart_link">
                                     <a href=""><img src="images/home-coupon.jpg" alt=""></a>
                                 </div>
-                                <div class="col-lg-10 col-md-9">
+                                <div class="col-12 col-sm-8 col-md-9 col-lg-10">
                                     <span>Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
                                 </div>
                             </div>
@@ -199,21 +199,21 @@
                         </div>
 
                          <div class="row see_all_cupon">
-                            <div class="col-lg-6 col-md-8">
+                            <div class="col-lg-6 col-md-8 col-9">
                                 <h3 class="m-0">Operations history</h3>
                             </div>
-                            <div class="col-lg-6 col-md-4 text-right see_all_cupon_link">
+                            <div class="col-lg-6 col-md-4 col-3 text-right see_all_cupon_link">
                                 <a href="">See all</a>
                             </div>
                          </div>
                          <hr>
 
                         <div class="row mb-5">
-                            <div class="col-lg-3 col-md-4">
+                            <div class="col-12 col-sm-4 col-lg-3 col-md-4">
                                 <small class="personal_area_gray">152626271 11</small><br>
                                 <span class="cupon_price">-1500 dram</span>
                             </div>
-                            <div class="col-lg-9 col-md-8">
+                            <div class="col-12 col-sm-8 col-lg-9 col-md-8">
                                 <span class="personal_area_gray">Lorem ipsum dolor sit amet.</span><br>
                                 <span class="font_14">N 212873 28</span><br>
                                 <span class="font_14">Lorem ipsum dolor sit ametdolor sit amet.</span>
@@ -221,10 +221,10 @@
                         </div>
 
                        <div class="row see_all_cupon">
-                           <div class="col-lg-6 col-md-8">
+                           <div class="col-lg-6 col-md-8 col-9">
                                <h3 class="m-0">Products by cupons</h3>
                            </div>
-                           <div class="col-lg-6 col-md-4 text-right see_all_cupon_link">
+                           <div class="col-lg-6 col-md-4 col-3 text-right see_all_cupon_link">
                                <a href="">See all</a>
                            </div>
                        </div>
@@ -253,10 +253,10 @@
                                 <div class="col-12">
                                     <div class="cupon_cart mb-5">
                                         <div class="row my-3">
-                                            <div class="col-lg-6 col-md-7 col-7">
+                                            <div class="col-12 col-sm-8 col-md-7 col-lg-6">
                                                 <small class="cupon_cart_acts">Date 678 87 78 Date 678 87 78 </small>
                                             </div>
-                                            <div class="col-lg-6 col-md-5 col-5 text-right">
+                                            <div class="col-12 col-sm-4 col-md-5 col-lg-6 text-right_class">
                                                 <small class="personal_area_gray">Cupon 123454545</small>
                                             </div>
                                         </div>
@@ -285,10 +285,10 @@
                                 <div class="col-12">
                                     <div class="cupon_cart mb-5">
                                         <div class="row my-3">
-                                            <div class="col-lg-6 col-md-7 col-7">
+                                            <div class="col-12 col-sm-8 col-md-7 col-lg-6">
                                                 <small class="cupon_cart_acts">Date 678 87 78 Date 678 87 78 </small>
                                             </div>
-                                            <div class="col-lg-6 col-md-5 col-5 text-right">
+                                            <div class="col-12 col-sm-4 col-md-5 col-lg-6 text-right_class">
                                                 <small class="personal_area_gray">Cupon 123454545</small>
                                             </div>
                                         </div>
@@ -323,10 +323,10 @@
                                 <div class="col-12">
                                     <div class="cupon_cart mb-5">
                                         <div class="row my-3">
-                                            <div class="col-lg-6 col-md-7 col-7">
+                                            <div class="col-12 col-sm-8 col-md-7 col-lg-6">
                                                 <small class="cupon_cart_acts">Date 678 87 78 Date 678 87 78 </small>
                                             </div>
-                                            <div class="col-lg-6 col-md-5 col-5 text-right">
+                                            <div class="col-12 col-sm-4 col-md-5 col-lg-6 text-right_class">
                                                 <small class="personal_area_gray">Cupon 123454545</small>
                                             </div>
                                         </div>
@@ -490,7 +490,7 @@
                             </div>
 
                             <div class="form-group  row">
-                                <div class="form-check col-lg-4 col-md-6">
+                                <div class="form-check form-check_mb col-lg-4 col-md-6 ">
                                     <label class="form-check-label" for="cashback">
                                         <input type="checkbox" id="cashback" checked="checked">
                                         <span class="checkmark"></span>
@@ -512,7 +512,7 @@
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <div class="form-check  col-lg-4 col-md-6">
+                                <div class="form-check form-check_mb col-lg-4 col-md-6">
                                     <label class="form-check-label" for="relax">
                                         <input type="checkbox" class="form-check-input" id="relax">
                                         <span class="checkmark"></span>
@@ -574,11 +574,11 @@
                             <div class="col-12 my-3">
                                 <small class="cupon_cart_acts">Date 678 87 78 Date 678 87 78 </small>
                             </div>
-                            <div class="col-6">
+                            <div class="col-12 col-md-6 col-lg-6">
                                 <small class="personal_area_gray">Your promocode</small>
                                 <p><b>12134AS45JJ4</b></p>
                             </div>
-                            <div class="col-6 text_right_btn">
+                            <div class="col-12 col-md-6 col-lg-6 text-right_class">
                                 <a href="#" class="bonus_cart_carts">lorem ipsum </a>
                             </div>
                         </div>
@@ -606,7 +606,7 @@
                     <div role="tabpanel" class="tab-pane" id="cupons">
                         <div class="row">
                             <div class="col-12">
-                                <h3> Мои купоны </h3>
+                                <h3>товары по купонам</h3>
                             </div>
                         </div>
                         <hr>
@@ -623,10 +623,10 @@
                                 <div class="col-12">
                                     <div class="cupon_cart mb-5">
                                         <div class="row my-3">
-                                            <div class="col-lg-6 col-md-7 col-7">
+                                            <div class="col-12 col-sm-8 col-md-7 col-lg-6">
                                                 <small class="cupon_cart_acts">Date 678 87 78 Date 678 87 78 </small>
                                             </div>
-                                            <div class="col-lg-6 col-md-5 col-5 text-right">
+                                            <div class="col-12 col-sm-4 col-md-5 col-lg-6 text-right_class">
                                                 <small class="personal_area_gray">Cupon 123454545</small>
                                             </div>
                                         </div>
@@ -655,10 +655,10 @@
                                 <div class="col-12">
                                     <div class="cupon_cart mb-5">
                                         <div class="row my-3">
-                                            <div class="col-lg-6 col-md-7 col-7">
+                                            <div class="col-12 col-sm-8 col-md-7 col-lg-6">
                                                 <small class="cupon_cart_acts">Date 678 87 78 Date 678 87 78 </small>
                                             </div>
-                                            <div class="col-lg-6 col-md-5 col-5 text-right">
+                                            <div class="col-12 col-sm-4 col-md-5 col-lg-6 text-right_class">
                                                 <small class="personal_area_gray">Cupon 123454545</small>
                                             </div>
                                         </div>
@@ -692,15 +692,7 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="cupon_cart mb-5">
-                                        <div class="row my-3">
-                                            <div class="col-lg-6 col-md-7 col-7">
-                                                <small class="cupon_cart_acts">Date 678 87 78 Date 678 87 78 </small>
-                                            </div>
-                                            <div class="col-lg-6 col-md-5 col-5 text-right">
-                                                <small class="personal_area_gray">Cupon 123454545</small>
-                                            </div>
-                                        </div>
-                                        <div class="row mb-3">
+                                       <div class="row mb-3">
                                             <div class="col-lg-2 col-md-3 cupon_cart_link">
                                                 <a href=""><img src="images/home-coupon.jpg" alt=""></a>
                                             </div>
@@ -748,10 +740,10 @@
                             <div class="form-group">
                                 <label for="dob">Дата cupon</label>
                                 <div class="row">
-                                     <div class="col-4">
+                                     <div class="col-6 col-lg-4">
                                         <input type="date" class="form-control" id="dob" aria-describedby="name">
                                      </div>
-                                     <div class="col-4">
+                                     <div class="col-6 col-lg-4">
                                         <input type="date" class="form-control" id="dob" aria-describedby="name">
                                      </div>
                                 </div>
@@ -759,7 +751,7 @@
                             <div class="form-group">
                                 <label for="ccv">ccv</label>
                                 <div class="row">
-                                    <div class="col-4">
+                                    <div class="col-6 col-lg-4">
                                         <input type="text" class="form-control" id="ccv" aria-describedby="name">
                                     </div>
                                 </div>

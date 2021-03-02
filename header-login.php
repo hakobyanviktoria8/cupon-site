@@ -191,7 +191,7 @@
                                     <a href="#cupons">
                                         <div class="personal_area_div">
                                             <i class="fas fa-percentage"></i>
-                                            <span>Мои купоны</span>
+                                            <span>товары по купонам</span>
                                         </div>
                                     </a>
 

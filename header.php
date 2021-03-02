@@ -94,19 +94,19 @@
 
           <!--header bottom-->
             <div class="row  my-3 header-bottom">
-                <div class="col-lg-3 col-md-2 p-0">
+                <div class="col-lg-3 col-md-2 col-2 p-0">
                     <a href="index.php">
                         <img class = "bigLemon logo" src="images/footer-logo.png" alt="">
                         <img class = "lemon logo" src="images/home-icon8.png" alt="">
                     </a>
                 </div>
-                <div class="col-lg-6 col-md-8 border col2 p-0">
+                <div class="col-lg-6 col-md-8 col-8 border col2 p-0">
                     <form action="">
                         <input class="pl-3" type="text" placeholder="Найти среди 400 акций">
                         <button><i class="fas fa-search"></i></button>
                     </form>
                 </div>
-                <div class="col-lg-3 col-md-2 p-0 text-right col3">
+                <div class="col-lg-3 col-md-2 col-2 p-0 text-right col3">
                      <a href="#" class="registration" data-toggle="modal" data-target="#exampleModal">Вход / Регистрация</a>
                      <a href="#" class="userIcon" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-user mr-2"></i></a>
                 </div>
