@@ -202,6 +202,15 @@
                                             <span>Привязанные карты</span>
                                         </div>
                                     </a>
+
+                                    <!--    favorite          -->
+                                    <a href="personal-area-favorite.php">
+                                        <div class="personal_area_div">
+                                            <i class="fas fa-heart"></i>
+                                            <span>Список моих желаний</span>
+                                        </div>
+                                    </a>
+
                                 </div>
                             </div>
                         </div>
@@ -217,10 +226,10 @@
                         <a class="dropdown-item" href="#">Бонусы</a>
                         <a class="dropdown-item" href="personal-area-favorite.php">Список моих желаний</a>
                         <a class="dropdown-item" href="#">Рассылки</a>
-                        <a class="dropdown-item" href="#">Отзывы</a>
+                        <a class="dropdown-item" href="personal-area-review.php">Отзывы</a>
                         <a class="dropdown-item" href="#">История операций</a>
                         <a class="dropdown-item" href="#">Смена пароля</a>
-                        <a class="dropdown-item" href="#">выйти</a>
+                        <a class="dropdown-item" href="index.php">выйти</a>
                       </div>
                     </div>
                 </div>

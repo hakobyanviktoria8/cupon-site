@@ -436,8 +436,26 @@ a[class="active"]{
     padding: 8px;
 }
 
-
-
+/*personal area rewview*/
+.personal_area_review{
+    border: 1px solid #cacaca;
+    padding: 25px 0;
+    border-top: 3px solid #509b44;
+    color: #272630;
+    margin-bottom: 50px;
+}
+.personal_area_review img{
+    width: 100%;
+}
+.personal_area_review h5{
+    font-size: 16px;
+}
+.personal_area_review p{
+    font-size: 14px;
+}
+.personal_area_review span{
+    color: #adadad;
+}
 
 
 
@@ -459,6 +477,10 @@ a[class="active"]{
     #personal_area form, #password form, #carts form {
         width: 100%;
     }
+    .personal_area_review .text-right_class {
+        text-align: left;
+        margin: 10px 0;
+    }
 }
 @media (max-width: 767px) {
     #most_important .bonus_cart div{
@@ -479,6 +501,9 @@ a[class="active"]{
     }
     .cupon_cart_link{
         margin-bottom: 15px;
+    }
+    .personal_area_review h5{
+        margin-top: 15px;
     }
 }
 
