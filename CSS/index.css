@@ -596,6 +596,7 @@
     font-weight: 800;
     color: rgb(39, 38, 48);
     border-top: 3px solid rgb(198,97,150);
+    text-transform: uppercase;
 }
 
 .cartTopSide{

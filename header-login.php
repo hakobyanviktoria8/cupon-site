@@ -215,7 +215,7 @@
                         <a class="dropdown-item" href="#">Пригласит  друга </a>
                         <a class="dropdown-item" href="#">Промокоды</a>
                         <a class="dropdown-item" href="#">Бонусы</a>
-                        <a class="dropdown-item" href="#">Список моих желаний</a>
+                        <a class="dropdown-item" href="personal-area-favorite.php">Список моих желаний</a>
                         <a class="dropdown-item" href="#">Рассылки</a>
                         <a class="dropdown-item" href="#">Отзывы</a>
                         <a class="dropdown-item" href="#">История операций</a>
