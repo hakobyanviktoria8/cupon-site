@@ -1,0 +1,28 @@
+#question{
+    color: #272630;
+}
+.active{
+    border-left: 3px solid #509b44;
+    font-weight: bold;
+}
+.question a{
+    font-size: 14px;
+    display: block;
+    padding: 10px 0 10px 20px;
+    color: #272630;
+}
+.question a:hover{
+    text-decoration: none;
+}
+#question p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+#question h5 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+#question img{
+    width: 80%;
+    margin: 10px 0;
+}

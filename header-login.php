@@ -70,8 +70,8 @@
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <ul>
-                                <a class="dropdown-item" href="#">
-                                    <li><p class="m-0">Lorem ipsum dolor.</p></li>
+                                <a class="dropdown-item" href="faq.php">
+                                    <li><p class="m-0">FAQ</p></li>
                                     <small>Lorem ipsum dolor sit amet.</small>
                                 </a>
                                 <a class="dropdown-item" href="#">
