@@ -45,14 +45,14 @@
             <div class="col-lg-4 col-md-6 col-xs-12 text-white">
                 <h3 class="text-uppercase">О Biglemon</h3>
                 <hr>
-                <div  class="my-2"><a href="#">Как это работает</a></div>
+                <div  class="my-2"><a href="how-it-work.php">Как это работает</a></div>
                 <div class="my-2"><a href="about.php">О компании</a> </div>
                 <div class="my-2"><a href="#">Блог</a> </div>
                 <div class="my-2"><a href="#">Новости</a></div>
                 <div class="my-2"><a href="#">Вакансии</a></div>
                 <div class="my-2"><a href="#">Правила</a></div>
-                <div class="my-2"><a href="#">Связ</a></div>
-                <div class="my-2"><a href="#">Связ</a></div>
+                <div class="my-2"><a href="#">Связ с намы</a></div>
+                <div class="my-2"><a href="personal-area-invite-friend.php">Пригласит  друга</a></div>
                  <div class="footer-top-bank">
                      <a href=""> <img src="images/Layer%20525.png" alt=""></a>
                      <a href=""><img src="images/mobidram_logo.png" alt=""></a>
@@ -65,7 +65,7 @@
                 <h3 class="text-uppercase">Для бизнеса</h3>
                 <hr>
                 <div class="my-2"><a href="#">Для вашего бизнеса</a></div>
-                <div class="my-2"><a href="#">Вопросы и ответы</a> </div>
+                <div class="my-2"><a href="faq.php">Вопросы и ответы</a> </div>
                 <div class="my-2"><a href="#">Все акции</a> </div>
                 <div class="my-2"><a href="#">Прошедшие акции</a> </div>
 
