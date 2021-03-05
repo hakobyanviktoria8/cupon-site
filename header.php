@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="CSS/product.css">
     <link rel="stylesheet" href="CSS/header-login.css">
     <link rel="stylesheet" href="CSS/faq.css">
+    <link rel="stylesheet" href="CSS/about.css">
 
 </head>
 <body>

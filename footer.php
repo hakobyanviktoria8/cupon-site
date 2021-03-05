@@ -46,7 +46,7 @@
                 <h3 class="text-uppercase">О Biglemon</h3>
                 <hr>
                 <div  class="my-2"><a href="#">Как это работает</a></div>
-                <div class="my-2"><a href="#">О компании</a> </div>
+                <div class="my-2"><a href="about.php">О компании</a> </div>
                 <div class="my-2"><a href="#">Блог</a> </div>
                 <div class="my-2"><a href="#">Новости</a></div>
                 <div class="my-2"><a href="#">Вакансии</a></div>
