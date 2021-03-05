@@ -518,21 +518,25 @@ function see_more_cupon_bottom(el){
 //personal area cupon buttons show hide, story,...
 function active_cupon_func(id,class_name) {
     let header = document.getElementById(id);
-    let btns = header.getElementsByClassName("buttons");
-    for (let i = 0; i < btns.length; i++) {
-        btns[i].addEventListener("click", function() {
-            let current = document.getElementsByClassName(class_name);
-            document.querySelector(`#${current[0].id}_div`).style.display = "none";
-            current[0].className = current[0].className.replace(" "+class_name, "");
-            this.className += " "+class_name;
-            let elem = this.id + "_div";
-            document.querySelector(`#${elem}`).style.display = "block";
-        });
+    let btns = header && header.getElementsByClassName("buttons");
+    if (btns){
+        for (let i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+                let current = document.getElementsByClassName(class_name);
+                document.querySelector(`#${current[0].id}_div`).style.display = "none";
+                current[0].className = current[0].className.replace(" "+class_name, "");
+                this.className += " "+class_name;
+                let elem = this.id + "_div";
+                document.querySelector(`#${elem}`).style.display = "block";
+            });
+        }
     }
 }
 active_cupon_func("my_cupon_buttons","active_cupon");
 active_cupon_func("my_story_buttons", "active_story");
 active_cupon_func("cupon_buttons", "active_cupons");
+
+
 
 
 

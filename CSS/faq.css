@@ -5,13 +5,12 @@
     border-left: 3px solid #509b44;
     font-weight: bold;
 }
-.question a{
+#question button, #question_mobile button{
     font-size: 14px;
-    display: block;
-    padding: 10px 0 10px 20px;
+    padding: 10px 0 10px 15px;
     color: #272630;
 }
-.question a:hover{
+#question button:hover, #question_mobile button:hover{
     text-decoration: none;
 }
 #question p {
@@ -22,7 +21,28 @@
     font-size: 18px;
     margin-top: 20px;
 }
-#question img{
+#question img, #question_mobile img{
     width: 80%;
     margin: 10px 0;
 }
+#question_mobile {
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+    #question_web {
+        display: none;
+    }
+    #question_mobile {
+        display: block;
+    }
+}
+@media (max-width: 425px) {
+    #question_mobile img, #question_mobile iframe{
+        width: 100%;
+    }
+}
+
+
+
