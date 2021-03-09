@@ -1,0 +1,38 @@
+.blog_cart img{
+    width: 100%;
+}
+.blog_cart_content{
+    padding: 20px;
+}
+.blog_cart_content h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #272630;
+}
+.blog_cart_content a:hover{
+    text-decoration: none;
+}
+.blog_cart_content p{
+    font-size: 16px;
+    margin-bottom: 0;
+    color: #7d8693;
+}
+.blog_cart .blog_cart_btn{
+    background: #fbcf33;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    padding: 10px 40px;
+    color: #272630;
+}
+.blog_cart .blog_cart_btn:hover{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+

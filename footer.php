@@ -47,7 +47,7 @@
                 <hr>
                 <div  class="my-2"><a href="how-it-work.php">Как это работает</a></div>
                 <div class="my-2"><a href="about.php">О компании</a> </div>
-                <div class="my-2"><a href="#">Блог</a> </div>
+                <div class="my-2"><a href="blog.php">Блог</a> </div>
                 <div class="my-2"><a href="#">Новости</a></div>
                 <div class="my-2"><a href="#">Вакансии</a></div>
                 <div class="my-2"><a href="#">Правила</a></div>
