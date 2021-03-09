@@ -25,9 +25,62 @@
 .how_it_work .carusel4-wrap h3{
     font-size: 40px;
 }
-
-
-
+.how_it_work .slick-dots li.slick-active button:before {
+    color: white;
+    font-size: .8rem;
+}
+.how_it_work .slick-dots li button:before {
+    color: white;
+    font-size: .8rem;
+}
+.how_it_work .slick-dots li{
+    margin: 0;
+}
+@media (max-width: 2560px) {
+    .how_it_work .slick-track {
+        left: -8vw;
+    }
+    .how_it_work .slick-dots{
+        text-align: left;
+        padding-left: 26vw;
+    }
+}
+@media (max-width: 1920px) {
+    .how_it_work .slick-track {
+        left: -30vw;
+    }
+    .how_it_work .slick-dots{
+        text-align: left;
+        padding-left: 20vw;
+    }
+}
+@media (max-width: 1440px) {
+    .how_it_work .slick-track {
+        left: -40vw;
+    }
+    .how_it_work .slick-dots{
+        text-align: left;
+        padding-left: 10vw;
+    }
+}
+@media (max-width: 1024px) {
+    .how_it_work .slick-track {
+        left: -45vw;
+    }
+    .how_it_work .slick-dots{
+        text-align: left;
+        padding-left: 5vw;
+    }
+}
+@media (max-width: 768px) {
+    .how_it_work .slick-track {
+        left: 0;
+    }
+    .how_it_work .slick-dots{
+        text-align: left;
+        padding-left: 0;
+    }
+}
 
 
 

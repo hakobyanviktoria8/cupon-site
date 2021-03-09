@@ -192,15 +192,36 @@ $(document).ready(function (){
             }
             ]
     });
+
     $(".carusel5").slick({
         dots: true,
-        infinite: true,
-        speed: 300,
-        autoplay: true,
+        infinite: false,
         arrows: false,
-        slidesToShow: 2,
         centerMode: true,
-        variableWidth: true
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        responsive: [
+            {
+                breakpoint: 1992,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    // infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 1025,
+                settings: {
+                    centerMode: false,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    // infinite: true,
+                    dots: true
+                }
+            }
+            ]
     });
 
     //carusel_modal_eye

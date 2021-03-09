@@ -28,8 +28,10 @@
 .blog_cart .blog_cart_btn:hover{
     text-decoration: none;
 }
-
-
+/*blog_about*/
+.blog_about img{
+    width: 100%;
+}
 
 
 

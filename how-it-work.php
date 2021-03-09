@@ -28,8 +28,9 @@
 
 <!--bg green carusel4-->
 <div class="green-bg my-5">
-    <div class="container how_it_work">
-        <h5>Why Biglemon</h5>
+    <div class="how_it_work">
+        <div class="container"><h5>Why Biglemon</h5></div>
+
         <div class="row">
             <div class="col-12">
                 <div class="carusel5 py-2">
