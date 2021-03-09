@@ -192,6 +192,16 @@ $(document).ready(function (){
             }
             ]
     });
+    $(".carusel5").slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        autoplay: true,
+        arrows: false,
+        slidesToShow: 2,
+        centerMode: true,
+        variableWidth: true
+    });
 
     //carusel_modal_eye
     $(".carusel_modal_eye").slick({

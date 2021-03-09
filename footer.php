@@ -51,7 +51,7 @@
                 <div class="my-2"><a href="#">Новости</a></div>
                 <div class="my-2"><a href="#">Вакансии</a></div>
                 <div class="my-2"><a href="#">Правила</a></div>
-                <div class="my-2"><a href="#">Связ с намы</a></div>
+                <div class="my-2"><a href="contacts.php">Связ с намы</a></div>
                 <div class="my-2"><a href="personal-area-invite-friend.php">Пригласит  друга</a></div>
                  <div class="footer-top-bank">
                      <a href=""> <img src="images/Layer%20525.png" alt=""></a>

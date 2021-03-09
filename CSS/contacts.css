@@ -1,0 +1,58 @@
+.contacts .col-lg-6:nth-of-type(1){
+    border-right: 1px solid #c4c4c4;
+}
+.contacts .col-6{
+    padding: 0 30px;
+}
+.contacts .col-6 p{
+    font-size: 16px;
+}
+.contacts input, .contacts textarea{
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    margin: 20px 10px 0 0;
+    outline: none;
+    border: 1px solid #c4c4c4;
+}
+.contacts h5{
+    font-size: 17px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.contacts .key_code_wrap {
+    margin-top: 15px;
+}.contacts .key_code_wrap input{
+    margin: 0;
+}
+.contacts .key_code input{
+    background: #404040;
+    color: white;
+}
+.contacts label{
+    font-size: 13px;
+    text-align: left;
+}
+.contacts label input{
+    width: auto;
+}
+.contacts button{
+    border: none;
+    width: 60%;
+    outline: none;
+    background: #509b44;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+@media (max-width: 768px) {
+    .contacts .col-lg-6:nth-of-type(1){
+        border-right: none;
+    }
+}
+@media (max-width: 425px) {
+    .contacts button {
+        width: 100%;
+    }
+}

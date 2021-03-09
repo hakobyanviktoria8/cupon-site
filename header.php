@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="CSS/faq.css">
     <link rel="stylesheet" href="CSS/about.css">
     <link rel="stylesheet" href="CSS/how-it-work.css">
+    <link rel="stylesheet" href="CSS/contacts.css">
 
 </head>
 <body>

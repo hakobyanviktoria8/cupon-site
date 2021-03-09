@@ -27,12 +27,17 @@
 </div>
 
 <!--bg green carusel4-->
-<div class="green-bg">
+<div class="green-bg my-5">
     <div class="container how_it_work">
         <h5>Why Biglemon</h5>
         <div class="row">
             <div class="col-12">
-                <div class="carusel4 py-2">
+                <div class="carusel5 py-2">
+                    <div class="carusel4-wrap mx-3">
+                        <h2>Прибыль</h2>
+                        <h3>ot 250 000 dram</h3>
+                        <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aperiam debitis ea excepturi inventore molestiae necessitatibus obcaecati quos voluptate voluptates?</small>
+                    </div>
                     <div class="carusel4-wrap mx-3">
                         <h2>Прибыль</h2>
                         <h3>ot 250 000 dram</h3>
