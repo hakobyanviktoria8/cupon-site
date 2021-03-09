@@ -227,6 +227,7 @@ $(document).ready(function (){
     $('.carusel6').slick({
         dots: false,
         infinite: true,
+        arrows: false,
         speed: 300,
         slidesToShow: 5,
         slidesToScroll: 1,

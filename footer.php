@@ -48,8 +48,8 @@
                 <div  class="my-2"><a href="how-it-work.php">Как это работает</a></div>
                 <div class="my-2"><a href="about.php">О компании</a> </div>
                 <div class="my-2"><a href="blog.php">Блог</a> </div>
-                <div class="my-2"><a href="#">Новости</a></div>
-                <div class="my-2"><a href="#">Вакансии</a></div>
+                <div class="my-2"><a href="blog_about.php">Новости</a></div>
+                <div class="my-2"><a href="vacancies.php">Вакансии</a></div>
                 <div class="my-2"><a href="#">Правила</a></div>
                 <div class="my-2"><a href="contacts.php">Связ с намы</a></div>
                 <div class="my-2"><a href="personal-area-invite-friend.php">Пригласит  друга</a></div>

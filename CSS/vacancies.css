@@ -1,0 +1,36 @@
+.vacancies_text{
+    border-bottom: 2px solid;
+    margin-left: 15px;
+    padding-bottom: 2rem;
+}
+.vacancies_text h2{
+    font-size: 36px;
+}
+.vacancies_text h4{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px 0 15px;
+}
+.vacancies_text p{
+    font-size: 16px;
+}
+.vacancies_accordion .card{
+    border: none;
+}
+.vacancies_accordion h6{
+    font-size: 18px;
+}
+.card_link{
+    font-size: 14px;
+}
+.card_link span{
+    color: #999;
+}
+.card_link:hover{
+    text-decoration: none;
+}
+
+
+
+
+
