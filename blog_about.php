@@ -38,5 +38,28 @@
     </div>
 </div>
 
+<div class="carusel6 py-2">
+    <div class="carusel6-wrap">
+        <img src="images/Rectangle15.png" alt="">
+    </div>
+    <div class="carusel6-wrap">
+        <img src="images/Rectangle15.png" alt="">
+    </div>
+    <div class="carusel6-wrap">
+        <img src="images/Rectangle15.png" alt="">
+    </div>
+    <div class="carusel6-wrap">
+        <img src="images/Rectangle15.png" alt="">
+    </div>
+    <div class="carusel6-wrap">
+        <img src="images/Rectangle15.png" alt="">
+    </div>
+    <div class="carusel6-wrap">
+        <img src="images/Rectangle15.png" alt="">
+    </div>
+    <div class="carusel6-wrap">
+        <img src="images/Rectangle15.png" alt="">
+    </div>
+</div>
 
 <?php include('footer.php')?>
