@@ -134,7 +134,7 @@
 }
 /*registaration*/
 .registration_form{
-    background: #dcdcdcb8;!important;
+    background: #ffffffeb;!important;
 }
 .registration_form button.close {
     padding: 0;
@@ -155,6 +155,7 @@
 }
 .registration_form .modal-dialog{
     display: flex;
+    max-width: 550px;
 }
 .registration_form .modal-content{
     border: 3px solid  #509b44;
@@ -162,6 +163,7 @@
 .registration_form .modal-header{
     justify-content: center;
     padding: 4rem 3rem 3rem;
+    border: none;
 }
 .registration_form .modal-header .d-flex{
     margin-top: 1px;
@@ -969,7 +971,7 @@
     font-size: 14px;
 }
 .footer-top-p{
-    margin: 4rem 0 6rem;
+    margin: 3rem 0 5rem;
 }
 .footer-top-icons{
     color: white;
