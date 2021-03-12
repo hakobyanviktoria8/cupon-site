@@ -144,7 +144,29 @@ a[class="active"]{
 .text-right_class{
     text-align: right;
 }
-
+.text-right_class small{
+    padding-right: 35px;
+}
+/*cupon_cart_expired*/
+.cupon_cart_expired, .cupon_cart_expired .personal_area_gray{
+    color: #c5c5c5;
+}
+.cupon_cart_expired .cupon_cart_acts{
+    background: #c5c5c5;
+}
+.cupon_cart_expired img{
+    opacity: .5;
+}
+.fas.fa-trash-alt.delete_btn{
+    background: #8e8e8e;
+    color: white;
+    padding: 8px;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    cursor: pointer;
+    z-index: 3;
+}
 /*_____________My cupons_________________*/
 .my_cupon{
     width: 100%;

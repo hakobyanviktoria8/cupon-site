@@ -37,7 +37,28 @@
                     <h3>Lorem ipsum dolor sit amet.</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, reiciendis?</p>
                     <h4>Lorem ipsum dolor.</h4>
-
+                    <form>
+                        <div class="form-group">
+                            <label for="full_name">Имя Фамилия</label>
+                            <input type="text" class="form-control" id="full_name" aria-describedby="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Номер телефона(нап: 055667788)</label>
+                            <input type="tel" class="form-control" id="phone" aria-describedby="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="dob">Дата рождения</label>
+                            <input type="date" class="form-control" id="dob" aria-describedby="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="dob">Пол</label>
+                            <select class="form-control">
+                                <option>Женский</option>
+                                <option>мужской</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn">Сохранить изменения</button>
+                    </form>
                     <h4>Lorem ipsum dolor.</h4>
                     <h4>Lorem ipsum dolor.</h4>
                     <h4>Lorem ipsum dolor.</h4>

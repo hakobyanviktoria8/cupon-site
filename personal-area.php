@@ -683,6 +683,37 @@
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="row">
+                                <div class="col-12">
+                                    <i class="fas fa-trash-alt delete_btn" onclick="expired_func(this)"></i>
+
+                                    <div class="cupon_cart cupon_cart_expired mb-5">
+                                        <div class="row my-3">
+                                            <div class="col-12 col-sm-8 col-md-7 col-lg-6">
+                                                <small class="cupon_cart_acts">Date 678 87 78 Date 678 87 78 </small>
+                                            </div>
+                                            <div class="col-12 col-sm-4 col-md-5 col-lg-6 text-right_class">
+                                                <small class="personal_area_gray">Cupon 123454545 </small>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-3">
+                                            <div class="col-lg-2 col-md-3 cupon_cart_link">
+                                                <a href=""><img src="images/home-coupon.jpg" alt=""></a>
+                                            </div>
+                                            <div class="col-lg-10 col-md-9">
+                                                <span>Lorem em ipsum dolor sit amet, consectetur adipisicing.</span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-12">
+                                                <p class="personal_area_gray m-0">consectetur adipisicing.</p>
+                                                <p class="cupon_cart_number">N-282734947128</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div id="cupon_current_div" class="my-5">
                             <p class="my-3">У вас нет действующих купонов</p>
@@ -691,23 +722,28 @@
                         <div id="cupon_expired_div">
                             <div class="row">
                                 <div class="col-12">
-                                    <div class="cupon_cart mb-5">
+                                    <i class="fas fa-trash-alt delete_btn" onclick="expired_func(this)"></i>
+                                    <div class="cupon_cart cupon_cart_expired mb-5">
+                                        <div class="row my-3">
+                                            <div class="col-12 col-sm-8 col-md-7 col-lg-6">
+                                                <small class="cupon_cart_acts">Date 678 87 78 Date 678 87 78 00 </small>
+                                            </div>
+                                            <div class="col-12 col-sm-4 col-md-5 col-lg-6 text-right_class">
+                                                <small class="personal_area_gray">Cupon 123454545 </small>
+                                            </div>
+                                        </div>
                                        <div class="row mb-3">
                                             <div class="col-lg-2 col-md-3 cupon_cart_link">
                                                 <a href=""><img src="images/home-coupon.jpg" alt=""></a>
                                             </div>
                                             <div class="col-lg-10 col-md-9">
-                                                <span>Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
+                                                <span>Lorem em ipsum dolor sit amet, consectetur adipisicing.</span>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-lg-6 col-md-12">
                                                 <p class="personal_area_gray m-0">consectetur adipisicing.</p>
                                                 <p class="cupon_cart_number">N-282734947128</p>
-                                            </div>
-                                            <div class="col-lg-6 col-md-12 cupon_cart_btn">
-                                                <a href="">gifts</a>
-                                                <a href="">save</a>
                                             </div>
                                         </div>
                                     </div>
