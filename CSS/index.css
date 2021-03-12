@@ -30,6 +30,9 @@
 .header-top{
     font-size: 13px;
 }
+.header-top a:hover{
+    text-decoration: none;
+}
 .help .dropdown-menu{
     margin: 0.125rem -45px 0;
     width: 220px;

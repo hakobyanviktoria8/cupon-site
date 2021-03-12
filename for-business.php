@@ -40,14 +40,14 @@
             <img src="images/Rectangle22.png" alt="">
         </div>
         <div class="for_business_col text-center">
-            <div><img src="images/marketing.png" alt=""></div>
+            <div><img src="images/marketing1.png" alt=""></div>
             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aut consequatur consequuntur deleniti deserunt doloremque et hic impedit incidunt, labore necessitatibus porro, possimus quibusdam quis quisquam totam velit. Provident, tempora.</p>
         </div>
     </div>
     <div class="for_business_row_wraper">
         <div class="for_business_col text-center">
-            <div><img src="images/marketing.png" alt=""></div>
+            <div><img src="images/marketing3.png" alt=""></div>
             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aut consequatur consequuntur deleniti deserunt doloremque et hic impedit incidunt, labore necessitatibus porro, possimus quibusdam quis quisquam totam velit. Provident, tempora.</p>
         </div>

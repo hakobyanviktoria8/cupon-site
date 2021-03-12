@@ -30,6 +30,10 @@
     <link rel="stylesheet" href="CSS/contacts.css">
     <link rel="stylesheet" href="CSS/blog.css">
     <link rel="stylesheet" href="CSS/vacancies.css">
+    <link rel="stylesheet" href="CSS/for-business.css">
+    <link rel="stylesheet" href="CSS/for-business-open.css">
+    <link rel="stylesheet" href="CSS/checkout-balance.css">
+
 
 </head>
 <body>
@@ -92,9 +96,11 @@
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-6  col-md-6 col-lg-3 my-2 p-0">
-                    <img src="images/header-icon2.png" alt="" class="pr-2">
-                    <span class="text-dark web_1440">ДЛЯ ВАШЕГО БИЗНЕСА</span>
-                    <span class="text-dark mobile_320">ДЛЯ БИЗНЕСА</span>
+                    <a href="for-business.php">
+                        <img src="images/header-icon2.png" alt="" class="pr-2">
+                        <span class="text-dark web_1440">ДЛЯ ВАШЕГО БИЗНЕСА</span>
+                        <span class="text-dark mobile_320">ДЛЯ БИЗНЕСА</span>
+                    </a>
                 </div>
             </div>
 

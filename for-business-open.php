@@ -32,13 +32,17 @@
             </div>
         </div>
         <div class="container">
-            <div class="row">
+            <div class="row my-5">
                 <div class="col-8">
                     <h3>Lorem ipsum dolor sit amet.</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, reiciendis?</p>
                     <h4>Lorem ipsum dolor.</h4>
+
+                    <h4>Lorem ipsum dolor.</h4>
+                    <h4>Lorem ipsum dolor.</h4>
+                    <h4>Lorem ipsum dolor.</h4>
                 </div>
-                <div class="col-4"></div>
+                <div class="col-4 text-center"></div>
             </div>
         </div>
     </div>

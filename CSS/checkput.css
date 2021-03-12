@@ -45,6 +45,9 @@ hr {
     padding: .7rem 4rem;
     font-size: 14px;
 }
+.checkout_left a:hover{
+    text-decoration: none;
+}
 /*checkout right*/
 .checkout_right {
     background: white;

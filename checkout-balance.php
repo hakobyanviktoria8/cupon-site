@@ -22,7 +22,7 @@
 
     <div class="row border-top mb-3 subTitleWraper mx-0">
         <div class="col-12 p-0">
-            <span class="subTitle">ТОП АКЦИИ</span>
+            <span class="subTitle">Пополнить баланс</span>
         </div>
     </div>
 
@@ -36,14 +36,14 @@
             <div class="col-lg-4 col-md-12  checkout_left">
                 <h3>Lorem</h3>
                 <p>Lorem ipsum <b class="checkout_top_span">0</b> dram</p>
-                <a href="checkout-balance.php">пополнить</a>
+                <a href="#">Пополнить</a>
                 <h3 class = "mt-5">Lorem</h3>
                 <p>Lorem ipsum <b class="checkout_top_span">2500</b> dram</p>
             </div>
-            <div class="col-lg-8 col-md-12  checkout_right">
-                <h2>Lorem ipsum</h2>
+            <div class="col-lg-8 col-md-12  checkout_right_balance">
+                <h2>Пополнить баланс</h2>
                 <hr>
-                <div class="row">
+                <div class="row my-5">
                     <div class="col-lg-12">
                         <p class="checkout_right_text">
                         Contrary to popular belief <b>9029203</b><br>
@@ -51,6 +51,32 @@
                          The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections
                          <br>1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
                         </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="row my-4">
+                    <div class="col-12 col-lg-6 text-uppercase checkout_right_balance_mb">
+                        <span>
+                            сумма
+                        </span>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <input type="text" placeholder="сумма">
+                    </div>
+                </div>
+                <div class="row my-4">
+                    <div class="col-12 col-lg-9 checkout_right_balance_mb">
+                        <input type="radio" class="mr-2">
+                        <img src="images/checkout-payment2.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <input type="radio" class="mr-2">
+                        <img src="images/checkout-payment1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <button>Пополнить баланс</button>
                     </div>
                 </div>
             </div>
