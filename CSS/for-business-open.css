@@ -1,0 +1,22 @@
+.for_business_header{
+    background: #519b42;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    align-items: center;
+    padding: 15px;
+}
+.for_business_header a{
+    color: white;
+    border: 2px solid;
+    padding: 0 20px 5px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.for_business_header a:hover{
+    text-decoration: none;
+}
+
+
+
+
