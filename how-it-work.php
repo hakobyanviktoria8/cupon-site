@@ -31,32 +31,29 @@
     <div class="how_it_work">
         <div class="container"><h5>Why Biglemon</h5></div>
 
-        <div class="row">
-            <div class="col-12">
-                <div class="carusel5 py-2">
-                    <div class="carusel4-wrap mx-3">
-                        <h2>Прибыль</h2>
-                        <h3>ot 250 000 dram</h3>
-                        <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aperiam debitis ea excepturi inventore molestiae necessitatibus obcaecati quos voluptate voluptates?</small>
-                    </div>
-                    <div class="carusel4-wrap mx-3">
-                        <h2>Прибыль</h2>
-                        <h3>ot 250 000 dram</h3>
-                        <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aperiam debitis ea excepturi inventore molestiae necessitatibus obcaecati quos voluptate voluptates?</small>
-                    </div>
-                    <div class="carusel4-wrap mx-3">
-                        <h2>Прибыль</h2>
-                        <h3>ot 250 000 dram</h3>
-                        <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aperiam debitis ea excepturi inventore molestiae necessitatibus obcaecati quos voluptate voluptates?</small>
-                    </div>
-                    <div class="carusel4-wrap mx-3">
-                        <h2>Прибыль</h2>
-                        <h3>ot 250 000 dram</h3>
-                        <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aperiam debitis ea excepturi inventore molestiae necessitatibus obcaecati quos voluptate voluptates?</small>
-                    </div>
-                </div>
+        <div class="carusel5 py-2">
+            <div class="carusel4-wrap mx-3">
+                <h2>Прибыль</h2>
+                <h3>ot 250 000 dram</h3>
+                <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aperiam debitis ea excepturi inventore molestiae necessitatibus obcaecati quos voluptate voluptates?</small>
+            </div>
+            <div class="carusel4-wrap mx-3">
+                <h2>Прибыль</h2>
+                <h3>ot 250 000 dram</h3>
+                <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aperiam debitis ea excepturi inventore molestiae necessitatibus obcaecati quos voluptate voluptates?</small>
+            </div>
+            <div class="carusel4-wrap mx-3">
+                <h2>Прибыль</h2>
+                <h3>ot 250 000 dram</h3>
+                <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aperiam debitis ea excepturi inventore molestiae necessitatibus obcaecati quos voluptate voluptates?</small>
+            </div>
+            <div class="carusel4-wrap mx-3">
+                <h2>Прибыль</h2>
+                <h3>ot 250 000 dram</h3>
+                <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aperiam debitis ea excepturi inventore molestiae necessitatibus obcaecati quos voluptate voluptates?</small>
             </div>
         </div>
+
     </div>
 </div>
 
