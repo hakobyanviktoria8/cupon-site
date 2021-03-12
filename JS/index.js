@@ -603,8 +603,6 @@ active_cupon_func("cupon_buttons", "active_cupons");
 
 //expired
 function expired_func(el){
-    console.log(el.nextElementSibling);
-    // let cupon_cart_expired = document.querySelector(".cupon_cart_expired");
     el.style.display = "none";
     el.nextElementSibling.style.display = "none";
 }

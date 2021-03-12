@@ -34,7 +34,7 @@
         <div class="container">
             <div class="row my-5">
                 <div class="col-8">
-                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <h3>Создайте свой аккаунт продавца Biglemon</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, reiciendis?</p>
                     <h4>Lorem ipsum dolor.</h4>
                     <form>
@@ -43,24 +43,35 @@
                             <input type="text" class="form-control" id="full_name" aria-describedby="name">
                         </div>
                         <div class="form-group">
+                            <label for="full_name">Адрес эл почты</label>
+                            <input type="text" class="form-control" id="full_name" aria-describedby="name" placeholder="Example: hakobyanviktorya8@gmail.com">
+                        </div>
+                        <div class="form-group">
                             <label for="phone">Номер телефона(нап: 055667788)</label>
-                            <input type="tel" class="form-control" id="phone" aria-describedby="name">
+                            <input type="tel" class="form-control" id="phone" aria-describedby="name" placeholder="090090909">
+                        </div>
+                        <h4 class="my-5">Lorem ipsum dolor.</h4>
+                        <div class="form-group">
+                            <input class="pl-3" type="text" placeholder="Найти среди 400 акций" autocomplete="off" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAPhJREFUOBHlU70KgzAQPlMhEvoQTg6OPoOjT+JWOnRqkUKHgqWP4OQbOPokTk6OTkVULNSLVc62oJmbIdzd95NcuGjX2/3YVI/Ts+t0WLE2ut5xsQ0O+90F6UxFjAI8qNcEGONia08e6MNONYwCS7EQAizLmtGUDEzTBNd1fxsYhjEBnHPQNG3KKTYV34F8ec/zwHEciOMYyrIE3/ehKAqIoggo9inGXKmFXwbyBkmSQJqmUNe15IRhCG3byphitm1/eUzDM4qR0TTNjEixGdAnSi3keS5vSk2UDKqqgizLqB4YzvassiKhGtZ/jDMtLOnHz7TE+yf8BaDZXA509yeBAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
+                            <button><i class="fas fa-search"></i></button>
                         </div>
                         <div class="form-group">
-                            <label for="dob">Дата рождения</label>
-                            <input type="date" class="form-control" id="dob" aria-describedby="name">
+                            <label for="address">Адрес утецо</label>
+                            <input type="text" class="form-control" id="address" aria-describedby="name">
                         </div>
                         <div class="form-group">
-                            <label for="dob">Пол</label>
-                            <select class="form-control">
-                                <option>Женский</option>
-                                <option>мужской</option>
-                            </select>
+                            <label for="city">Город</label>
+                            <input type="text" class="form-control" id="city" aria-describedby="name">
                         </div>
+                        <div class="form-group">
+                            <label for="index">Lorem ipsum</label>
+                            <input type="text" class="form-control" id="index" aria-describedby="name" placeholder="Example: 09898">
+                        </div>
+                        <h4>Топ бизнеса</h4>
+
                         <button type="submit" class="btn">Сохранить изменения</button>
                     </form>
-                    <h4>Lorem ipsum dolor.</h4>
-                    <h4>Lorem ipsum dolor.</h4>
+
                     <h4>Lorem ipsum dolor.</h4>
                 </div>
                 <div class="col-4 text-center"></div>
