@@ -1,13 +1,8 @@
 #question{
     color: #272630;
 }
-.active{
-    border-left: 3px solid #509b44;
-    font-weight: bold;
-}
 #question button, #question_mobile button{
     font-size: 14px;
-    padding: 10px 0 10px 15px;
     color: #272630;
 }
 #question button:hover, #question_mobile button:hover{
@@ -28,7 +23,16 @@
 #question_mobile {
     display: none;
 }
-
+.card-header{
+    padding: 0;
+}
+.card-header button{
+    padding: 20px !important;
+}
+.card-header button[aria-expanded="true"]{
+    border-left: 3px solid #509b44;
+    font-weight: bold;
+}
 
 @media (max-width: 768px) {
     #question_web {

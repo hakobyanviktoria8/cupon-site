@@ -27,7 +27,7 @@
                 <ul class="nav nav-tabs tabs-left dn" role="tablist">
 
                     <!--     most_important           -->
-                    <li role="presentation"  class="active most_important">
+                    <li role="presentation"  class="active most_important active_class">
                         <a href="#most_important" aria-controls="most_important" role="tab" data-toggle="tab">
                             <div  class="personal_area_div">
                                 <div class="first_later">

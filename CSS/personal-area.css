@@ -1,11 +1,6 @@
-a[class="active"]{
+.active_class{
     border-left: 3px solid #509b44;
-    background: #ffc107;
 }
-/*_________________most_important__________________*/
-/*#most_important{*/
-/*    display: none;*/
-/*}*/
 .font_14{
     font-size: 14px;
 }

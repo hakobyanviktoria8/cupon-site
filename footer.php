@@ -108,7 +108,7 @@
 
                 <!--signin-->
                 <div  id="signin">
-                    <h3 class="mb-3">Signin</h3>
+                    <h3 class="mb-4">Signin</h3>
                     <div class="button_wraper">
                         <button class="button user m-0 p-0 active_btn" id="user_btn" onclick="user_or_partner()">User</button>
                         <button class="button partner m-0 p-0" id="partner_btn" onclick="partner_or_user()">Partner</button>
@@ -130,7 +130,7 @@
                                 <div class="line_hr_gray"></div>
                             </div>
                             <div class="mt-4 input_wraper">
-                                <input type="email" placeholder="E-mail">
+                                <input type="email" placeholder="E-mail" class="mb-3">
                                 <input type="password" placeholder="Password">
                             </div>
                         </div>
@@ -146,7 +146,7 @@
                     </div>
 
                     <div class="modal_footer">
-                        <div class="remember_forget my-2 px-2">
+                        <div class="remember_forget my-2">
                             <input type="checkbox" id="remember_me" name="remember_me">
                             <label for="remember_me">remember me</label>
                             <a href="#"  onclick="forget_password_func()" class="float-right">Forget password ?</a>

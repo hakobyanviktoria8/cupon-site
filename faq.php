@@ -1,7 +1,7 @@
 <?php include('header.php')?>
 
 <div class="container">
- <div class="row m-0">
+    <div class="row m-0">
         <div class="col-12 p-0">
             <div class="category-path">Главная / Бассейны / Product</div>
         </div>
@@ -75,13 +75,7 @@
                 <div class="col-lg-8">
                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                         <div class="card-body">
-                            <iframe
-                                    width="80%"
-                                    src="https://www.youtube.com/embed/IdS5aly0Vas"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen>
-                            </iframe>
+                            <img src="images/img.png" alt="">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda corporis cumque deleniti exercitationem in labore laudantium nemo nesciunt quas, quis, velit. Ad aut dolores ducimus, fugit libero reprehenderit sunt?</p>
                             <h5>Что такое купон?</h5>
                             <img src="images/img.png" alt="">
@@ -188,6 +182,7 @@
         </div>
     </div>
 </div>
-
+    <br>
+    <br>
 
 <?php include('footer.php')?>
