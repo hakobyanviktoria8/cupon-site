@@ -19,7 +19,6 @@
 
 </head>
 <body>
-
     <div class="for_business_open">
         <div class="for_business_header">
             <div class="container">
@@ -33,10 +32,10 @@
         </div>
         <div class="container">
             <div class="row my-5">
-                <div class="col-8">
+                <div class="col-12 col-md-8">
                     <h3>Создайте свой аккаунт продавца Biglemon</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, reiciendis?</p>
-                    <h4>Lorem ipsum dolor.</h4>
+                    <h4 class="mt-5 mb-3">Lorem ipsum dolor.</h4>
                     <form>
                         <div class="form-group">
                             <label for="full_name">Имя Фамилия</label>
@@ -50,8 +49,8 @@
                             <label for="phone">Номер телефона(нап: 055667788)</label>
                             <input type="tel" class="form-control" id="phone" aria-describedby="name" placeholder="090090909">
                         </div>
-                        <h4 class="my-5">Lorem ipsum dolor.</h4>
-                        <div class="form-group">
+                        <h4 class="mt-5  mb-3">Lorem ipsum dolor.</h4>
+                        <div class="form-group form_group_search">
                             <input class="pl-3" type="text" placeholder="Найти среди 400 акций" autocomplete="off" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAPhJREFUOBHlU70KgzAQPlMhEvoQTg6OPoOjT+JWOnRqkUKHgqWP4OQbOPokTk6OTkVULNSLVc62oJmbIdzd95NcuGjX2/3YVI/Ts+t0WLE2ut5xsQ0O+90F6UxFjAI8qNcEGONia08e6MNONYwCS7EQAizLmtGUDEzTBNd1fxsYhjEBnHPQNG3KKTYV34F8ec/zwHEciOMYyrIE3/ehKAqIoggo9inGXKmFXwbyBkmSQJqmUNe15IRhCG3byphitm1/eUzDM4qR0TTNjEixGdAnSi3keS5vSk2UDKqqgizLqB4YzvassiKhGtZ/jDMtLOnHz7TE+yf8BaDZXA509yeBAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
                             <button><i class="fas fa-search"></i></button>
                         </div>
@@ -63,20 +62,61 @@
                             <label for="city">Город</label>
                             <input type="text" class="form-control" id="city" aria-describedby="name">
                         </div>
+
+                        <h4 class="mt-3">Тип бизнеса</h4>
                         <div class="form-group">
-                            <label for="index">Lorem ipsum</label>
-                            <input type="text" class="form-control" id="index" aria-describedby="name" placeholder="Example: 09898">
+                            <select class="form-control">
+                                <option>-Lorem-</option>
+                                <option>-Lorem-</option>
+                                <option>-Lorem-</option>
+                                <option>-Lorem-</option>
+                            </select>
                         </div>
-                        <h4>Топ бизнеса</h4>
 
-                        <button type="submit" class="btn">Сохранить изменения</button>
+                        <h4 class="mt-5 mb-3">Lorem ipsum dolor sit amet, consectetur.</h4>
+                        <div class="form-group">
+                            <input type="text" class="form-control"  aria-describedby="name" placeholder="Example: youtube.com">
+                        </div>
+
+                        <h5>Lorem ipsum dolor sit.</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aspernatur aut beatae deserunt dolores eaque eius ipsam omnis quos recusandae!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aspernatur aut beatae deserunt dolores eaque eius ipsam omnis quos recusandae!</p>
+                        <div class="form-group mt-4 d-flex">
+                            <div>
+                                <input type="checkbox">
+                            </div>
+                            <div>
+                                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aut commodi consectetur ipsam iusto magni maiores nihil, numquam optio quae quaerat quo suscipit ullam velit veritatis vitae voluptas, voluptatem voluptatibus.</span>
+
+                            </div>
+                        </div>
+                        <button type="submit" class="btn form_group_btn">Отправить</button>
                     </form>
-
-                    <h4>Lorem ipsum dolor.</h4>
                 </div>
-                <div class="col-4 text-center"></div>
+                <div class="col-12 col-md-4 text-center">
+                    <h3 class="for_business_open_left_title">Создайте свой Biglemon</h3>
+                    <div class="mt-5">
+                        <img src="images/icon1.jpg" alt="">
+                        <p>Ab distinctio facilis, fuga ipsa molestias quaerat qui quos recusandae similique velit.</p>
+                    </div>
+                    <div class="mt-5">
+                        <img src="images/icon2.jpg" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="mt-5">
+                        <img src="images/icon3.jpg" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. similique velit.</p>
+                    </div>
+                    <div class="mt-5">
+                        <img src="images/icon4.jpg" alt="">
+                        <p>Lorem ipsum dolor sit amet, fuga ipsa molestias quaerat qui quos recusandae similique velit.</p>
+                    </div>
+                </div>
             </div>
         </div>
+
+<!--        footer-->
+        <div class="for_business_open_footer">@2020 Biglemon</div>
     </div>
 </body>
 </html>
