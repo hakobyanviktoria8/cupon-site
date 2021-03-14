@@ -25,6 +25,15 @@
     <link rel="stylesheet" href="CSS/product.css">
     <link rel="stylesheet" href="CSS/header-login.css">
     <link rel="stylesheet" href="CSS/personal-area.css">
+    <link rel="stylesheet" href="CSS/faq.css">
+    <link rel="stylesheet" href="CSS/about.css">
+    <link rel="stylesheet" href="CSS/how-it-work.css">
+    <link rel="stylesheet" href="CSS/contacts.css">
+    <link rel="stylesheet" href="CSS/blog.css">
+    <link rel="stylesheet" href="CSS/vacancies.css">
+    <link rel="stylesheet" href="CSS/for-business.css">
+    <link rel="stylesheet" href="CSS/for-business-open.css">
+    <link rel="stylesheet" href="CSS/checkout-balance.css">
 
 </head>
 <body>
@@ -243,31 +252,31 @@
         <div class="row m-0">
             <div class="col-12 p-0">
                 <section class="carusel0">
-                    <div class="py-2 ml-1">
+                    <div class="py-3 ml-1">
                         <a class="text-uppercase" href="category.php">category</a>
                     </div>
-                    <div class="py-2 ml-1">
+                    <div class="py-3 ml-1">
                         <a class="text-uppercase" href="category-with-sorting.php">Sorting</a>
                     </div>
-                    <div class="py-2 ml-1">
+                    <div class="py-3 ml-1">
                         <a class="text-uppercase" href="category-relax.php">relax</a>
                     </div>
-                    <div class="py-2 ml-1">
+                    <div class="py-3 ml-1">
                         <a class="text-uppercase" href="#">отели</a>
                     </div>
-                    <div class="py-2 ml-1">
+                    <div class="py-3 ml-1">
                         <a class="text-uppercase" href="#">еда</a>
                     </div>
-                    <div class="py-2 ml-1">
+                    <div class="py-3 ml-1">
                         <a class="text-uppercase" href="#">промокоды</a>
                     </div>
-                    <div class="py-2 ml-1">
+                    <div class="py-3 ml-1">
                         <a class="text-uppercase" href="#">товары</a>
                     </div>
-                    <div class="py-2 ml-1">
+                    <div class="py-3 ml-1">
                         <a class="text-uppercase" href="#">бассейны</a>
                     </div>
-                    <div class="py-2 ml-1">
+                    <div class="py-3 ml-1">
                         <a class="text-uppercase" href="#">КАРТА</a>
                     </div>
                 </section>

@@ -131,31 +131,31 @@
         <div class="row m-0">
             <div class="col-12 p-0">
                 <section class="carusel0">
-                    <div class="py-2 ml-1">
+                    <div class="py-3 ml-1">
                         <a class="text-uppercase" href="category.php">category</a>
                     </div>
-                    <div class="py-2 ml-1">
+                    <div class="py-3 ml-1">
                         <a class="text-uppercase" href="category-with-sorting.php">Sorting</a>
                     </div>
-                    <div class="py-2 ml-1">
+                    <div class="py-3 ml-1">
                         <a class="text-uppercase" href="category-relax.php">relax</a>
                     </div>
-                    <div class="py-2 ml-1">
+                    <div class="py-3 ml-1">
                         <a class="text-uppercase" href="#">отели</a>
                     </div>
-                    <div class="py-2 ml-1">
+                    <div class="py-3 ml-1">
                         <a class="text-uppercase" href="#">еда</a>
                     </div>
-                    <div class="py-2 ml-1">
+                    <div class="py-3 ml-1">
                         <a class="text-uppercase" href="#">промокоды</a>
                     </div>
-                    <div class="py-2 ml-1">
+                    <div class="py-3 ml-1">
                         <a class="text-uppercase" href="#">товары</a>
                     </div>
-                    <div class="py-2 ml-1">
+                    <div class="py-3 ml-1">
                         <a class="text-uppercase" href="#">бассейны</a>
                     </div>
-                    <div class="py-2 ml-1">
+                    <div class="py-3 ml-1">
                         <a class="text-uppercase" href="#">КАРТА</a>
                     </div>
                 </section>

@@ -20,7 +20,7 @@
     </div>
 
     <!--personal area-->
-    <div class="personal_area">
+    <div class="personal_area mb-5">
         <h2>личный кабинет</h2>
         <div class="row">
             <div class="col-lg-4 col-md-5 pr-5">

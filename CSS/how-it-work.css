@@ -13,16 +13,20 @@
     color: white;
     text-align: left;
 }
-.how_it_work .carusel4-wrap{
+.how_it_work .carusel5 .slick-current{
+    color: #272630;
+}
+.how_it_work .carusel5-wrap{
     background: white;
     padding: 30px;
+    color: #807f83;
 }
-.how_it_work .carusel4-wrap h2{
+.how_it_work .carusel5-wrap h2{
     font-size: 40px;
     font-weight: bold;
     text-align: left;
 }
-.how_it_work .carusel4-wrap h3{
+.how_it_work .carusel5-wrap h3{
     font-size: 40px;
 }
 .how_it_work .slick-dots li.slick-active button:before {

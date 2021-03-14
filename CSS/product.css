@@ -163,6 +163,9 @@
 #review h3{
     font-size: 24px;
 }
+#review .Stars{
+    --star-background: #ffc120;
+}
 #review .review_stars h2{
     font-size: 36px;
     font-weight: bold;
