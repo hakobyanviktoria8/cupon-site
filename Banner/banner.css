@@ -28,15 +28,55 @@
 .review_number span:hover{
     background: #e4e4e4;
 }
-.review_reting_wraper h2{
-    /*margin-top: 1rem;*/
-}
 .review_reting_wraper .review_reting_send{
     border: none;
     background: #519b44;
     color: white;
     padding: 0.5rem 2.5rem;
     outline: none;
-    /*margin-bottom: 1rem;*/
     border-radius: 3px;
 }
+
+
+/*cupon_card*/
+#cupon_card p{
+    font-size: 20px;
+}
+#cupon_card small{
+    color: #939393;
+}
+#cupon_card .container{
+    background: #f3f3f3;
+}
+#cupon_card .cupon_card_logo{
+    width: 190px;
+}
+#cupon_card i{
+    font-size: 22px;
+    color: #519b44;
+}
+#cupon_card .cupon_card_img{
+    width: 100%;
+}
+#cupon_card .text-center{
+    padding: 15px;
+}
+#cupon_card .text-center .bg-white{
+    padding: 20px;
+    box-shadow: 0 0 10px gray;
+}
+#cupon_card .qr_code{
+    width: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
