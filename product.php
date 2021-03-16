@@ -169,16 +169,16 @@
                                     <div class="nav_bar">
                                         <ul class="nav nav-pills">
                                           <li class="nav-item">
-                                            <a class="nav-link nav_bar_active" href="#conditions">conditions</a>
+                                            <a class="nav-link nav_bar_active" href="#conditions_scroll">conditions</a>
                                           </li>
                                           <li class="nav-item">
-                                            <a class="nav-link" href="#description">description</a>
+                                            <a class="nav-link" href="#description_scroll">description</a>
                                           </li>
                                           <li class="nav-item">
-                                            <a class="nav-link" href="#review">review</a>
+                                            <a class="nav-link" href="#review_scroll">review</a>
                                           </li>
                                           <li class="nav-item">
-                                            <a class="nav-link disabled" href="#addess">addess</a>
+                                            <a class="nav-link disabled" href="#addess_scroll">address</a>
                                           </li>
                                           <li class="nav-item" id="nav_item_buy">
                                             <a class="nav-link disabled" href="#checkout.php">Buy: 1500dr</a>
@@ -189,6 +189,7 @@
                             </div>
                         </div>
                     </div>
+                    <br id="conditions_scroll">
                     <div class="px-2" id="conditions">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, veritatis!</p>
                         <b>Lorem</b>
@@ -198,6 +199,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci aliquam assumenda consequatur, cumque debitis deserunt dicta doloremque doloribus eos eum hic inventore ipsa iure labore laborum minima molestiae natus nemo non optio pariatur quia sapiente sequi sit soluta suscipit tempora vel veritatis vero vitae voluptas voluptate voluptatem. Architecto autem esse ex exercitationem fugit illum itaque laboriosam magni maiores, molestias nam quo rem saepe ut velit vitae voluptatibus. Ad aperiam aspernatur, atque autem corporis debitis deserunt dolore excepturi explicabo magnam molestiae nam nulla obcaecati possimus provident quidem quis quisquam sint voluptate voluptatem. Accusamus doloremque molestiae neque nobis similique soluta tempore.</p>
                     </div>
 
+                    <br id="description_scroll">
                     <div class="px-2 mt-5" id="description">
                         <h3>Description</h3>
                         <hr>
@@ -216,7 +218,9 @@
     </div>
 </div>
 
-<div id="review" class="py-5 my-3">
+    <br id="review_scroll">
+
+<div id="review" class="py-5 mb-3">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-md-12">
@@ -400,7 +404,9 @@
 
     </div>
 </div>
-<div  class="py-3 my-3">
+    <br id="addess_scroll">
+    <br>
+<div  class="py-3 mb-3">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-md-12" id="addess">
@@ -1107,7 +1113,6 @@
         </div>
         <div class="col-lg-2 col-md-1 col-sm-0"></div>
     </div>
-
 </div>
 
 <?php include('footer.php');?>

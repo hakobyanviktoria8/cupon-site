@@ -72,14 +72,6 @@
         <div class="row mb-3 mx-0">
             <div class="col-12 p-0">
                 <div class="dropdown with-sorting float-left">
-
-                <!--<select class="form-select" multiple aria-label="multiple select example">
-                   <option selected>Open this select menu</option>
-                   <option value="1">One</option>
-                   <option value="2">Two</option>
-                   <option value="3">Three</option>
-                 </select>-->
-
                   <button multiple data-live-search="true" class="selectpicker btn dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Type
                   </button>

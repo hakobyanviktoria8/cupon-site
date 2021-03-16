@@ -6,7 +6,6 @@
 }
 /*headerWraper*/
 .headerWraper {
-    /*padding-bottom: 20px;*/
     box-shadow: 0 8px 6px -6px gray;
     margin-bottom: 1.5rem;
 }
@@ -128,7 +127,6 @@
     color: #4f4f4f;
     text-decoration: none;
     font-size: 16px;
-    /*padding: 15px 20px;*/
 }
 .userIcon{
     display: none;
@@ -351,21 +349,6 @@
     padding: .8rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*carusel0*/
 .carusel0{
     width: 100%;
@@ -452,9 +435,21 @@
 .carusel1-1{
     width: 100%;
 }
+/*map wraper*/
+.map_wraper a{
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.map_wraper a:hover{
+    text-decoration: none;
+    background: #007bff;
+    color: white;
+}
 /*iconsNavBar*/
 .iconsNavBar{
-    /*display: flex;*/
     padding: 2rem 0;
 }
 .iconCart{
@@ -936,14 +931,12 @@
     margin: 10px;
 }
 .gray-BG button {
-    /*padding: .4rem .8rem;*/
     border: none;
     outline: none;
     position: absolute;
     right: 0;
     border-radius: 5px;
     background: #4f9b42;
-    /*margin: 1.2px;*/
 }
 
 /*adresses*/
@@ -1016,7 +1009,6 @@
     --percent: calc(var(--rating) / 5 * 100%);
     display: inline-block;
     font-size: var(--star-size);
-    font-family: Times;
     line-height: 1;
 }
 .Stars::before {
@@ -1092,9 +1084,6 @@
 
 
 @media (max-width: 992px) {
-    .navbar_linkIcons{
-        /*float: left;*/
-    }
     .header-top .col-md-0{
         display: none;
     }
@@ -1132,9 +1121,6 @@
     }
     .hide_mobile{
         display: none;
-    }
-    .header-bottom div:nth-of-type(1){
-        /*max-width: 15%;*/
     }
     .header-bottom div:nth-of-type(2){
         max-width: 70%;

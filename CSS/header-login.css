@@ -37,7 +37,6 @@
     transition: .3s;
     overflow: auto;
     transform: translate(0,0);
-    /*border: 10px solid red;*/
 }
 #personal_modal .modal-content{
     border: none;

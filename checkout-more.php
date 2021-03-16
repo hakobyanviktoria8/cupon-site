@@ -132,11 +132,7 @@
                 <a href="checkout-buy.php" class="text-uppercase checkout_btn">Lorem</a>
             </div>
         </div>
-
     </div>
-
-
-
 </div>
 
 <?php include('footer.php');?>

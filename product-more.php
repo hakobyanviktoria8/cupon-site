@@ -382,19 +382,6 @@
                 </div>
             </div>
         </div>
-
-<!--        <div class="row">-->
-<!--            <div class="col-lg-8 col-md-12">-->
-<!--               -->
-<!--            </div>-->
-<!--            <div class="col-lg-4">-->
-<!--                <div class="row">-->
-<!--                    <div class="col-12 my-2 banners">-->
-<!--                        <img class="imgBG-main" src="images/Rectangle8.png" alt>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
     </div>
 </div>
 
@@ -1289,7 +1276,6 @@
         </div>
         <div class="col-lg-2 col-md-1 col-sm-0"></div>
     </div>
-
 </div>
 
 <?php include('footer.php');?>

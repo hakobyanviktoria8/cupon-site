@@ -4,8 +4,6 @@
 .green_color{
     color: #519b44;
 }
-
-
 .product .carusel_sale {
     position: absolute;
     top: 1rem;
@@ -345,11 +343,14 @@
     .product .heart_rating {
         box-shadow: none;
         padding-left: 0;
-        justify-content: left;
+        justify-content: flex-start;
     }
     .product .heart_rating button {
         padding: 4px 20px;
         box-shadow: 0 0 10px grey;
+    }
+    .product .tags {
+        margin-bottom: 25px !important;
     }
 }
 @media (max-width: 480px) {
@@ -430,14 +431,6 @@
     border: none;
     outline: none;
 }
-
-
-
-
-
-
-
-
 
 
 

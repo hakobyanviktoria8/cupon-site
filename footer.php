@@ -1,4 +1,3 @@
-
 <!--send mail-->
 <div class="gray-BG">
     <div class="container-fluid">

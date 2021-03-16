@@ -72,11 +72,67 @@
 
 
 
-
-
-
-
-
-
-
-
+/*map*/
+.show_cart{
+    position: absolute;
+    z-index: 20;
+    left: 10rem;
+    top: 10rem;
+}
+.show_info_window{
+    width: 300px;
+    border: 1px solid #b4b4b4;
+    margin: 10px;
+    padding: 10px;
+}
+.show_info_window .cartTopSide{
+    position: relative;
+}
+.show_info_window img{
+    width: 100%;
+}
+.show_info_window .cartTopSide .fa-eye{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: #2b2b2b;
+    font-size: 22px;
+}
+.show_info_window .cartTopSide .fa-heart-o {
+    right: 30px;
+    font-size: 22px;
+    color: white;
+    position: absolute;
+    top: 20px;
+}
+.show_info_window .cartTopSide .sale {
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #f9aa01;
+    color: white;
+    margin: 0;
+}
+.show_info_window .cartTitle{
+    border-left: 5px solid #fbab00;
+    height: 80px;
+}
+.show_info_window .cartTitle h3 {
+    font-size: 16px;
+}
+.show_info_window .cartTitle h3 a{
+     color: rgb(39, 38, 48);
+}
+.show_info_window span {
+    color: rgb(125, 134, 147);
+    font-size: 13px;
+}
+.show_info_window .cartBonus {
+    color: white;
+    background: #519b42;
+    font-size: 25px;
+}
+.show_info_window .cartBonusDram{
+    color: white;
+}

@@ -1,4 +1,3 @@
-
 <!--main content-->
 <div class="container">
     <!--carusel1-->
@@ -12,6 +11,14 @@
             </section>
         </div>
     </div>
+
+    <!--    map-->
+    <div class="row m-0 map_wraper">
+        <div class="col-12 text-right m-0">
+            <a href="map.php">посмотреть на карте</a>
+        </div>
+    </div>
+
     <!--icon navBar-->
     <div class="row">
         <div class="col-12">

@@ -84,7 +84,7 @@ $(document).ready(function (){
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: false,  //< > slaqner
+        arrows: false,
         autoplay: true,
         autoplaySpeed: 3000
     });
@@ -207,7 +207,6 @@ $(document).ready(function (){
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
-                    // infinite: true,
                     dots: true
                 }
             },
@@ -217,7 +216,6 @@ $(document).ready(function (){
                     centerMode: false,
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    // infinite: true,
                     dots: true
                 }
             }
@@ -271,7 +269,6 @@ $(document).ready(function (){
         slidesToShow: 8,
         slidesToScroll: 1,
         asNavFor: '.carusel_modal_eye',
-        // dots: true,
         arrows: false,
         centerMode: false,
         focusOnSelect: true,
@@ -303,7 +300,6 @@ $(document).ready(function (){
 
     // cart_carusel
     $(".carusel_carts").slick({
-        // variableWidth: true,
         dots: true,
         infinite: true,
         autoplay: true,
@@ -358,11 +354,9 @@ $(document).ready(function (){
     SetRatingStar();
 
 
-    // $('select').selectpicker();
 
 
 
-    //__________________________________________________________________________veranayel
     //eye modal show
     $('#exampleModalCenter').on('shown.bs.modal', function () {
         $('#exampleModalCenter').trigger('focus')
@@ -376,13 +370,6 @@ $(document).ready(function (){
     // });
 
 
-//    popovers stars
-//     $('#tglr').popover({
-//         html : true,
-//         content: function() {
-//             return $('#customdiv').html();
-//         }
-//     });
 
 
 
@@ -522,7 +509,7 @@ function scrole_bar (){
             nav_bar_product.classList.remove("big_nav_bar");
             nav_item_buy.style.display = "none"
         }
-    })
+    });
     return () => {
         window.removeEventListener("scroll");
     }
@@ -606,55 +593,6 @@ function expired_func(el){
     el.style.display = "none";
     el.nextElementSibling.style.display = "none";
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// //most_important most_important
-// const most_important_div = document.querySelector("#most_important");
-// const my_cupon_div = document.querySelector("#my_cupon");
-//
-// function most_important(el){
-//     most_important_div.style.display = "block";
-//     el.classList.add("personal_area_active");
-//     my_cupon_div.style.display = "none";
-// }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

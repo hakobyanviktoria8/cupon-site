@@ -33,10 +33,11 @@
     <link rel="stylesheet" href="CSS/for-business.css">
     <link rel="stylesheet" href="CSS/for-business-open.css">
     <link rel="stylesheet" href="CSS/checkout-balance.css">
+    <link rel="stylesheet" href="CSS/map.css">
 
 
 </head>
-<body>
+<body class="m-0">
 
 <!--flags and icons-->
 <div class="flagsIcons">
