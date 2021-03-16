@@ -2,3 +2,41 @@
 .banner-rectangle{
     border: 3px solid rgb(80, 156, 68);
 }
+
+
+
+/*Your review*/
+.review_reting_wraper{
+
+}
+.review_reting_wraper .modal-body{
+    padding: 2rem
+}
+.review_reting_wraper p{
+    margin-bottom: 2.5rem;
+}
+.review_text{
+    width: 60%;
+    margin: 10px auto;
+}
+.review_number span{
+    border: 1px solid #a2a2a2;
+    padding: 15px 17px 5px;
+    border-radius: 50%;
+    margin: 3px;
+}
+.review_number span:hover{
+    background: #e4e4e4;
+}
+.review_reting_wraper h2{
+    /*margin-top: 1rem;*/
+}
+.review_reting_wraper .review_reting_send{
+    border: none;
+    background: #519b44;
+    color: white;
+    padding: 0.5rem 2.5rem;
+    outline: none;
+    /*margin-bottom: 1rem;*/
+    border-radius: 3px;
+}
