@@ -54,6 +54,17 @@
 #personal_modal .most_important_name b{
     color: #272630;
 }
+.favorite_icon{
+    text-align: right;
+}
+.favorite_icon a{
+    color: #272630;
+    font-size: 13px;
+}
+.favorite_icon a:hover{
+    color: #272630;
+    text-decoration: none;
+}
 /*media*/
 @media (max-width: 768px) {
     .login_user_full_name{
@@ -70,6 +81,9 @@
     }
     #personal_modal .most_important_name{
         text-align: left;
+    }
+    .favorite_icon{
+        display: none;
     }
 }
 @media (max-width: 767px){

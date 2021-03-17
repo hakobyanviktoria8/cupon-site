@@ -250,7 +250,7 @@
     <div class="container p-0">
        <!--carusel0-->
         <div class="row m-0">
-            <div class="col-12 p-0">
+            <div class="col-lg-10 col-md-12 p-0">
                 <section class="carusel0">
                     <div class="py-3 ml-1">
                         <a class="text-uppercase" href="category.php">category</a>
@@ -280,6 +280,12 @@
                         <a class="text-uppercase" href="#">КАРТА</a>
                     </div>
                 </section>
+            </div>
+            <div class="col-lg-2 col-md-0 p-0 py-3 favorite_icon">
+                <a href="personal-area-favorite.php">
+                    <i class="far fa-heart"></i>
+                    <span>Избранное</span>
+                </a>
             </div>
         </div>
     </div>
