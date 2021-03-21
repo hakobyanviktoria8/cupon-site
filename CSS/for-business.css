@@ -11,7 +11,7 @@
     padding: 20px 5vw;
 }
 .for_business_col.text-center div img{
-    width: 5vw;
+    width: 80px;
 }
 .for_business_col h3{
     font-size: 25px;
@@ -38,6 +38,6 @@
         width: 100%;
     }
     .for_business_col.text-center div img {
-        width: 10vw;
+        /*width: 10vw;*/
     }
 }

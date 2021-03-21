@@ -66,12 +66,16 @@
                 </div>
                 <div class="row my-4">
                     <div class="col-12 col-lg-9 checkout_right_balance_mb">
-                        <input type="radio" class="mr-2">
-                        <img src="images/checkout-payment2.jpg" alt="">
+                        <label for="idram">
+                            <input type="radio" class="mr-2" name="pay" id="idram">
+                            <img src="images/checkout-payment2.jpg" alt="" >
+                        </label>
                     </div>
                     <div class="col-12 col-lg-3">
-                        <input type="radio" class="mr-2">
-                        <img src="images/checkout-payment1.jpg" alt="">
+                        <label for="visa">
+                            <input type="radio" class="mr-2" name="pay" id="visa">
+                            <img src="images/checkout-payment1.jpg" alt="">
+                        </label>
                     </div>
                 </div>
                 <div class="row">

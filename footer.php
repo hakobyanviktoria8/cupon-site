@@ -63,7 +63,7 @@
             <div class="col-lg-4 col-md-6 col-xs-12 text-white">
                 <h3 class="text-uppercase">Для бизнеса</h3>
                 <hr>
-                <div class="my-2"><a href="#">Для вашего бизнеса</a></div>
+                <div class="my-2"><a href="for-business.php">Для вашего бизнеса</a></div>
                 <div class="my-2"><a href="faq.php">Вопросы и ответы</a> </div>
                 <div class="my-2"><a href="#">Все акции</a> </div>
                 <div class="my-2"><a href="#">Прошедшие акции</a> </div>
